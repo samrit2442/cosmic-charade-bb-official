@@ -14,7 +14,7 @@ website:
        - href: about.qmd
        - href: posts.qmd
        - href: liter.qmd
-       - text: Courses
+       - text: Cosmic Courses
          menu:
           - text: R for Everyone
             href: r4e.pdf
