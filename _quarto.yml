@@ -1,0 +1,59 @@
+project:
+  type: website
+
+website:
+  favicon: "icons/asset 6.png"
+  site-url: 'https://cosmic-charade.netlify.app'
+  title: "Cosmic Charade🪐🌠"
+  open-graph:
+    image: "logo-with-bg-2.jpg"
+  navbar:
+    left:
+       - text: Home
+         file: index.qmd
+       - href: about.qmd
+       - href: posts.qmd
+       - href: liter.qmd
+       - text: Courses
+         menu:
+          - text: R for Everyone
+            href: r4e.pdf
+          - text: Computational Thinking with R + Python 
+            href: actrp.pdf
+       - href: squad_new2.qmd
+    right:
+      # - href: bb.qmd
+      - icon: envelope
+        href: mailto:cosmiccharade0@gmail.com
+      - icon: instagram
+        href: https://www.instagram.com/bismoykar_bramhanda/
+      - icon: linkedin
+        href: https://linkedin.com/company/bismoykar-bramhanda
+      - icon: whatsapp
+        href: https://chat.whatsapp.com/BwGDsLPHX6i1ID4711I2DQ
+      - icon: telegram
+        href: https://t.me/bismoykar_bramhanda_cc
+  page-footer: Proudly supported by RStudio (Posit) and made with Quarto 💙 <br> Copyright © 2024 | Contact us <br> [Privacy Policy](privacy_policy.qmd)
+  margin-footer: subscribe.html
+  reader-mode: true
+  # page-footer: href: date_time.qmd
+      #   href: https://github.com/
+      # - icon: twitter
+      #   href: https://twitter.com
+  cookie-consent: 
+    type: express
+    style: interstitial
+  google-analytics:
+    tracking-id: "G-JGPEZ5562L"
+    anonymize-ip: true
+filters:
+  - snow
+format:
+  html:
+    backgroundcolor: "#FFFEF4"
+    theme:
+      light: flatly
+      # dark: solar
+    css: styles.css
+
+editor: visual

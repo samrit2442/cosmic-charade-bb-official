@@ -1,0 +1,66 @@
+---
+title: "Story of a Nonconformist Theologian"
+subtitle: "Nothing occurs at random, but everything for a reason and by necessity."
+author: "Abhirup Moitra"
+date: "2022-4-23"
+categories: [Probability, Bayesian]
+image: Bayes.jpg
+---
+
+::: {style="color: navy; font-size: 18px; font-family: Garamond; text-align: center; border-radius: 3px; background-image: linear-gradient(#C3E5E5, #F6F7FC);"}
+**The most important thing in life is to stop saying 'I wish' and start saying 'I will'.**
+:::
+
+# Early Story
+
+In the early 18th century, Thomas Bayes, the English Nonconformist theologian, mathematician and Presbyterian minister was the first to use probability inductively and who established a mathematical basis for probability (Generally, calculating from the frequency with which an event has occurred in prior trials, the probability that it will occur in future trials).Bayes set out his theory of probability in "[**Essay towards solving a problem in the doctrine of chances**](https://bayes.wustl.edu/Manual/an.essay.pdf)" published in the Philosophical Transactions of the Royal Society of London in 1764. The paper was sent to the Royal Society by Richard Price, a friend of Bayes', who wrote,
+
+::: {style="font-family: Georgia; text-align: center; font-size: 16px"}
+***I now send you an essay which I have found among the papers of our deceased friend Mr Bayes, and which, in my opinion, has great merit\... In an introduction which he has written to this Essay, he says that his design at first in thinking on the subject of it was, to find out a method by which we might judge concerning the probability that an event has to happen, in given circumstances, upon supposition that we know nothing concerning it but that, under the same circumstances, it has happened a certain number of times, and failed a certain other number of times.***
+:::
+
+## Towards The Bayesian Paradigm
+
+That work became the basis of a statistical technique, now called [**Bayesian Estimation**](https://en.wikipedia.org/wiki/Bayes_estimator#:~:text=In%20estimation%20theory%20and%20decision,expectation%20of%20a%20utility%20function.), for calculating the probability of the validity of a proposition on the basis of a prior estimate of its probability and new relevant evidence. Bayes never used the phrase Bayesian analysis. He published only two papers in his life, one theological and one in which he defended Newton's calculus against criticism from philosopher George Berkeley. But late in life, Bayes became interested in probability. He died in 1761, and a year after his death his friend Richard Price arranged for a public reading of a paper by Bayes in which he proposed what became known as [***Bayes' Theorem***](https://en.wikipedia.org/wiki/Bayes%27_theorem). His formula prescribed **how one could update initial beliefs about an event with information from data**.
+
+![](Essay%20towards%20solving%20a%20problem.jpg){fig-align="center" width="288"}
+
+## **Method of Fluxions**
+
+Bayes's conclusions were accepted by [**Laplace**](https://en.wikipedia.org/wiki/Pierre-Simon_Laplace) in a 1781, rediscovered by [**Condorcet**](https://en.wikipedia.org/wiki/Marquis_de_Condorcet) (as Laplace mentions), and remained unchallenged until [**Boole**](https://en.wikipedia.org/wiki/George_Boole) questioned them in the Laws of Thought. Since then, Bayes' techniques have been subject to controversy.Bayes also wrote an article "**An Introduction to the Doctrine of Fluxions, and a Defence of the Mathematicians Against the Objections of the Author of The Analyst (1736)"**,attacking Berkeley for his attack on the logical foundations of the calculus. In the Preface Bayes gives his reasons for writing the text:
+
+::: {style="font-family: Georgia; text-align: center; font-size: 16px"}
+***I have long ago thought that the first principles and rules of the method of Fluxions stood in need of more full and distinct explanation and proof, than what they had received either from their first incomparable author, or any of his followers; and therefore was not at all displeased to find the method itself opposed with so much warmth by the ingenious author of the Analyst; and had it been his only design to bring this point to a fair issue, whether a demonstration by the method of Fluxions be truly scientific or not, I should have heartily applauded his conduct, and have thought he deserved the thanks even of the Mathematicians themselves. But the invidious light in which he has put this debate, by representing it as of consequence to the interests of religion, is, I think, truly unjustifiable, as well as highly imprudent.***
+:::
+
+Bayes writes that Berkeley:
+
+*\...represents the disputes and controversies among mathematicians as disparaging the evidence of their methods: and \... he represents Logics and Metaphysics as proper to open their eyes, and extricate them from their difficulties. \... If the disputes of the professors of any science disparage the science itself, Logics and Metaphysics are much more disparaged than Mathematics, why, therefore, if I am half blind, must I take for my guide one that can't see at all?*
+
+![](Doctrine%20of%20Fluxions.jpg){fig-align="center" width="282"}
+
+There are a few other pieces of mathematics which have come down to us from Bayes. A notebook which was almost certainly written by Bayes is examined in detail. This notebook contains a considerable amount of mathematical work, including discussions of probability, trigonometry, geometry, solution of equations, series and differential calculus. There are also sections on natural philosophy in which Bayes looks at topics which include electricity, optics and celestial mechanics.
+
+```{r}
+#| echo: FALSE
+library(vembedr)
+embed_url("https://www.youtube.com/watch?v=h82V3GAT63M")
+```
+
+# References:
+
+-   I Hacking, Biography in Dictionary of Scientific Biography (New York 1970-1990).
+
+-   [**Biography in Encyclopaedia Britannica**](http://www.britannica.com/biography/Thomas-Bayes).
+
+-   J P Clero, Thomas Bayes. Essai en vue de résoudre un problème de la doctrine des chances (Paris, 1988).
+
+-   [**D A Gillies, Was Bayes a Bayesian?, Historia Math. 14 (4) (1987), 325-346**](https://reader.elsevier.com/reader/sd/pii/0315086087900656?token=4C691E8839DAE3CB095E6924A78DD57E7BDEBB80846A8D0950760EA7B80FF9072C775E377B17B779CFF73C467D7183EB&originRegion=eu-west-1&originCreation=20220423003808).
+
+-   Thomas Bayes's essay towards solving a problem in the doctrine of chances, in E S Pearson and M G Kendall, Studies in the History of Statistics and Probability (London, 1970), 131-153.
+
+-   [**S M Stigler, who discovered Bayes's theorem? The American statistician 37 (1984), 290-296.**](https://doi.org/10.1080/00031305.1983.10483122)
+
+-   [**R W Home, Some manuscripts on electrical and other subjects attributed to Thomas Bayes, F.R.S., Notes and Records Roy. Soc. London 29 (1974), 81-90**](https://reader.elsevier.com/reader/sd/pii/S031508600292344X?token=A0DAB4FE872E2D50C070C3C21262E21C47F80F21A07C37AB5DFA8BF48DB5ED4344686CA95E2E913BE07956E46133525A&originRegion=eu-west-1&originCreation=20220423004450).
+
+-   A I Dale, Bayes or Laplace? An examination of the origin and early applications of Bayes' theorem, Arch. Hist. Exact Sci. 27 (1) (1982), 23-47.

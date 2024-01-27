@@ -1,0 +1,90 @@
+---
+title: "Untold Story of Probability"
+subtitle: "Pattern in Chaos"
+date: 2022-03-02
+author: "Abhirup Moitra"
+editor: visual
+categories : [Probability, Statistics, Mathematics]
+image: prob-img.jpg
+---
+
+::: {style="color: navy; font-size: 19px; font-family: Garamond; text-align: center; border-radius: 4px; background-image: linear-gradient(#C3E5E5, #F6F7FC);"}
+**Probability theory is nothing but common sense reduced to calculation**
+
+**\~ Pierre-Simon Laplace**
+:::
+
+# **Introduction**
+
+Curiosity is essential to being human from the dawn of humanity. We looked up at the stars and wondered about the universe around us. We have always needed to understand why are things the way they are, where we come from, and what lies ahead. The biggest and most interesting thing i.e., how does the whole universe work, how is arrangement together, was this the clockwork behind it that makes it run the way it does? For thousands of years, we have devised models and principles to explain the world we see around us and the world we cannot see. We are who we are because of the questions we have asked the world because of the answer we have found. But the thing which we have not realized is that whatever phenomenon is taking place in our universe, even in the case of our daily life is uncertain. We do not know when and where our end is. Uncertainty is the biggest mysterious phenomenon in our universe and we do not understand exactly what it is. There is a game that is kept going on always. This is called 'The game of chances'. There is a strange phenomenon where deterministic & indeterministic processes are kept going on. From this point of view, a new concept or term popped up which is called 'Probability' where our goal is to understand the pattern in chaos.
+
+## Why Probability?
+
+When someone asks what is probability, our general answer is,
+
+\
+$$\dfrac{Number\ of\ Favourable\ Cases  }{Total\ Number\ of\ Exhaustive\ Cases}$$ or we talk about the random experiments, sample space, events (exhaustive, mutually exclusive) and so many things which are quite abstract, which is not understandable at all. We do not get the motivation for it. Due to a lack of motivation, we lose patience, and interest to understand what is probability & why it exists. I believe that this domain of mathematics which we will be discussing furthermore is realistic and abstract. Before going to deep dive into any kind of mathematics, theorem, or principle one must understand what is the idea, and motivation behind constructing such an operation which is abstract but realistic and most important thing is if we do not get the motivation about this, we will not be able to understand any kind of mathematics behind it, we will be puzzled and the study which we will incorporate it will be meaningless.
+
+## Motivation and the Achievement in Probability
+
+To understand what we are trying to achieve, and what we are trying to conclude, it is necessary to get introduced to two important words. One has to be clear when he/she is going to use these two words frequently in probabilistic phenomena i.e. Deterministic and Indeterministic.
+
+**Deterministic:** The word deterministic refers, to a belief that everything that happens must happen as it does and could not have happened any other way. Now, if we say that when a methodology is deterministic it refers that the chance of occurrence of the event involved is ignored and the method used is considered to follow a definite rule. If we make more simplification, deterministic addresses the situation which will take place is already predetermined.
+
+**Indeterministic:** The word indeterministic refers to the idea that events are not caused deterministically. It is the idea that the will is a free and deliberate choice and actions are not determined by or predictable from antecedent causes.
+
+In our mathematical science, there are two types of experiments --- 1) Random Experiment, and 2) Deterministic Experiment.
+
+## Deterministic vs Random Experiment
+
+**Random Experiment:**
+
+-   An experiment is random if it is [repeated numerous times under the same conditions]{.underline}.
+
+-   The outcome of an individual random experiment must be I.I.D. (**independent & identically distributed**)
+
+-   Before we carry it out, we cannot predict its outcome.
+
+-   It can be repeated as many times as we want always under the same conditions.
+
+::: {style="font-family: Georgia; text-align: center; font-size: 18px"}
+***That means in the case of a random experiment, we know the possible outcomes, but in a particular occurrence, which outcome is going to occur that we cannot predict.***
+:::
+
+***Example:***
+
+-   Percentage of call dropped due to errors over a particular time period. The experiment can yield several different outcomes in the region 0−100%
+
+-   The time difference between two messages arriving at a message centre. This experiment can yield any number of possible outcomes.
+
+-   The time difference between two different voice calls over a particular network. This too can yield any number of possible outcomes.
+
+**Deterministic Experiment:**
+
+In a deterministic experiment, the result might be anticipated with assurance in advance, such as the addition of two numbers 5 and 6 or we can say these experiments give the same outcome under identical conditions.
+
+-   Determining your savings account amount after a month (including your principal amount and the interest amount).
+
+-   The relationship between a boundary and radius of a circle, or the area and radius of a circle.
+
+::: {style="font-family: Georgia; text-align: center; font-size: 17px"}
+***That means the set of all possible outcomes is completely determined before carrying it out.***
+:::
+
+When we learn probability, our goal is to understand the pattern in Chaos. Generally, we deal with indeterminist aspects. So, when we will be dealing with an indeterministic sequence like a random sequence which we do not know, how it behaves but we have a deterministic sequence, we know how it behaves. So if the things which are indeterministic become very close to a deterministic thing that would suggest a pattern rather than a deterministic pattern in the indeterministic sequence. If an indeterministic sequence /stochastic sequence is becoming infinitesimally close to a deterministic/non-stochastic sequence then it suggests that the indeterministic sequence eventually shows a consistent pattern. Which is a big achievement while dealing with things that are indeterministic or unpredictable. In probability & statistics, our interest in the study is '***what is indeterministic***', what cannot be determined.
+
+The main motive of probability i.e. to make a thorough study on the indeterministic things which are not obvious.
+
+We are trying to achieve or learn how to predict things in indeterministic situations i.e., how to predict things where we cannot determine something completely. We often heard the term Random Variable.
+
+A random variable is an indeterministic thing we do not know how it will behave when. A sequence of random variables is an indeterministic thing, we do not know how it will behave, where it will converge, and whether it will converge or not. We do not know anything about that. But a sequence of constants is deterministic. We know how it will behave. We know how it will go, and where its clusters. If we can show that the indeterministic random sequence behaves like a deterministic sequence or it becomes very close to a deterministic sequence or a thing that can't be determined. So, that implies the indeterministic sequence will show a pattern like a deterministic sequence and that's the achievement. It doesn't matter how much less or more it is. It's a significant achievement i.e., out of indeterministic things, out of random things, out of stochastic things, we're at least achieving a pattern. So that is the most important thing which matters.
+
+So the idea is simple, i.e., how we are trying to make a deterministic conclusion about an indeterministic sequence.
+
+This is a justified explanation that we actually do in the discipline of Probability and Statistics. This idea is important to understand the motivation of probability.
+
+### **References:**
+
+-   Introduction to Probability Book by Jessica Hwang and Joseph K. Blitzstein.
+
+-   Fundamental of Mathematical Statistics by S.C. Gupta, V.K. Kapoor.

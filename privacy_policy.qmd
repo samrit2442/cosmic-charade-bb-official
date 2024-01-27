@@ -1,0 +1,61 @@
+---
+format:
+  html: default
+  pdf: 
+    pdf-engine: pdflatex
+editor: visual
+---
+
+# Privacy Policy for Cosmic Charade App
+
+## Effective Date: 22-06-2023
+
+At Cosmic Charade, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy outlines how we collect, use, and disclose information when you use our app, Cosmic Charade, to read space-related blogs. By using our app, you consent to the terms of this Privacy Policy.
+
+## Information We Collect:
+
+### 1.1 Personal Information:
+
+We do not collect any personally identifiable information (PII) from users of Cosmic Charade. You can freely access and read space-related blogs without providing any personal information.
+
+### 1.2 Non-Personal Information:
+
+We may collect non-personal information, such as your device type, operating system, app version, and anonymous usage statistics. This information is collected to improve the performance, functionality, and user experience of Cosmic Charade. It does not identify you personally.
+
+## Use of Information:
+
+### 2.1 Personal Information:
+
+Since we do not collect personal information, we do not use it for any purpose.
+
+### 2.2 Non-Personal Information:
+
+We may use non-personal information to analyze app usage patterns, understand user preferences, diagnose technical issues, and improve our app's features and performance. This information may be shared with third-party service providers, but it will always be anonymized and aggregated, preventing identification of individual users.
+
+## Disclosure of Information:
+
+### 3.1 Personal Information:
+
+As we do not collect personal information, we do not disclose it to any third parties.
+
+### 3.2 Non-Personal Information:
+
+We may share non-personal information with trusted third-party service providers for the purposes of analytics, app optimization, or troubleshooting. These third-party providers are contractually bound to protect the confidentiality and security of your information.
+
+## Data Security:
+
+We employ industry-standard security measures to safeguard the non-personal information collected within Cosmic Charade. However, please note that no method of transmission or storage over the internet is completely secure. While we strive to protect your information, we cannot guarantee its absolute security.
+
+## Children's Privacy:
+
+Cosmic Charade is intended for users of all ages. We do not knowingly collect personal information from children under the age of 13. If we become aware that we have inadvertently collected personal information from a child under 13, we will promptly delete it from our records.
+
+## Changes to this Privacy Policy:
+
+We reserve the right to update or modify this Privacy Policy at any time. Any changes will be effective immediately upon posting the revised policy within the app. We encourage you to review this Privacy Policy periodically to stay informed about how we collect, use, and protect your information.
+
+## Contact Us:
+
+If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us at [cosmiccharade0\@gmail.com](mailto:cosmiccharade0@gmail.com)
+
+***By using the Cosmic Charade app, you acknowledge and agree to the terms of this Privacy Policy.***

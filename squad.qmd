@@ -1,0 +1,234 @@
+---
+title: "Cosmic Squad"
+page-layout: full
+---
+
+# **Introducing to the Cosmic Squad** {style="text-align: center; font-family: Georgia"}
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="47%"}
+::: {style="font-size: 25px; text-align: center"}
+***Shounak Bhattacharya***
+:::
+
+::: {style="text-align: left; font-family: Verdana"}
+Director, Placement & Training at Asian College of Teachers. Professional translator of Urdu & Arabic language, certified from Ramkrishna Mission Institute of Culture. He works extensively on General Relativity, Quantum Mechanics & Topology. His basic aim to design and develop curriculum for young students and researchers particularly in the area of Relativity & Differential Geometry.
+
+Email: [contact.physicsforstudents\@gmail.com](mailto:contact.physicsforstudents@gmail.com)
+
+[LinkedIn](https://www.linkedin.com/in/shounakbhattacharya/) \| [Facebook](https://www.facebook.com/scientistshounak) \| [Website](https://physicsforstudents.com/team/shounak-bhattacharya/)
+:::
+:::
+
+::: {.column width="7%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="46%"}
+![](member/shounak.jpg){fig-align="center" width="240"}
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="45%"}
+![](member/samrit.jpg){fig-align="center" width="290"}
+:::
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="45%"}
+::: {style="font-size: 25px; text-align: center"}
+***Samrit Pramanik --- Nibiru***
+:::
+
+::: {style="text-align: left; font-family: Verdana"}
+Working in Analytics industry, post graduated in Statistics from University of Calcutta, having major interest in Astronomy, Cosmology and Astrostatistics. He loves to play around R Programming and explore the beauty of R coding.
+
+Email: [samrit.2442\@gmail.com](mailto:samrit.2442@gmail.com)
+
+[LinkedIn](https://www.linkedin.com/in/samritpramanik24/) \| [Facebook](https://www.facebook.com/samrit.pramanik24ps) \| [Github](https://github.com/samrit2442) \| [Instagram](https://instagram.com/dark_cosmos24)
+:::
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="45%"}
+::: {style="font-size: 25px; text-align: center"}
+***Abhirup Moitra***
+:::
+
+::: {style="text-align: left; font-family: Verdana"}
+An independent thinker, curious learner, and explorer of the universe. Since childhood, he is trying to understand how the whole universe work, how is the arrangement together, was this of the clockwork behind it that makes it run the way it is. Abhirup loves to explore and observe the night sky. Being a probability enthusiast he enjoys dealing with challenging problems in the field of Mathematics, Mathematical Statistics, and Theoretical Statistics and making people realize how we can understand the pattern in the chaos, and how our beliefs work in the real world.
+
+Email: [amityabhirup\@gmail.com](mailto:amityabhirup@gmail.com)
+
+[LinkedIn](https://www.linkedin.com/in/abhirup-moitra-7a66731a6/) \| [Facebook](https://www.facebook.com/abhirup.moitra.1) \| [Github](https://github.com/ABHI20-STAT) \| [Website](https://abhirup-moitra-mathstat.netlify.app/)
+:::
+:::
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="45%"}
+<div>
+
+![](member/abhirup.jpeg){fig-align="center" width="302"}
+
+</div>
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="45%"}
+![](member/sandipan.jpg){fig-align="center" width="290"}
+:::
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="45%"}
+::: {style="font-size: 25px; text-align: center"}
+***Sandipan Mandal***
+:::
+
+::: {style="text-align: left; font-family: Verdana"}
+He is studying physics at the University of Calcutta. He had developed his interest in Astrobiology, Paleontology, Astronomical art and Science Fiction since his childhood. Beside these topics, he also likes to explore the world of visual arts and photography.
+
+[Facebook](https://www.facebook.com/sandipan.mandal.900)
+:::
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="45%"}
+::: {style="font-size: 25px; text-align: center"}
+***Nanda Lal Debnath --- Topshe***
+:::
+
+::: {style="text-align: left; font-family: Verdana"}
+He is a high school 12th passed student, a passionate graphic designer and Astronomy enthusiast. He believes in the power of imagination.
+
+[LinkedIn](https://www.linkedin.com/in/nanda-lal-debnath-55bb85254/) \| [Instagram](https://instagram.com/gravity_980)
+:::
+:::
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="45%"}
+<div>
+
+![](member/nandalal.jpg){fig-align="center" width="234"}
+
+</div>
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="45%"}
+![](member/rajat.jpg){fig-align="center" width="229"}
+:::
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="45%"}
+::: {style="font-size: 25px; text-align: center"}
+***Rajat Kanti Chatterjee***
+:::
+
+::: {style="text-align: left; font-family: Verdana"}
+He is pursuing his post-graduation in Physics from State University, Kolkata, West Bengal. Rajat is always been interested in cosmology and condensed matter physics since the beginning of his higher studies. He qualified BSc in Physics from Amity University, Kolkata with one year of research experience in Cosmology.
+
+Email: [rkchatterjee9802\@gmail.com](mailto:rkchatterjee9802@gmail.com)
+
+[Facebook](https://www.facebook.com/rajatkanti.chatterjee.9?mibextid=ZbWKwL) \| [LinkedIn](https://www.linkedin.com/in/rajat-kanti-chatterjee-1457001a7/)
+:::
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="45%"}
+::: {style="font-size: 25px; text-align: center"}
+***Shruti Bhattacharya***
+:::
+
+::: {style="text-align: left; font-family: Verdana"}
+She is a Physics student with a keen interest in the field of Astronomy, Quantum Physics and Coding, and has a great liking for Music, Art, Dance and English literature. She has been writing ever since she was a young child, but has started professionally, recently.
+
+Email: [shrutibmusic\@gmail.com](mailto:shrutibmusic@gmail.com)
+
+[LinkedIn](https://www.linkedin.com/in/shruti-bhattacharya-69986a221/) \| [Website](https://62c189764cdef.site123.me/) \| [YouTube](https://www.youtube.com/@shrub.../about)
+:::
+:::
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="45%"}
+<div>
+
+![](member/shruti.jpg){fig-align="center" width="211"}
+
+</div>
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="45%"}
+![](member/indrajeet.jpg){fig-align="center" width="229"}
+:::
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="45%"}
+::: {style="font-size: 25px; text-align: center"}
+***Indrajeet Kundu***
+:::
+
+::: {style="text-align: left; font-family: Verdana"}
+He is an undergraduate student in mathematics from Bolpur College. He is an enthusiastic person about Mathematics, Programming. Also, he is currently appointed in the Cosmic Charade as technical support.
+
+Email: [gdkinku\@gmail.com](mailto:gdkinku@gmail.com)
+
+[LinkedIn](https://www.linkedin.com/in/indrajeet-kundu-b4a439239) \| [GitHub](https://github.com/Inkuthegreat)
+:::
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: {style="text-align: center; font-family: Georgia"}
+## **Reserve Bench**
+:::
+
+::: {style="text-align: left"}
+-   Logo Designer --- [Ayon Tarafdar](http://instagram.com/ayontarafdar)
+
+-   Instagram Content Creator & Designer --- Nanda Lal Debnath / Sandipan Mandal
+:::

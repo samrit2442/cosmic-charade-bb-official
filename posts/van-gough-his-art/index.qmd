@@ -1,0 +1,62 @@
+---
+title: Art of Impulse
+subtitle: Great things are not done by impulse
+author: Abhirup Moitra
+date: 2023-06-06
+categories: [Physics, Art, Astronomy]
+image: art-starry-night.gif
+---
+
+::: {style="color: navy; font-size: 19px; font-family: Garamond; text-align: center; border-radius: 3px; background-image: linear-gradient(#C3E5E5, #F6F7FC)"}
+Thoughts without content are empty, intuitions without concepts are blind.
+:::
+
+# Introduction
+
+One of the most remarkable aspects of the human brain is its ability to recognise patterns and describe them. Among the hardest patterns we've tried to understand is the concept of turbulent flow in fluid dyanamics. The German physicist Werner Heisenberg said,
+
+::: {style="font-family: Georgia; text-align: center; font-size: 17px"}
+***"When I meet god, I'm going to ask him two questions: why relativity and why turbulence? I really believe he will have an answer for the first."***
+:::
+
+As difficult as turbulence is to understand mathematically, we can use art to depict the way it looks. In June 1889, **Vincent van Gogh** painted the view just before sunrise from the window of his room at the **Saint-Paul-de-Mausole** asylum in some Saint-Remy-de-Provence, where he'd admitted himself after mutilating his ear in a psychotic episode.
+
+## **Luminance**
+
+In "The Starry Night", his circular Brushstrokes create a night sky filled with swirling clouds and eddies of stars. Van Gogh and other impressionists represented light in a different way than their predecessors, seeming to capture its motion, for instance, across sun-dappled waters, or here in starlight that twinkles and melts through milky waves of the blue night sky. The effect is caused by [**luminance**](https://en.wikipedia.org/wiki/Luminance)**,** the intensity of the light in the colors on the canvas. The more primitive part of our visual cortex, which sees light contrast and motion, but not color, will blend two differently colored areas together if they have the same luminance. But our brains' primate subdivision will see the contrasting colors without blending. With these two interpretations happening at once, the light in many impressionist works seems to pulse, flicker, and radiate oddly. That's how this and other impressionist works use quickly executed prominent brushstrokes to capture something strikingly real about how light moves.
+
+![](difference-between-luminous-flux-and-intensity-illuminance-and-luminance.jpg){fig-align="center" width="458"}
+
+### **Definition**
+
+**Luminance** is a [photometric](https://en.wikipedia.org/wiki/Photometry_(optics) "Photometry (optics)") measure of the [luminous intensity](https://en.wikipedia.org/wiki/Luminous_intensity "Luminous intensity") per [unit area](https://en.wikipedia.org/wiki/Units_of_measurement "Units of measurement") of [light](https://en.wikipedia.org/wiki/Light "Light") traveling in a given direction. It describes the amount of light that passes through, is emitted from, or is reflected from a particular area, and falls within a given [solid angle](https://en.wikipedia.org/wiki/Solid_angle "Solid angle"). The candela per square meter is the unit of luminance in the International System of Units ($cd/m^2$). Here are a few examples that can help us understand the luminance values.
+
+1.  The luminanceLuminance of the sun.
+
+2.  A filament of a clear incandescent lamp.
+
+3.  Fluorescent lamp.
+
+4.  Road surface under artificial lighting
+
+## **Turbulence**
+
+60 years later, Russian mathematician [**Andrey Kolmogorov**](https://en.wikipedia.org/wiki/Andrey_Kolmogorov) furthered our mathematical understanding of turbulence when he proposed that energy in a turbulent fluid at length R varies in proportion to $\frac{5}{3}$ power or R. Experimental measurements show Kolmogorov was remarkably close to the way turbulent flow works, although a complete description of turbulence remains one of the unsolved problems in physics. A turbulent flow is self-similar if there is an energy cascade. In other words, big eddies transfer theirs to smaller eddies, which do likewise at other scales. Examples of this include Jupiter's Great Red Spot, cloud formations, and interstellar dust particles.
+
+![](jupiter-great-red-spot.jpg){fig-align="center" width="335"}
+
+In 2004, using the **Hubble Space Telescope**, scientists saw the eddies of the distant cloud of dust and gas around a star, and it reminded them of Van Gogh's **"Starry Night".**
+
+![The illumination of interstellar dust comes from the red supergiant star at the middle of these images, which gave off a flashbulb-like pulse of light two years ago. V838 Mon is located about 20,000 light years from Earth in the direction of the constellation Monoceros, placing the star at the outer edge of the Milky Way. Courtesy of NASA, the Hubble Heritage Team (AURA/STScI) and ESA](starry-night.jpg){fig-align="center" width="365"}
+
+## **Van Goghs Luminance**
+
+This motivated scientists from Mexico, Spain, and England to study the luminance in Van Gogh's paintings in detail. They discovered that there is a distinct pattern of turbulent fluid structures close to Kolmogorov's equation hidden in many of Van Gogh's paintings. The researchers digitized the paintings and measured how the brightness varies between any two pixels. From the curves measured for pixel separations, they concluded that paintings from Van Gogh's period of psychotic agitation behave remarkably similar to fluid turbulence. His self-portrait with a pipe, from a calmer period in Van Gogh's life, showed no sign of this correspondence. And neither did other artists' work that seemed equally turbulent at first glance, like Munch's "**The Scream.**" While it's too easy to say Van Gogh's turbulent genius enabled him to depict turbulence, it's also far too difficult to accurately express the rousing beauty of the fact that in a period of intense suffering, Van Gough was somehow able to perceive and represent one of the most supremely difficult concepts nature has ever brought before mankind, and to unite his unique mind's eye with the deepest mysteries of movement, fluid, and light.
+
+# **Reference**
+
+1.  Davidson, P. A. (2004). Turbulence -- An Introduction for Scientists and Engineers. Oxford University Press. [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") [978-0198529491](https://en.wikipedia.org/wiki/Special:BookSources/978-0198529491 "Special:BookSources/978-0198529491").
+
+2.  [Kolmogorov, Andrey Nikolaevich](https://en.wikipedia.org/wiki/Andrey_Nikolaevich_Kolmogorov "Andrey Nikolaevich Kolmogorov") (1941). "The local structure of turbulence in incompressible viscous fluid for very large Reynolds numbers". [*Proceedings of the USSR Academy of Sciences*](https://en.wikipedia.org/wiki/Proceedings_of_the_USSR_Academy_of_Sciences "Proceedings of the USSR Academy of Sciences") (in Russian). **30**: 299--303.
+
+3.  [The Interesting Math Behind The Famous Painting "The Starry Night"](https://medium.com/counterarts/the-interesting-math-behind-the-famous-painting-the-starry-night-c48a339344bd).

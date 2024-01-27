@@ -1,0 +1,35 @@
+---
+title: "The System of Beliefs"
+subtitle: "Everything existing in the universe is the fruit of chance"
+author: "Abhirup Moitra"
+date: 2022-04-10
+editor: visual
+categories : [Probability, Statistics, Mathematics]
+image: beliefs.jpg
+---
+
+# Language to Express Degrees of Beliefs
+
+Probability has evolved from a philosophical background as well as a realistic background. It is an abstract representation of reality. We know that in the probability problems our liability is random. Probability is the language for expressing our degrees of beliefs or uncertainties about any events. Belief systems are ways of thinking that engender specific beliefs. No matter what things one is believing, others will believe different things. Just like religion and political things diverge, opposing and often antagonizing. Why such confusion?
+
+## Concept of Wishful Thinking
+
+We like to think that we are rational, that what we believe that what is true. But beliefs conflict. So, who is rational, and who is not? We believe often because of our belief systems. How we believe may be more important than what we believe. Whenever we observe a piece of new evidence, we acquire information that may affect our uncertainties. A new observation that is consistent with an existing belief could make us surer of that particular belief, while a surprising observation could throw that belief into question: how should we update our beliefs in light of the evidence we observe?
+
+::: {style="font-family: Georgia; text-align: center; font-size: 18px"}
+***Here comes the idea of conditioning which refers to 'Wishful Think' i.e., what we wish we knew.***
+:::
+
+## Soul of Probability
+
+Suppose, on a cloudy day you are going out in an overcast condition then you may have to make a choice whether you will carry an umbrella or not. And that is the valid problem, what you wish you knew. You wish you knew how much it will rain i.e., what you wish you knew. It means that what are the chances that whether the rain will be heavy or not, whether the overcast condition will be clear as the day progress. So, these are kinds of factors that you wish you knew while making a decision about carrying an umbrella or not.
+
+Conditioning is a very powerful problem-solving strategy, often making it possible to solve a complicated problem by decomposing it into manageable pieces with case-by-case reasoning.
+
+This idea of conditioning is applicable to solve the complicated problems of probability theory. In probability, a common strategy is to reduce a complicated probability problem to a bunch of simpler conditional probability problems. Conditional probability focuses on how to incorporate evidence into our understanding of the world in a logical, coherent manner. In fact, a usual perspective is that all probabilities are conditional; whether or not written explicitly, there is always background knowledge built into every possibility. Rather we update the beliefs to reflect the evidence and as a problem-solving strategy, we say that **"Conditioning is the soul of Probability and Statistics".**
+
+## **References:**
+
+-   Introduction to Probability by Jessica Hwang and Joseph K. Blitzstein.
+
+-   A Philosophical Essay on Probabilities by Pierre-Simon Laplace.

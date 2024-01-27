@@ -1,0 +1,5 @@
+---
+title: "Approaching towards Computational Thinking with R + Python"
+title-block-banner: true
+page-layout: full
+---

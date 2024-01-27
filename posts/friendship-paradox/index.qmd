@@ -1,0 +1,432 @@
+---
+title: "A Friend in Need is a Friend Indeed"
+subtitle: "Your friends, on average have more friends than you do"
+date: 2022-12-01
+execute: 
+  echo: false
+author: "Abhirup Moitra"
+format: html
+editor: visual
+categories : [Statistics, Mathematics, Networking]
+image: social-network.jpg
+---
+
+::: {style="color: navy; font-size: 19px; font-family: Garamond; text-align: center; border-radius: 4px; background-image: linear-gradient(#C3E5E5, #F6F7FC);"}
+**Do you ever feel sad? Do you feel like you're unpopular, like all your friends have way more friends than you? everyone feels that way sometimes.**
+:::
+
+# Introduction
+
+Some people will tell you that it feels that way because of the false lens of social media, or because you're being too self-critical,but it's true , and it can be utilized for early detection and prevention of an outbreak. Mathematical paradoxes are fascinating brainteaser. [Epimenides](https://en.wikipedia.org/wiki/Epimenides) was a semi-mythical 7th or 6th century BC Greek seer and philosopher said that
+
+::: {style="font-family: Georgia; text-align: center; font-size: 19px"}
+***"All Cretans are liars"***
+:::
+
+In network science things are often not as they seem. Here we will explore the '**Friendship Paradox**' and how it can be used early detection and prevention of an outbreak, how to detect and control infectious diseases.
+
+## What is Friendship Paradox
+
+Friendship paradox was first described by mathematical sociologist and the person who should never be a middle school guidance counselor [**Scott L. Feld**](https://www.americanscientist.org/author/scott_l._feld) in 1991 paper in the [**American Journal of Sociology**](https://www.journals.uchicago.edu/toc/ajs/current) entitled [**"Why Your Friends Have More Friends Than You Do"**](https://www.journals.uchicago.edu/doi/abs/10.1086/229693)**.** The simplest way to think of the friendship paradox is as a form of [sampling bias](https://en.wikipedia.org/wiki/Sampling_bias). So, if we were trying to figure out how many friends the average person has, we have to think about all the people in the world, and how many friends they have.
+
+Before we get into the application of this paradox let's spend couple of minutes to understand what it means and why it's true.
+
+### Brief Explanation
+
+```{r}
+#| warning: false
+library(igraph)
+library(networkD3)
+library(dplyr)
+# create a data set:
+data <- data_frame(from=c("A","B","C","A"),to=c("B","C","A","D"))
+# Plot
+simpleNetwork(data, height="90px", width="90px",Source = 1,Target = 2,linkDistance = 200,charge = -900,fontSize = 25,fontFamily = "serif",linkColour = "#666",nodeColour = "#69b3a2",opacity = 0.9,zoom = T)
+```
+
+**A, B, C, D** are a part of social network. Let's represent them as nodes, and draw edges connecting the nodes to indicate friendship.
+
+```{r}
+#| warning: false
+data <- data.frame(from = c("A","A","A"),to = c("B","C","D"))
+# Plot
+simpleNetwork(data, height="90px", width="90px",Source = 1,Target = 2,linkDistance = 30,charge = -900,fontSize = 25,fontFamily = "serif",linkColour = "#666",nodeColour = "#69b3a2",opacity = 0.9,zoom = T)
+```
+
+Based on this graph, **A** is friends with **B**,**C** and **D.** As **A** is connected with all other **B,C,D** that's why **A** is situated on center and establishing network with his all other friends.
+
+```{r}
+#| warning: false
+data <- data_frame(from=c("B","B"),to=c("A","C"))
+# Plot
+simpleNetwork(data, height="90px", width="90px",Source = 1,Target = 2,linkDistance = 30,charge = -900,fontSize = 25,fontFamily = "serif",linkColour = "#666",nodeColour = "#69b3a2",opacity = 0.9,zoom = T)
+```
+
+Here **B** is friend with **A** and **C.** Here, **B** is establishing network with both of his friend **A** and **C.** Actually, **A** and **C** is connected via **B.** They are not mutually connected with each other.
+
+```{r}
+#| warning: false
+data <- data_frame(from=c("C","C"),to=c("A","B"))
+# Plot
+simpleNetwork(data, height="90px", width="90px",Source = 1,Target = 2,linkDistance = 30,charge = -900,fontSize = 25,fontFamily = "serif",linkColour = "#666",nodeColour = "#69b3a2",opacity = 0.9,zoom = T)
+```
+
+Similarly, **C** is establishing network with both of his friend **A** and **B.** Actually, **A** and **B** is connected via **C.** They are not mutually connected with each other.
+
+```{r}
+#| warning: false
+data <- data_frame(from=c("D"),to=c("A"))
+# Plot
+simpleNetwork(data, height="90px", width="90px",Source = 1,Target = 2,linkDistance = 30,charge = -900,fontSize = 25,fontFamily = "serif",linkColour = "#666",nodeColour = "#69b3a2",opacity = 0.9,zoom = T)
+```
+
+At last we can say that **D** is connected with **A.** There are four individuals, and they have a combined total 8 friends.
+
+::: {style="font-family: Georgia; text-align: center; font-size: 19px"}
+***So on average, an individual has*** $\dfrac{8}{4} = 2$ ***friends***
+:::
+
+Now, let's take this one level deeper. **A** is a friend of 3 individuals, so we'll put his friends list below each of those instances.
+
+![](friendship-tree.jpg){fig-align="center" width="427"}
+
+**B** is friend of 2 individuals, so we put his friends list below each of those instances. **C** is also a friend of 2 individuals, so we put her friends list below of those instances. And **D** is a friend of 1 individual, so we put his friends list below that instance. So, the 4 individuals have a combined total of 8 friends, who have a combined total of 18 friends.
+
+::: {style="font-family: Georgia; text-align: center; font-size: 19px"}
+***So on average, an individual's friend has*** $\dfrac{18}{8} = 2.25$ ***friends***
+:::
+
+::: {style="font-family: Georgia; text-align: center; font-size: 19px"}
+***"On average an individual has fewer friends than his friends do"***
+:::
+
+And it's that way because the popular individuals are over represented in the latter calculation. In other words, popular **A** shows up in each of the others individual friendship networks and thus can make them all feel relatively deprived, while unpopular **D** shows up in only **A**'s friendship network and can only make **A** feel relatively advantaged. It's form of sampling bias in which people with more friends are more likely to be an individual's friend group and this bias may have important applications for studying the dynamical process of social network, like detecting an outbreaks.
+
+### Early Detection of Flu Outbreak
+
+There are a lot of factors which affect one's likelihood of contracting a virus. Some conditions are age, underlying health conditions, personal hygiene, airflow and ventilation conditions and positions within a social network. Individuals near the center of a social network are fewer steps away from the average individual in the network, so during the course of an outbreak, they are likely to be infected sooner than those at the periphery (all else being equal).
+
+[Nicholas Christakis](https://en.wikipedia.org/wiki/Nicholas_Christakis), professor of medicine, medical sociology and sociology at Harvard University, and [James Fowler](https://en.wikipedia.org/wiki/James_H._Fowler), professor of medical genetics and political science at the University of California, San Diego, used the paradox to study [the 2009 flu epidemic among 744 students](https://dash.harvard.edu/handle/1/8852307). The findings, the researchers say, point to a novel method for early detection of contagious outbreaks.
+
+![](network.jpg){fig-align="center" width="432"}
+
+Red nodes correspond to infected individuals, yellow nodes correspond to friends of infected individuals, and node size is proportional to the number of friends infected. It's subtle, but on average the red nodes are larger and in a greater concentration at the center of the network.
+
+Below graph is the dummy version of previous picture.
+
+```{r}
+#| warning: false
+library(igraph)
+net.bg <- sample_pa(900) 
+V(net.bg)$size <- 4
+V(net.bg)$frame.color <- "white"
+V(net.bg)$color <- "blue"
+V(net.bg)$label <- "" 
+E(net.bg)$arrow.mode <- 0
+plot(net.bg)
+```
+
+But when it comes to large networks, like a city or a country, it would be costly, time-consuming, and
+
+```{r}
+#| warning: false
+# Libraries
+library(tidyverse)
+library(hrbrthemes)
+library(viridis)
+library(DT)
+library(kableExtra)
+options(knitr.table.format = "html")
+library(jpeg)
+library(maps)
+library(geosphere)
+library(gridBase)
+
+# Load dataset from github (Surfer project)
+data <- read.table("https://github.com/holtzy/data_to_viz/raw/master/Example_dataset/19_MapConnection.csv", header=T, sep=",")
+
+# Show long format
+tmp <- data %>%
+  tail(5) %>%
+  mutate(homename = gsub( ", Western Australia", "", homename)) %>%
+  mutate(homename = gsub( ", France", "", homename)) %>%
+  mutate(homename = gsub( " - Bali - Indonesia", "", homename)) %>%
+  mutate(homelat=round(homelat,1), homelon=round(homelon,1), travellat=round(travellat,1), travellon=round(travellon,1)) %>%
+  select(homename, homelat, homelon, travelcountry, travellat, travellon)
+
+#tmp %>% kable() %>% kable_styling(bootstrap_options = "striped", full_width = F)
+
+don=rbind(
+  Paris=c(2,49),
+  Melbourne=c(145,-38),
+  Saint.Petersburg=c(30.32, 59.93),
+  Abidjan=c(-4.03, 5.33),
+  Montreal=c(-73.57, 45.52),
+  Nairobi=c(36.82, -1.29),
+  Salvador=c(-38.5, -12.97)
+)  %>% as.data.frame()
+colnames(don)=c("long","lat")
+
+
+all_pairs=cbind(t(combn(don$long, 2)), t(combn(don$lat, 2))) %>% as.data.frame()
+colnames(all_pairs)=c("long1","long2","lat1","lat2")
+
+plot_my_connection=function( dep_lon, dep_lat, arr_lon, arr_lat, ...){
+  inter <- gcIntermediate(c(dep_lon, dep_lat), c(arr_lon, arr_lat), n=50, addStartEnd=TRUE, breakAtDateLine=F)             
+  inter=data.frame(inter)
+  diff_of_lon=abs(dep_lon) + abs(arr_lon)
+  if(diff_of_lon > 180){
+    lines(subset(inter, lon>=0), ...)
+    lines(subset(inter, lon<0), ...)
+  }else{
+    lines(inter, ...)
+  }
+}
+
+# background map
+par(mar=c(0,0,0,0))
+map('world',col="#f2f2f2", fill=TRUE, bg="white", lwd=0.05,mar=rep(0,4),border=0, ylim=c(-80,80) )
+
+# add every connections:
+for(i in 1:nrow(all_pairs)){
+  plot_my_connection(all_pairs$long1[i], all_pairs$lat1[i], all_pairs$long2[i], all_pairs$lat2[i], col="#69b3a2", lwd=1)
+}
+
+# add points and names of cities
+points(x=don$long, y=don$lat, col="#69b3a2", cex=2, pch=20)
+text(rownames(don), x=don$long, y=don$lat,  col="black", cex=1, pos=4)
+
+
+```
+
+```{r}
+#| warning: false
+# Libraries
+library(tidyverse)
+library(viridis)
+library(patchwork)
+library(hrbrthemes)
+library(ggraph)
+library(igraph)
+library(networkD3)
+
+# Load researcher data
+dataUU <- read.table("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/13_AdjacencyUndirectedUnweighted.csv", header=TRUE)
+
+# Transform the adjacency matrix in a long format
+connect <- dataUU %>% 
+  gather(key="to", value="value", -1) %>%
+  na.omit()
+
+# Number of connection per person
+c( as.character(connect$from), as.character(connect$to)) %>%
+  as.tibble() %>%
+  group_by(value) %>%
+  summarize(n=n()) -> coauth
+colnames(coauth) <- c("name", "n")
+
+# NetworkD3 format
+graph=simpleNetwork(connect)
+
+# Plot
+simpleNetwork(connect,     
+              Source = 1,                 # column number of source
+              Target = 2,                 # column number of target
+              height = 880,               # height of frame area in pixels
+              width = 1980,
+              linkDistance = 10,         # distance between node. Increase this value to have more space between nodes
+              charge = -4,              # numeric value indicating either the strength of the node repulsion (negative value) or attraction (positive value)
+              fontSize = 5,              # size of the node names
+              fontFamily = "serif",       # font og node names
+              linkColour = "#666",        # colour of edges, MUST be a common colour for the whole graph
+              nodeColour = "#69b3a2",     # colour of nodes, MUST be a common colour for the whole graph
+              opacity = 0.9,              # opacity of nodes. 0=transparent. 1=no transparency
+              zoom = T                    # Can you zoom on the figure?
+)
+
+```
+
+intrusive, to map out the entire social network in order to identify the centrally located individuals. And this is where the friendship paradox could come in handy.
+
+## Detect and Control Infectious Diseases
+
+Infectious diseases are responsible for 32% death of worldwide with the biggest challenges in the poorest parts of the world. Inventing cheaper ways to detect and combat diseases especially in the most vulnerable areas is key. Infectious diseases are spread through contact between individuals via air particles or through direct physical contact.
+
+```{r}
+#| warning: false
+library(igraph)
+# create data:
+links <- data.frame(
+    source=c("A","A", "A", "A", "A","J", "B", "B", "C", "C", "D","I"),
+    target=c("B","B", "C", "D", "J","A","E", "F", "G", "H", "I","I"),
+    importance=(sample(1:4, 12, replace=T))
+    )
+nodes <- data.frame(
+    name=LETTERS[1:10],
+    carac=c( rep("young",3),rep("adult",2), rep("old",5))
+    )
+ 
+# Turn it into igraph object
+network <- graph_from_data_frame(d=links, vertices=nodes, directed=F) 
+ 
+# Make a palette of 3 colors
+library(RColorBrewer)
+coul  <- brewer.pal(3, "Set1") 
+ 
+# Create a vector of color
+my_color <- coul[as.numeric(as.factor(V(network)$carac))]
+ 
+# Make the plot
+plot(network, vertex.color=my_color)
+ 
+# Add a legend
+legend("bottomleft", legend=levels(as.factor(V(network)$carac))  , col = coul , bty = "n", pch=20 , pt.cex = 3, cex = 1.5, text.col=coul , horiz = FALSE, inset = c(0.1, 0.1))
+```
+
+If we look at social networks like graphs we can see who's in contact with whom. In practice we probably don't know precisely who's in touch with whom or where the edges are and joints of the graph lie but we may know about its probability distribution.
+
+### Probability Distribution
+
+A probability distribution assigns a probability to a particular outcome. For example, when rolling a die each outcome has a probability of $\dfrac{1}{6}$ . These probability distributions also describe network.
+
+### Network
+
+Network come in many different forms the simplest model is the [erdos-renyi](https://www.geeksforgeeks.org/erdos-renyl-model-generating-random-graphs/) network where each possible edges is drawn with a fix probability.
+
+```{r}
+#| warning: false
+n=20
+p=0.2
+m=(n*(n-1)/2)*p
+er11 <- erdos.renyi.game(n, p, type="gnp")
+er12 <- erdos.renyi.game(n, m, type="gnm")
+op <- par(mfrow = c(1, 2))
+plot(er11, layout=layout.circle(er11), main="gnp with p = 0.2")
+plot(er12, layout=layout.circle(er12), main="gnm with p = 0.2")
+```
+
+Now we will vary the probability parameter and see how our graph changes
+
+```{r}
+#| warning: false
+n=100
+p1=0.01
+p2=0.04
+p3=0.1
+er21 <- erdos.renyi.game(n, p1, type="gnp")
+er22 <- erdos.renyi.game(n, p2, type="gnp")
+er23 <- erdos.renyi.game(n, p3, type="gnp")
+op <- par(mfrow = c(1, 3))
+plot(er21, layout=layout.circle(er21), main="p=0.01")
+plot(er22, layout=layout.circle(er22), main="p=0.04")
+plot(er23, layout=layout.circle(er23), main="p=0.1")
+```
+
+However when modeling the spread of infection on such a network epidemiologists and social scientists noticed that this model didn't describe real social networks other models such as the [preferential attachment](https://en.wikipedia.org/wiki/Preferential_attachment) better show how disease is spread through social network.
+
+```{r}
+#| warning: false
+library(igraph)
+library(NetIndices)
+test.graph<-barabasi.game(100,power=.5,m=2)
+# In this case we have set m=2, meaning that
+# for each new node 2 new links are created
+par(mar=c(.1,.1,.1,.1))
+plot.igraph(test.graph,
+layout=layout.fruchterman.reingold,
+vertex.size=8,
+vertex.label.cex=.5,
+edge.arrow.size=.5)
+```
+
+This model draws links depending on the existing number of links a point has just like how the rich become richer. We're certain of vaccinations stop infectious diseases but if we can only afford to vaccinate a limited number of people or if a very infectious disease needs to be stopped quickly who should be targeted. Ideally we'd aim for the hub in the middle of the smaller networks as they have contact with the most people.
+
+::: {style="font-family: Georgia; text-align: center; font-size: 19px"}
+***But how can we identify who these hubs are ?***
+:::
+
+If we randomly vaccinate people it's highly unlikely that we'll be successful. The friendship paradox says that **on average your friends have more friends than you do**.
+
+```{r}
+#| warning: false
+library(igraph)
+library(networkD3)
+library(dplyr)
+# create a data set:
+data <- data_frame(from=c("Abhirup","Torshaa","Violetta","Abhirup"),to=c("Torshaa","Violetta","Abhirup","Danny"))
+# Plot
+simpleNetwork(data, height="90px", width="90px",Source = 1,Target = 2,linkDistance = 200,charge = -900,fontSize = 17,fontFamily = "serif",linkColour = "#666",nodeColour = "#69b3a2",opacity = 0.9,zoom = T)
+```
+
+Because if we pick a random person and ask them to name a random person and ask them to name a friend they're more likely to name someone who knows lots of people rather than someone who only knows 1 or 2 people.
+
+```{r}
+#| warning: false
+library(DT)
+Name <- c("Abhirup", "Torshaa", "Violetta", "Danny")
+friends <- c(3,2,2,1)
+Avg_Friends <- c(1.68,2.50,2.50,3.00)
+FRIENDS <- data.frame(Person = Name,Friends = friends,Avg_friends_of_friends = Avg_Friends)
+datatable(FRIENDS,class = 'cell-border stripe')
+
+```
+
+This means that vaccinating a randomly selected contact of a randomly selected person will be more likely to hit the nub node and extinguish the epidemic. This is particularly true for preferential attachment like a social networks.
+
+::: {style="font-family: Georgia; text-align: center; font-size: 19px"}
+***The friend group is better connected and likely to be connected and likely to be infected sooner, an effective immunization strategy might be to vaccinate the friend group first.***
+:::
+
+## Friendship Paradox in Facebook and Twitter
+
+There is another form of outbreak which relates to the friendship paradox, things that go viral o the internet. And social media websites, like Facebook and Twitter, offer an ideal platform for studying the friendship paradox. They have huge global user bases and their connections are fully mapped out. In 2011, researchers studied the entire facebook social network and they found that 92.7% of users, on average, have fewer friends than their friends have.
+
+::: {style="font-family: Georgia; text-align: center; font-size: 17px"}
+**In** $2011$**,** $721$ **MILLION USERS** $68.7$ **BILLION FRIENDSHIP**
+:::
+
+If we look at twitter, twitter is a micro-blogging service on which users post short messages often accompanied by keywords marked by a hash to help them show up more easily in Twitter searches. Now unlike relations on facebook, Twitter relations are directional. When you follow someone, information flows in one direction. You get updates on their tweets, but not vice versa. You are the follower, they are the followee. In 2013, researchers studied a large portion of the global Twitter activity from 2009.
+
+::: {style="font-family: Georgia; text-align: center; font-size: 17px"}
+**Dataset from** $2009$**,**
+
+$476$ **MILLION TWEETS**
+
+$5.8$ **MILLION USERS**
+
+$193$ **MILLION FOLLOWS**
+:::
+
+and they found that 98% of uers were less popular than their followers and their followees. In 2014, other researchers used a different 2009 twitter dataset to explore hashtags going viral, a form of digital contagion.
+
+![](connect.jpg){fig-align="center" width="452"}
+
+They compared randomly chosen individuals with a random selection of people they followed, to see whether trending twitter hashtags were used sooner by the followee groups. In this study they analyzed the performance of the 32 most widespread hashtags that appeared in their ample groups. And they found that, on average, members of the followee group, used the hashtags before the random group for all but 2 hashtags with average lead time of 7.1 days suggesting that by simply monitoring the activity of the followee group, you can detect viral outbreaks of the use of novel hashtags one week earlier than if you had monitored a random group. And even though this example is just of a digital outbreak on the internet, knowledge of the online activity of a group known to be central to a network, has the potential to provide early insights into real-world outbreaks.
+
+## Online Search and Friendship Paradox
+
+For example, if Google observes a spike in a searches related to the flu, well, may be a celebrity got sick, or may be someone discovered a universal vaccine for the flu, or may be there's a new documentary on the flu, there could be lot of reasons on the spike. But one of those reasons is that people are Googling the flu because they are sick with the flu. And if Google were able to identify the spikes associated with the latter, it could be useful to know the centrality of those sick people.
+
+::: {style="font-family: Georgia; text-align: center; font-size: 19px"}
+***Are they people on the periphery of a social network or are they people who are central to the network, and in a position more likely to infect others and initiate and outbreaks ?***
+:::
+
+## Conclusion
+
+We could spend a lot of time going into the feasibility and ethics of generating and accessing such information. But let's leave it at this: information is power. The Friendship Paradox is not just an interesting statistical phenomenon. It can have real world applications, specially in our interconnected world.
+
+# Reference
+
+1.  [Social Network Sensors for Early Detection of Contagious Outbreaks](https://dash.harvard.edu/bitstream/handle/1/8852307/Christakis_2010_Social_Contagion.pdf?sequence%3D1)
+
+2.  [Towards Quantifying Sampling Bias in Network Inference.](https://networkinequality.com/2017/04/01/towards-quantifying-sampling-bias-in-network-inference/)
+
+3.  Anonymous (2010) Update: Influenza Activity -- United States, August 30, 2009 -- January 9, 2010. Morb Mortal Weekly Rep 59: 38--48.
+
+4.  Christley RM, Pinchbeck GL, Bowers RG, Clancy D, French NP, et al. (2005) Infection in social networks: using network analysis to identify high-risk individuals. Am J Epidemiol 162: 1024--1031.
+
+5.  Shah M. Disease Propagation in Social Networks: A Novel Study of Infection Genesis and Spread on Twitter. Workshop on Big Data, Streams and Heterogeneous Source Mining: Algorithms, Systems, Programming Models and Applications; 2016; San Francisco, CA, USA. Proceedings of Machine Learning Research; 2016. Aug 14.
+
+6.  [Yang S, Santillana M, Brownstein JS, Gray J, Richardson S, Kou SC. Using electronic health records and Internet search information for accurate influenza forecasting. BMC Infect Dis. 2017 May 08;17(1):332. doi: 10.1186/s12879-017-2424-7.](https://bmcinfectdis.biomedcentral.com/articles/10.1186/s12879-017-2424-7)
+
+7.  [Friendship Paradox' Helps Predict Spread of Flu.](https://hms.harvard.edu/news/friendship-paradox-helps-predict-spread-flu)

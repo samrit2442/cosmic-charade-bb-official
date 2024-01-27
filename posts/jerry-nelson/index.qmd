@@ -1,0 +1,166 @@
+---
+title: "Jerry Nelson: The Father of W.M. Keck Observatory Telescopes"
+date: 2023-01-31
+author: Shounak Bhattacharya
+categories: [Astronomy, Astrophysics]
+toc: true
+image: pic1.jpg
+---
+
+::: {style="color: navy; font-size: 19px; font-family: Garamond; text-align: center; border-radius: 4px; background-image: linear-gradient(#C3E5E5, #F6F7FC);"}
+"Two things fill the mind with ever new and increasing admiration and awe, the more often and steadily we reflect upon them: the starry heavens above me and the moral law within me."
+
+--- [Immanuel Kant](https://plato.stanford.edu/entries/kant/) (German philosopher)
+:::
+
+Human endeavor has always tried to minimize this awe and bring the starry heavens near and closer. Staring at the night sky, not only increases the admiration but also an unquenchable thirst to reach out to the unknown, soars every moment as the far distance beckons.
+
+Our dream to look at distant stars and galaxies was first made possible by [Galileo Galilei](https://www.britannica.com/biography/Galileo-Galilei), around 1609. Since then, human beings have been trying always to get a better view of the unknown.
+
+[![Jerry Nelson, the father of segmented mirroring peering into a mirror at the Lick Observatory](pic1.jpg){fig-align="center" width="412"}](https://www.nytimes.com/2017/06/21/science/jerry-nelson-segmented-telescope-dies-at-73.html)
+
+# Childhood and Education
+
+Born on January 15, 1944, Jerry Earl Nelson's father was a machinist working at Lockheed. Jerry, from an early age, developed a knack for astronomy, and under the savant tutelage of George Abell, he started studying astronomy.
+
+Earning his B.S. in physics from the celebrated [California Institute of Technology](https://www.caltech.edu/), he went forward to acquire his PhD from the University of California, Berkeley in the year 1972.
+
+Perhaps the best use of the phrase: "Necessity is the mother of invention" could not have been used in such an appropriate manner. While working at [Lawrence Berkeley National Laboratory](https://www.lbl.gov/), he was given the task to design a 10-meter telescope, which was twice the diameter of the telescope available during that time. Developing such a long telescope challenged his brilliant mind of Nelson. He came up with a solution, which revolutionized telescope technology. A segmented telescope was the answer to the problem.
+
+# Segmented Mirror: A Brief History
+
+In order to install a non-segmented, monolithic mirror, there is a limitation of constructing bigger than 8 meters in diameter.
+
+A segmented telescope comprises many smaller mirrors which collectively assemble and focus light. In comparison to a single mirror, which is enormous in size, these sliced mirrors help in supporting the installation structure much easier.
+
+Italian astronomer, [Guido Horn d'Arturo](https://www.encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/horn-darturo-guido), pioneered this idea and first built the segmented mirror in 1952. Called a "tessellated telescope", Horn thought that assembling small bits of a mirror would be less expensive than a big one, as Italy was still crumbling under the Great depression. In 1935 and in 1952, Horn created telescopes using 17,000 photographic plates and the prototype of a 1.8 m telescope was put on display at [Museo Della Specola di Bologna](https://sma.unibo.it/it/il-sistema-museale/museo-della-specola).
+
+![1952 -- Horn d'Arturo with his 1.80 m tessellated mirror](pic2.jpg){fig-align="center" width="434"}
+
+The new generation of multi-mirror telescope first breathed its life in the hands of Guido Horn d'Arturo, which was later nurtured by Dr. Jerry Nelson.
+
+![1.80 m tessellated mirror, installed at Museo della Specola, located at Via Zamboni, 33, 40126 Bologna BO, Italy](pic3.jpg){fig-align="center"}
+
+Back in 1900, [Mount Wilson](https://www.mtwilson.edu/), California was the home of a 100-inch telescope, which was then considered to be the largest telescope in the world. American astronomer, [George Ellery Hale](https://www.britannica.com/biography/George-Ellery-Hale) was already busy counting his card, to build even a larger telescope.
+
+![Mount Wilson's 100-inch telescope. Astronomer George Ellery Hale attempted to build the world's largest telescope to see objects beyond our Milky Way](pic4.jpg){fig-alt="Mount Wilson's 100-inch telescope. Astronomer George Ellery Hale attempted to build the world's largest telescope to see objects beyond our Milky Way" fig-align="center"}
+
+In 1960, as the need for observations in astronomy became predominant, further plans were made for better telescopes. In general, there are two types of telescopes:
+
+1.  The reflector telescope and
+
+2.  The refractor telescope.
+
+In order to get a better vision of deep sky objects, which includes galaxies and nebulas, the first one is best suited. Whereas, for viewing our solar system and moon the second one is preferable.
+
+As a result, research was carried out to build large reflectors. The design of an array of telescopes and of segmented mirrors started and single mirrors were cast within a diameter of 8 m.
+
+Mount Hopkins, Arizona was the first to implement MMT which is a [Multiple-Mirror Telescope](https://en.wikipedia.org/wiki/MMT_Observatory), that used the concept of an array. The diameter was around 72 inches.
+
+[![MMT Observatory, located on Fred Lawrence Whipple Observatory on Mount Hopkins, Arizona](pic5.jpg){fig-align="center" width="443"}](MMT%20Observatory,%20located%20on%20Fred%20Lawrence%20Whipple%20Observatory%20on%20Mount%20Hopkins,%20Arizona)
+
+As [W.M. Keck Observatory](https://www.keckobservatory.org/) used the segmented mirror approach, [Hobb-Eberly Telescope](https://en.wikipedia.org/wiki/Hobby%E2%80%93Eberly_Telescope) also used this segmented mirror technology but only for spectroscopy. Named after Bill Hobby and Robert E. Eberly, this is one of the largest optical telescopes in the world.
+
+# The Midas Touch
+
+Pondering over the problem, Jerry finally came up with the solution of designing 36 hexagonal mirror segments, which finally gave birth to the 10-meter Keck telescopes. Keck 1 and Keck 2 are now the world's third and fourth largest telescopes.
+
+Although segmentation solved the problem of structuring, it gave rise to another which is called alignment. With his Midas touch, Jerry designed and engineered 168 electronic sensors which were mounted on the segmental area, and a motor, which constantly kept the mirror in the correct alignment.
+
+[![Jerry Nelson with his wife Jocelyn Nelson](pic6.jpg){fig-align="center" width="438"}](https://grb.ucsc.edu/images/2010/oslo_with_jerry_nelson.jpg)
+
+Nelson's major contribution lies in developing AO (Adaptive Optics) which makes the image brighter and clearer by correcting the blur effect which occurs due to Earth's atmosphere.
+
+[Claire Max](https://www.astro.ucsc.edu/faculty/index.php?uid=cemax), director of UC Observatories commented:
+
+"*Jerry's impacts on the field of astronomy and astrophysics are legendary, and we will all benefit from his legacy for many years to come. He was a wonderful colleague and mentor to many of us.*"
+
+The idea that he conceived in 1977, on which W.M. Keck Observatory's twin telescopes were built was using a dozen of segmented mirrors rather than a single one. You will be surprised to know that the technology JWST is using is also based on segmented mirror technology.
+
+![W.M. Keck Observatory is located at Mauna Kea in Hawaii](pic7.jpg){fig-align="center" width="440"}
+
+The distant unknown now seems to be at our doorstep. Dr. Nelson's pioneering achievements have allowed astrophysicists to learn about black holes which lie at the center of our Milky Way and locate many other astronomical objects.
+
+# JWST and Dr. Nelson's Technique
+
+The recent high-resolution images, delivered by the [James Webb Space Telescope](https://webb.nasa.gov/) which created an uproar in the world of astronomy also use this segmented mirror technology. The primary mirror of Webb is determined to be 6.5 meters long. Only then it would serve the purpose of taking photographs of deep space. The team faced the problem of building a mirror this large which can be launched into space and also be able to orbit.
+
+The technique invented by Dr. Jerry Nelson of the segmented mirror was again re-used by the Webb team, and this time they used beryllium, a chemical element that has a low density.
+
+The team developed 18 hexagonal-shaped mirror segments that are 1.32 meters in diameter. This enabled the team to make the size of the mirror much larger yet lighter than that of the Hubble.
+
+## 'I don't understand'
+
+Often you will find great people are more humble than you can think. Often the Professor would use the line, which would mean that you have to be careful in what you are saying. Instead of pointing you that you are telling something wrong, he would waive off using those lines.
+
+"*Go back and study", could probably be the communication that he wanted to make*.
+
+Yet, he was humble, generous, and respected each other.
+
+[![Nelson with a model of the Keck telescope. Credit: W. M. Keck Observatory](pic8.jpg){fig-align="center" width="443"}](https://blogs.scientificamerican.com/observations/in-memoriam-jerry-nelson-legendary-telescope-designer/)
+
+'Jerry and Terry' were always together. They were forever good friends.
+
+[Dr. Terry Mast](https://news.ucsc.edu/2016/08/mast-in-memoriam.html) from the University of California and Dr.Jerry pioneered the technology for building the ground telescope of W.M. Keck Observatory.
+
+Working together, among Terry's several papers in physics and astrophysics one was entitled "***Figure Control for a Segmented Telescope Mirror***".
+
+The original paper is available [here](https://www.osti.gov/biblio/6194407).
+
+In 2010, Dr. Jerry received the [Kavli Prize](https://www.kavliprize.org/) in Astrophysics for his remarkable contribution in developing telescopes.
+
+On his achievement the Kavli Prize mentions:
+
+::: {style="text-align: center; font-family: Georgia; font-size: 22px"}
+*"He devised a way to grind the tiles into the unusual asymmetric shapes needed and a system of sensors, actuators, and computer control to make the tiles act as a single reflecting surface. It was a risky proposal and university authorities were initially skeptical, but Nelson's design eventually led to the twin Keck Telescopes on the summit of Mauna Kea, Hawaii, each with a 10-meter mirror made from 36 segments."*
+:::
+
+[![Kavli Prize in astrophysics awarded to Jerry Nelson (Jerry Nelson, left, James Roger Prior Angel, middle, Raymond N. Wilson, right)](pic9.jpg){fig-align="center" width="445"}](https://www.kavliprize.org/prizes/astrophysics/2010)
+
+# A Vision Unfinished
+
+Suffering from a stroke attack, Dr. Nelson with his indomitable spirit continued working on his vision to build [Thirty Meter Telescopes](https://www.tmt.org/). This is considered to be an extremely large telescope that is still under construction. Also known as TMT, this would allow us to observe objects in deeper space with unparalleled details. As claimed by the scientists, once TMT is built, it would provide four times sharper images than what JWST is rendering.
+
+[![An illustration of what the Thirty-Meter Telescope will look like once completed](pic10.jpg){fig-align="center" width="454"}](https://www.ipac.caltech.edu/project/tmt)
+
+On 10th June, 2017, Saturday morning he passed away. He is survived by his wife Jocelyn Nelson and his sister Jeanne Moat. He had; two children who were from his first marriage, Leif and Alexandra as well as three grandchildren. Victoria, his first wife, passed away on 1992.
+
+In his honor, a symposium was held on 2017, July 13, 14 at the Hotel Paradox in Santa Cruz, CA.
+
+[![A symposium was held in memory of Jerry Nelson. (In the photograph Dr. Nelson's wife, Jocelyn Nelson](pic11.jpg){fig-align="center" width="419"}](https://www.flickr.com/photos/mjbolte/36014586392/in/album-72157683457676072/)
+
+## Reference:
+
+-   <https://www.sciencedirect.com/topics/physics-and-astronomy/segmented-mirrors>
+
+-   <https://en.wikipedia.org/wiki/MMT_Observatory>
+
+-   <https://www.mtwilson.edu/building-the-100-inch-telescope/>
+
+-   <https://en.wikipedia.org/wiki/Hobby%E2%80%93Eberly_Telescope>
+
+-   <https://www.ucolick.org/nelsonfest/index.html>
+
+-   <https://keckobservatory.org/memoriam-jerry-nelson/>
+
+-   <https://www.nytimes.com/2017/06/21/science/jerry-nelson-segmented-telescope-dies-at-73.html>
+
+-   <https://en.wikipedia.org/wiki/W._M._Keck_Observatory>
+
+-   <https://en.wikipedia.org/wiki/Jerry_Nelson_(astronomer)>
+
+-   [https://news.ucsc.edu/2017/06/jerry-nelson-in-memoriam.html](https://news.ucsc.edu/2017/06/jerry-nelson-in-memoriam.htmlhttps://www.ucolick.org/nelsonfest/index.html)
+
+-   [https://www.ucolick.org/nelsonfest/index.html](https://news.ucsc.edu/2017/06/jerry-nelson-in-memoriam.htmlhttps://www.ucolick.org/nelsonfest/index.html)
+
+-   <https://www.ucolick.org/nelsonfest/index.html>
+
+-   <https://www.flickr.com/photos/mjbolte/35792096380/in/album-72157683457676072/>
+
+-   <https://www.washingtonpost.com/local/obituaries/jerry-nelson-astronomer-whose-telescopes-revealed-distant-reaches-dies-at-73/2017/06/26/eeeb8c66-5a85-11e7-9fc6-c7ef4bc58d13_story.html>
+
+-   <https://news.ucsc.edu/2016/08/mast-in-memoriam.html>
+
+-   <https://www.kavliprize.org/bio/jerry-e-nelson>
+
+-   <https://www.tmt.org/page/about#about-us>

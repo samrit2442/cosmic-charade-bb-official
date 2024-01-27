@@ -1,0 +1,18 @@
+---
+title: "About Us"
+title-block-style: default
+title-block-banner: true
+page-layout: full
+---
+
+::: {style="text-align: center; font-size: 30px"}
+**We are Cosmic Charade**
+:::
+
+::: {style="text-align: center"}
+These are amazing times for theoretical science. They are so amazing that many of us believe that theoretical science is poised for a new revolution. A revolution brought about by dramatic advances in our understanding of the universe. We looked up at the stars and wondered about the universe around us. We have always needed to understand why are things the way they are, where we come from, and what lies ahead. The biggest and most interesting thing i.e., how does the whole universe work, how is the arrangement together, was this the clockwork behind it that makes it run the way it does. For thousands of years, we have devised models and principles to explain the world we see around us and the world we cannot see. Right now, we are on the age of great breakthroughs on the age of understanding our universe from the infinitesimal to the infinite. ***Cosmic Charade*** unite the creative minds to collaborate with them and ask the biggest questions and to seek their transformative answers. We do so with the knowledge that today's theoretical science is tomorrow's technology that the future is ours to build. The time is now to challenge convention to accelerate discovery to advance humanity to build a brighter future.
+:::
+
+ 
+
+![](full_logo.gif){fig-align="center" width="431"}

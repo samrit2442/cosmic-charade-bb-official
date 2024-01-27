@@ -1,0 +1,58 @@
+---
+title: "Teleological Overview of the Cosmos"
+author: "Samrit Pramanik"
+date: 2022-10-29
+page-layout: article
+categories: [Astronomy, Astrophysics, Physics]
+image: Multiverse_Lead.jpg
+toc: true
+editor: visual
+---
+
+::: {style="color: navy; font-size: 18px; text-align: center; border-radius: 3px; background-image: linear-gradient(#D6FAF8, #F6F7FC); margin-left: 85px; margin-right: 85px"}
+*Some people look for value in their lives through material success, through personal relationships. But being blessed with the intellect to decipher the nature's deepest secret gives enough meaning to our life. These words from Michio Kaku will profusely enhance your fundamental connectedness to the universe.*
+:::
+
+Since childhood, we have been taught to be perfect men or women in some sense. But do we really become so after ages? Do we really know what or why it is called "Perfect"? Ideally, a situation or system is termed perfect when each component is acted upon in order, either sequentially or systematically. In our society, perfection is often looked upon as an ultimatum. But from a broader perspective, this is not the case. According to Stephen Hawking---"One of the basic rules of the universe is that nothing is perfect. Perfection simply doesn't exist\... Without imperfection, neither you nor I would exist."
+
+Perfection readily breaks down in the presence of minute disorder or disturbance, which is ubiquitous in any system. So, nobody can be perfect in absolute terms. From this point on, things get complicated and tend toward disorder. More specifically, the second law of thermodynamics states that "as one goes forward in time, the net entropy (degree of disorder) of any isolated or closed system will always increase (or at least stay the same)." Basically, entropy is a measure of the disorder of the universe on both macro and microscopic levels, an important mental model as it applies to every part of our lives. Contemplating entropy will fundamentally change our perspective on the world.
+
+::: {style="font-family: georgia; font-size: 22px; text-align: center"}
+***Disorder is not a mistake; it is our default. Order is always artificial and temporary.***
+:::
+
+## The Discovery of Entropy
+
+The idea of entropy was attributed to Rudlof Clausins (1822--1888), a German mathematician and physicist. During his research work on the conversion of heat into work, he observed the transmission of heat from a body at a high temperature to a lower one. The same mechanism is followed when coffee cools down and the heat from coffee flows into the room, naturally and spontaneously. But if you want to heat the cold water to enjoy your coffee, you need to do some work---you need a power source to heat the water. From this idea comes his statement of the 2nd law of thermodynamics.
+
+## The Connection between Time and Entropy
+
+![](entropy_time.png){fig-align="center" width="442"}
+
+One of the few concepts that validate the existence of time is entropy. Entropy always decreases as we move forward in time. We experience a single direction, or "Arrow of Time", from the past to the future. From this point, a question arises---can we change the course of events? Most scientists will tell you no. Causal determinism forbids it. Time loops have a significant impact on the principle of causality on the relationship between cause and effect. Therefore, everything is mutually dependent. The past does not just influence the future, the future also influences the past. It is just like the question of the chicken and the egg. We can no longer say which of the two came first. Everything is connected to everything else.
+
+![](infinity_loop.png){fig-align="center" width="348"}
+
+There is a switch point at the junction in the loop of time. The moment that allows things to run in one direction or the other. You do something, or you don't. A line that meets itself again in the loop creates two possible paths: along the outer edge of the line or along the inner edge of the line. And yet it is the same line. Two overlapping realities. On one of these paths, you are a painter, on the other, you are a singer. Both possibilities recur in the loop, again and again, one triggering the other. Scientists call it Quantum Entanglement.
+
+It is human nature to believe that we play a role in our own lives and destiny. Everyone should adhere to it. As Brian Cox said, "The Arrow of Time dictates that as each moment passes, things change, and once these changes have happened, they are never undone. Permanent change is a fundamental part of what it means to be human. We all age as the years pass by---people are born, they live, and they die. It's part of the joy and tragedy of our lives, but out there in the universe, those grand and epic cycles appear eternal and unchanging. But that's an illusion. In the life of the universe, just as in our lives, everything is irreversibly changing."
+
+## The Teleology of the Universe
+
+If everything has a purpose, and if so, who decides this purpose? Coincidence? God? Or is it us? Are we actually free in our actions? Or is it all created in an eternally recurring cycle? And we can only obey the laws of nature and are nothing but slaves of space and time. Mankind has always been puzzled over its origin and its genesis. Are we created by God or a product of evolution? If we could see yesterday and tomorrow at the same time, the origin and the end, the entire universe in a single moment, we might find the answers to the biggest question of all. What are we and where do we come from? What drives us and what are our purposes? Why do we decide one thing against another? But does it matter whether the decision is based upon the consequences of a series of causal links? Or whether it stems from an undefined feeling inside us? That perhaps everything in our lives boils down to this one moment. We are part of a puzzle. The pieces of a jigsaw puzzle should be put together since everything had to happen the way it always has. Nobody can do everything, but everybody can do something. Let them do that on their own. That's how the cosmic balance of the system should be maintained through the fabric of space-time. If one can sing well, let him/her be a singer. Don't impose him/her forcefully with a mere tag of a scientist. Everyone should follow through with what is assigned to them only. Otherwise, it will create chaos. All our lives are somehow connected.
+
+## Made for each Other
+
+On the other hand, every element of the cosmos and the structure of the universe permits life to exist. The anthropic perspective of the quantum cosmological models predicts the structure of the universe probabilistically. The laws of nature are so arranged that life and consciousness are possible. Is there any deity who deliberately arranged these laws to make life possible, or are we the by-products of a series of lucky accidents or coincidences? As physicist Freeman Dyson once said, "It's as if the universe knew that we were coming." The idea that the fine-tuning of the physical constants were not an accident but implies a grand design of the universe. Every element in this universe has its own purpose to serve. We are not free in what we do, because we are not free in what we desire. We cannot overcome what is deep within us.
+
+In the end, there is a subliminal connection between these two seemingly incompatible perceptions, leading to our own existence in the universe. Our life is defined as everything in between birth and death and it exists there ad infinitum. Thus, we exist in this universe, and therefore the universe exists in a way that it allows observers to come into existence.
+
+### Reference:
+
+-   Netflix acclaimed TV Series Dark.
+
+-   [Entropy: The Hidden Force That Complicates Life](https://fs.blog/entropy/)
+
+-   Parallel World by Michio Kaku
+
+-   [Anthropic Principle \| Cosmology \| Britannica](https://www.britannica.com/science/anthropic-principle)

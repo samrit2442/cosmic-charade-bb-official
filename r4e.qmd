@@ -1,0 +1,6 @@
+---
+title: "R for Everyone"
+title-block-banner: true
+page-layout: full
+---
+
