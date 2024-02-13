@@ -1,0 +1,14 @@
+{
+  "hash": "40708d1c4df5f4a9926714ecc746d97e",
+  "result": {
+    "markdown": "---\ntitle: \"🪐Cosmic Charade🌠\"\nsubtitle: \"In search of the origin of the Universe…\"\nimage: \"logo-trans-final-2.png\"\nabout:\n  template: jolla\n  image-width: \"100%\"\n  image-shape: rectangle\n  links:\n    # - icon: twitter\n    #   text: Twitter\n    #   href: https://twitter.com\n    - icon: linkedin\n      text: LinkedIn\n      href: https://www.linkedin.com/company/bismoykar-bramhanda/\n    - icon: facebook\n      text: Facebook\n      href: https://www.facebook.com/bismaykarbramhanda/\n    # - icon: github\n    #   text: Github\n    #   href: https://github.com/\n---\n\n\n# 🪐বিস্ময়কর ব্রহ্মাণ্ড🌠 {style=\"text-align: center; font-family: Li Alinur Subas Unicode; font-size: 45px\"}\n\n### *সৃষ্টির রহস্য এবং উন্নতির সন্ধানে\\...* {style=\"text-align: center; font-family: bensen; font-size: 32px\"}\n\n\n::: {.cell}\n\n:::\n\n```{=html}\n<script async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8479395590405219\"\n     crossorigin=\"anonymous\"></script>\n```\n\n::: {style=\"font-family: Bahnschrift; font-size: 15px; text-align: right\"}\n***Last updated on 14 Feb 2024, 00:41:37 IST***\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
