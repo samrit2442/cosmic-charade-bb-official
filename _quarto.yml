@@ -33,7 +33,9 @@ website:
         href: https://chat.whatsapp.com/BwGDsLPHX6i1ID4711I2DQ
       - icon: telegram
         href: https://t.me/bismoykar_bramhanda_cc
-  page-footer: Proudly supported by RStudio (Posit) and made with Quarto 💙 <br> Copyright © 2024 | Contact us <br> [Privacy Policy](privacy_policy.qmd)
+      - icon: youtube
+        href: https://youtube.com/@cosmiccharade33?si=m3B9lqSqcioNJVtb
+  page-footer: Proudly made with Quarto 💙 <br> Copyright © 2024 | Contact us <br> [Privacy Policy](privacy_policy.qmd)
   margin-footer: subscribe.html
   reader-mode: true
   # page-footer: href: date_time.qmd

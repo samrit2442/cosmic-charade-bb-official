@@ -23,7 +23,7 @@ about:
 
 # 🪐বিস্ময়কর ব্রহ্মাণ্ড🌠 {style="text-align: center; font-family: Li Alinur Subas Unicode; font-size: 45px"}
 
-### *সৃষ্টির রহস্য এবং উন্নতির সন্ধানে\...* {style="text-align: center; font-family: bensen; font-size: 32px"}
+### *সৃষ্টির রহস্য এবং উন্নতির সন্ধানে...* {style="text-align: center; font-family: bensen; font-size: 32px"}
 
 ```{r}
 #| echo: false
