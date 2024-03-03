@@ -1,0 +1,57 @@
+---
+title: "Birth of Baby Wormhole in Quantum Lab"
+author: Aditi Roy Chowdhury
+date: 2024-03-03
+categories: [Astronomy, Astrophysics, ]
+image: cover.png
+---
+
+It was 2014, a team of explorers travelled beyond this galaxy through a newly discovered wormhole, but not in real, in movie. Yes, you got it right. It is the famous science fiction movie — Interstellar directed by Christopher Nolan. But ah! if it could be possible in real, then millions of light years could be achieved in few minutes!
+
+Well, it could be little hopeful that, **recently (in 2022), physicists have used a quantum computer to perform a new kind of quantum teleportation which could be analogues to the features of wormhole**. The experiment was done by a team of physicists led by **Maria Spiropulu** of California Institute of Technology According to Spiropulu, it is a “quantum gravity experiment on a chip”.
+
+Two main theories of Physics can described in this experiment. One is Quantum mechanics, the physics of the very small, and another is — General Relativity, the physics of the very large. Albert Einstein used to believe, there was a link between the need to resolve apparent paradoxes of quantum mechanics and the need to unify electromagnetism and gravity. Even he spent last thirty years of his life to develop a unified theory.
+
+Now, question may arise, what the wormhole exactly is? Well, in simple word, it is a hypothetical tunnel like shortcut through space time connect two points of same universe or of different universe as well.
+
+![The alternative route can be considered as a wormhole. The two connecting point can be thought as two black hole or more specifically a black hole and another one is the hypothetical white hole (time reversal of black hole)](Picture1.png){fig-align="center"}
+
+**It was 1935, Einstein along with Nathan Rosen, published the ER paper**. They developed the concept of a certain type of a wormhole called an Einstein-Rosen (ER) bridge.
+
+**In 1936, Einstein, Rosen and Boris Podolsky published the EPR paper**, in which they developed the idea of **quantum entanglement**, where an apparent exchange of information occurs faster than the speed of light. As an example, consider a pair of electrons (quantum particles). At any instant, if one electron is measured as in spin up state then immediately other electron can be measured in spin down state. That means information is travelling faster than light!! Violation of relativity!!!  Einstein was unwilling to accept this. According to him, as a result of this “entanglement”, determining either position or momentum for one system would fix (respectively) the position or the momentum of the other. Is it not violating Heisenberg uncertainty principle?
+
+Ultimately, the quantum mechanics and general relativity paradox came to an end in **1964**, when, Irish physicist John Bell came up with a new idea, known as **Bell's inequality**. Now it can be thought like this, if two particles be entangled, they are then described by a single wave function in the form of superposition. They are mathematically the same object. So, the violation of relativity or the violation of uncertainty principle between two same particle is meaningless.
+
+**In 2013, Maldacena along with physicist Leonard Susskind proposed the "ER = EPR" conjecture**, a system involving two sets of entangled particles was mathematically equivalent to two black holes connected via a Wormhole. This is the basis of the claim in the recent paper about how a wormhole was created in a lab using a quantum computer.
+
+Now, wormhole is too unstable. anything with mass or energy tries to entering into a wormhole, it’s gravitational effect immediately closes it**. Then, how was this wormhole created?** According to general relativity, to keep the wormhole open, some negative energy is needed to provide a force against the gravitational collapse. But Negative energy is something physically impossible! But in quantum system it is possible. Negative energy can be simulated in laboratory by manipulating the electrical field to change the spin direction of the qubits.
+
+![](Picture2.svg){fig-align="center"}
+
+The experiment is done in following steps:
+
+1.  Experiment was started with 7 qubits, consisting of 7 pairs of entangled particles. One pair of 7 particles act as the entrance and another pair of 7 particles act as exit of the wormhole.
+
+2.  Two more particles (one is **probe** and another one is **reference**) are used to transform the information through wormhole.
+
+3.  Probe is replaced by one particle at the entrance. Then the state of ‘probe’ immediately got entangled (correlated) with the state of other 6 particles. This information is quickly scattered to the exit. This is roughly analogous to a particle entering the mouth of a wormhole.
+
+4.  Now, the electric field was arranged (negative energy simulation) such that the mouth of wormhole do not collapse.
+
+5.  Finally, by measuring the amount of entanglement between the reference qubit and the 7 particles at the exit the transportation of information through the wormhole was confirmed.
+
+Though, it is not a real wormhole in space time, it is just a quantum mechanical simulation. But still, at least Physicist can have some practical idea about the most trending topic of science fiction- ‘The Wormhole’.
+
+::: callout-note
+**qubit**: a unit of quantum information. e.g., spin half electron, polarization of photon can be used as qubit. Two qubits (0 and 1) can have four possible states (00, 01, 10, 11). Try to understand the difference between the bit (unit of classical computer) and qubit here. For bit only two states (0 and 1) are possible. Three qubits can have eight possible states. Then just imagine, how many states are possible for 7 qubits!!
+:::
+
+## References:
+
+-   <https://en.wikipedia.org/wiki/Quantum_computing>
+
+-   <https://en.wikipedia.org/wiki/Wormhole>
+
+-   <https://youtu.be/NRBygsNCYr0>
+
+-   [Physicists Create a Holographic Wormhole Using a Quantum Computer](https://www.quantamagazine.org/physicists-create-a-wormhole-using-a-quantum-computer-20221130/#:~:text=The%20wormhole%20emerged%20like%20a,today%20in%20the%20journal%20Nature.)

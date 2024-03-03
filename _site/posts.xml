@@ -10,7 +10,77 @@
 <atom:link href="https://cosmic-charade.netlify.app/posts.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.3.433</generator>
-<lastBuildDate>Mon, 19 Jun 2023 18:30:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 02 Mar 2024 18:30:00 GMT</lastBuildDate>
+<item>
+  <title>Birth of Baby Wormhole in Quantum Lab</title>
+  <dc:creator>Aditi Roy Chowdhury</dc:creator>
+  <link>https://cosmic-charade.netlify.app/posts/birth-of-baby-worm-hole/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>It was 2014, a team of explorers travelled beyond this galaxy through a newly discovered wormhole, but not in real, in movie. Yes, you got it right. It is the famous science fiction movie — Interstellar directed by Christopher Nolan. But ah! if it could be possible in real, then millions of light years could be achieved in few minutes!</p>
+<p>Well, it could be little hopeful that, <strong>recently (in 2022), physicists have used a quantum computer to perform a new kind of quantum teleportation which could be analogues to the features of wormhole</strong>. The experiment was done by a team of physicists led by <strong>Maria Spiropulu</strong> of California Institute of Technology According to Spiropulu, it is a “quantum gravity experiment on a chip”.</p>
+<p>Two main theories of Physics can described in this experiment. One is Quantum mechanics, the physics of the very small, and another is — General Relativity, the physics of the very large. Albert Einstein used to believe, there was a link between the need to resolve apparent paradoxes of quantum mechanics and the need to unify electromagnetism and gravity. Even he spent last thirty years of his life to develop&nbsp;a unified theory.</p>
+<p>Now, question may arise, what the wormhole exactly is? Well, in simple word, it is a hypothetical tunnel like shortcut through space time connect two points of same universe or of different universe as well.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://cosmic-charade.netlify.app/posts/birth-of-baby-worm-hole/Picture1.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">The alternative route can be considered as a wormhole. The two connecting point can be thought as two black hole or more specifically a black hole and another one is the hypothetical white hole (time reversal of black hole)</figcaption>
+</figure>
+</div>
+<p><strong>It was 1935, Einstein along with Nathan Rosen, published the ER paper</strong>. They developed the concept of a certain type of a wormhole called an Einstein-Rosen (ER) bridge.</p>
+<p><strong>In 1936, Einstein, Rosen and Boris Podolsky published the EPR paper</strong>, in which they developed the idea of <strong>quantum entanglement</strong>, where an apparent exchange of information occurs faster than the speed of light. As an example, consider a pair of electrons (quantum particles). At any instant, if one electron is measured as in spin up state then immediately other electron can be measured in spin down state. That means information is travelling faster than light!! Violation of relativity!!! &nbsp;Einstein was unwilling to accept this. According to him, as a result of this “entanglement”, determining either position or momentum for one system would fix (respectively) the position or the momentum of the other. Is it not violating Heisenberg uncertainty principle?</p>
+<p>Ultimately, the quantum mechanics and general relativity paradox came to an end in <strong>1964</strong>, when, Irish physicist John Bell came up with a new idea, known as <strong>Bell’s inequality</strong>. Now it can be thought like this, if two particles be entangled, they are then described by a single wave function in the form of superposition. They are mathematically the same object. So, the violation of relativity or the violation of uncertainty principle between two same particle is meaningless.</p>
+<p><strong>In 2013, Maldacena along with physicist Leonard Susskind proposed the “ER = EPR” conjecture</strong>, a system involving two sets of entangled particles was mathematically equivalent to two black holes connected via a Wormhole. This is the basis of the claim in the recent paper about how a wormhole was created in a lab using a quantum computer.</p>
+<p>Now, wormhole is too unstable. anything with mass or energy tries to entering into a wormhole, it’s gravitational effect immediately closes it<strong>. Then, how was this wormhole created?</strong> According to general relativity, to keep the wormhole open, some negative energy is needed to provide a force against the gravitational collapse. But Negative energy is something physically impossible! But in quantum system it is possible. Negative energy can be simulated in laboratory by manipulating the electrical field to change the spin direction of the qubits.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://cosmic-charade.netlify.app/posts/birth-of-baby-worm-hole/Picture2.svg" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<p>The experiment is done in following steps:</p>
+<ol type="1">
+<li><p>Experiment was started with 7 qubits, consisting of 7 pairs of entangled particles. One pair of 7 particles act as the entrance and another pair of 7 particles act as exit of the wormhole.</p></li>
+<li><p>Two more particles (one is <strong>probe</strong> and another one is <strong>reference</strong>) are used to transform the information through wormhole.</p></li>
+<li><p>Probe is replaced by one particle at the entrance. Then the state of ‘probe’ immediately got entangled (correlated) with the state of other 6 particles. This information is quickly scattered to the exit. This is roughly analogous to a particle entering the mouth of a wormhole.</p></li>
+<li><p>Now, the electric field was arranged (negative energy simulation) such that the mouth of wormhole do not collapse.</p></li>
+<li><p>Finally, by measuring the amount of entanglement between the reference qubit and the 7 particles at the exit the transportation of information through the wormhole was confirmed.</p></li>
+</ol>
+<p>Though, it is not a real wormhole in space time, it is just a quantum mechanical simulation. But still, at least Physicist can have some practical idea about the most trending topic of science fiction- ‘The Wormhole’.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>qubit</strong>: a unit of quantum information. e.g., spin half electron, polarization of photon can be used as qubit. Two qubits (0 and 1) can have four possible states (00, 01, 10, 11). Try to understand the difference between the bit (unit of classical computer) and qubit here. For bit only two states (0 and 1) are possible. Three qubits can have eight possible states. Then just imagine, how many states are possible for 7 qubits!!</p>
+</div>
+</div>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References:</h2>
+<ul>
+<li><p><a href="https://en.wikipedia.org/wiki/Quantum_computing" class="uri">https://en.wikipedia.org/wiki/Quantum_computing</a></p></li>
+<li><p><a href="https://en.wikipedia.org/wiki/Wormhole" class="uri">https://en.wikipedia.org/wiki/Wormhole</a></p></li>
+<li><p><a href="https://youtu.be/NRBygsNCYr0" class="uri">https://youtu.be/NRBygsNCYr0</a></p></li>
+<li><p><a href="https://www.quantamagazine.org/physicists-create-a-wormhole-using-a-quantum-computer-20221130/#:~:text=The%20wormhole%20emerged%20like%20a,today%20in%20the%20journal%20Nature.">Physicists Create a Holographic Wormhole Using a Quantum Computer</a></p></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>Astronomy</category>
+  <category>Astrophysics</category>
+  <guid>https://cosmic-charade.netlify.app/posts/birth-of-baby-worm-hole/index.html</guid>
+  <pubDate>Sat, 02 Mar 2024 18:30:00 GMT</pubDate>
+  <media:content url="https://cosmic-charade.netlify.app/posts/birth-of-baby-worm-hole/cover.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
 <item>
   <title>A Deadly Dice Game</title>
   <dc:creator>Abhirup Moitra</dc:creator>
@@ -2429,123 +2499,6 @@
   <guid>https://cosmic-charade.netlify.app/posts/towards-crossing the-intellectual-boundaries/index.html</guid>
   <pubDate>Thu, 08 Sep 2022 18:30:00 GMT</pubDate>
   <media:content url="https://cosmic-charade.netlify.app/posts/towards-crossing the-intellectual-boundaries/Par.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Evolution of Communication System</title>
-  <dc:creator>Abhirup Moitra</dc:creator>
-  <link>https://cosmic-charade.netlify.app/posts/communication-system/index.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<div style="color: navy; font-size: 19px; font-family: Garamond; text-align: center; border-radius: 4px; background-image: linear-gradient(#C3E5E5, #F6F7FC);">
-<p>Imagine Abhirup has an idea, and he wants to share it. There are so many ways to share an idea. He could draw a picture, make an engraving, write a song, or send a telegraph or an email. But how are these things different? And more importantly why are they the same?</p>
-</div>
-<section id="the-fundamental-building-blocks" class="level1">
-<h1><strong>The Fundamental Building Blocks</strong></h1>
-<p>This story is about a fundamental particle of all forms of communication. It begins with a special skill you likely take for granted i.e.&nbsp;<strong><em>Language</em></strong>. All language allows you to take a thought or mental object and break it down into a series of conceptual chunks. These chunks are externalized using a series of signals or symbols.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/communication-system/1657341750354.png" class="img-fluid figure-img"></p>
-</figure>
-</div>
-<p>Humans express themselves using a variation in sound and physical action, as do chirping birds and dancing bees. And man-made machines exchange a dancing stream of electrical vibrations. Even our bodies are built according to instructions stored inside microscopic books known as DNA. All are different forms of one thing i.e.&nbsp;<strong>INFORMATION.</strong></p>
-<section id="how-to-measure-information" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-measure-information"><strong>How to Measure Information</strong></h2>
-<p>Information is what allows one mind to influence another. It’s based on the idea of communication as selection. Information, no matter the form, can be measured using a fundamental unit, in the same way, we can measure the mass of different objects. Using a standard measure such as kilograms or pounds. This allows us to precisely measure and compares the weight of objects. Say, rocks, water, or wheat using a scale. Information can be measured and compared using a measurement called <strong>Entropy</strong>. Think of it as an information scale. We intuitively know that a single page from some unknown book has less information than the entire book. We can describe exactly how much using a unit called a bit, a measure of surprise. So, no matter how Abhirup wants to communicate a specific message. Hieroglyphics, music, and computer code, each would contain the same number of bits, though in different densities. And a bit is linked to a very simple idea. The answer to a yes or no question. Think of it as the language of coins.</p>
-<blockquote class="blockquote">
-<p>So how is information measured? Does the information have a speed limit? A maximum density?&nbsp;</p>
-</blockquote>
-<p>Information Theory holds the exciting answer to these questions. It’s an idea over 3000 years in the making. But before we can understand this, we must step back and explore perhaps the most powerful invention in human history i.e., <strong>the Alphabet</strong> and for this, we return to the cave.&nbsp;</p>
-<p>Informally we can think of information as some message, stored or transmitted using some medium. When you paint you are representing your message using a continuous pattern with a seemingly endless number of possible forms. You’re free to express yourself. When humans began developing writing systems, we naturally had to divide our world into a finite number of atomic units which we express using symbols. Any written language can be thought of in this way. Messages are formed by arranging symbols in specific patterns.</p>
-</section>
-<section id="looking-back-at-history" class="level2">
-<h2 class="anchored" data-anchor-id="looking-back-at-history">Looking back at History</h2>
-<p>Let’s return to 3000 BC and explore two ancient writing systems. First, in ancient Egypt, we had <strong>Hieroglyphics</strong>, a priestly form reserved for governmental, fiscal, magical, and religious purposes. It was practiced by select few writers known as scribes and writing was generally unintelligible to the common people.&nbsp;</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/communication-system/1657342968082.jpg" class="img-fluid figure-img" width="286"></p>
-</figure>
-</div>
-<p>The symbols themselves broadly fall into two categories namely word signs, which are symbols that represent a single meaningful concept. And sound signs represent chunks of sound. Now, the total number of different symbols in common use was over 1500 and if you divide all these symbols into word signs and vs.&nbsp;sound signs, we find a much smaller portion of sound signs. There were around 140 sound signs, and of these, only 33 represented distinct consonants, a tiny fraction of all the symbols in use. At the time, the medium used to store the symbols was primarily rock, and this was ideal for durable inscriptions, allowing messages to travel into the future. Mobility was not the main concern when communicating messages in this way. However, a new physical medium for storing symbols was emerging at the time. Along the Nile, silt deposits left from flooding made the surrounding land extremely fertile, and one of the many crops they grew was Papyrus.</p>
-<p><br>
-</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/communication-system/1657343078492.jpg" class="img-fluid figure-img" width="380"></p>
-</figure>
-</div>
-<p>It could be sliced into strips and these strips were then soaked, weaved together, and finally pressed, allowing the natural sugars to act as glue. After several days, it dried and formed an almost weightless tablet. This medium was ideal for sending messages across greater spaces, rather than the more durable inscriptions focused on time. This shift towards cheap portable mediums for storing symbols coincides with the spread of writing into the hands of more people for new purposes. Gradually people began to write more on Papyrus, the symbols involved to suit rapid writing This led to a cursive script, known as Hieratic.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/communication-system/1657343109621.jpg" class="img-fluid figure-img" width="353"></p>
-</figure>
-</div>
-<p>For example, here is the world’s oldest surviving surgical document. It’s written in Hieratic script, dated to around 1600 BC. These symbols were based on Hieroglyphics; however, the picture was simplified to match the swiftness of writings in ancient shorthand. Also, the number of common symbols in use began to shrink down to around 700. By escaping from the heavy medium of stone, thought gained lightness.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/communication-system/1657343352318.jpg" class="img-fluid figure-img" width="286"></p>
-</figure>
-</div>
-<p>A marked increase in writing by hand was accompanied by the secularization of writing, thoughts, and activity. This led to a new writing system called Demotic around 650 BC, which was devised specifically to facilitate the ease of rapid writing.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/communication-system/1657343436180.jpg" class="img-fluid figure-img" width="149"></p>
-</figure>
-</div>
-<p>For example, this text is known as the marriage contract and is one of the earliest known examples of Demotic script. It is interesting to notice that there was a dramatic reduction again in the total number of symbols with this new system, roughly 10 percent of the total number of symbols used before. This was due to a shift towards the use of phonetic symbols, or sound signs ‘Be’, and ‘Ze’. Overword symbols, or meaning signs. And the new simplicity meant that children could be taught to write at a young age. We see this same pattern in other cultures Let’s return to 3000 BC and visit Mesopotamia, where Cuneiform was the writing system originally used for fiscal purposes, as it was a powerful method of tracking debt and surplus commodities before the invention of coins.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/communication-system/1657343691852.jpg" class="img-fluid figure-img" width="199"></p>
-</figure>
-</div>
-<p>For example, here is a document recording someone’s stock of animal hides, and this type of writing evolved to suit other needs. This tablet contains a recipe for bread and beer, and here’s another tablet given below which contains a legal document.</p>
-<p>Originally, the writing system was used by the Sumerians, and there were over 2000 different symbols in use, which could also be divided into words and sound signs. Akkadian gradually replaced Sumerian as the spoken language, here is the earliest known dictionary from 2300 BC. It contains word lists in Sumerian and Akkadian, and this was discovered in modern Syria.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/communication-system/1657343931234.jpg" class="img-fluid figure-img" width="169"></p>
-</figure>
-</div>
-<p>When it was adopted by the Akkadians and fitted to their language, they reduced the number of symbols to around 600, and they did this again by moving toward sound signs. Again, we see both Hieroglyphics and Cuneiform using several hundred sound symbols in their more involved forms, and the writing system escaped their formal usage and spread to more and more people, the soil was ripe for the invention of a brand-new writing system for the people. One of the great discoveries in the history of writing dates to around 1700 BC. The Sinai inscription was found in the Sinai Peninsula, and they were about 20 feet apart.</p>
-<p>This was important because each picture denotes a consonant sound, and no word signs are used. When sounded out correctly, the letters would produce words in ancient Semitic. Although not fully deciphered, this message appears to be in the form, of “name, rank, and prayer”. The two words deciphered are “Chief” and “God”.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/communication-system/1657343968445.jpg" class="img-fluid figure-img" width="348"></p>
-</figure>
-</div>
-<p>This innocent example was part of a writing revolution, creating meaning by merging sound signs only. By 1000 BC, we arrive at the Phoenician Alphabet, which emerges along the Mediterranean used by the Phoenicians who are maritime trading culture.</p>
-<p>The Phoenician writing system was based on the principle that one represents one consonant, and it was used to write a northern Semitic language, containing only 22 symbols in total. The symbols chosen to represent these sounds were often borrowed from Hieroglyphics pictures so that the letters’ names began with the letter’s sound. For example, mem, which stood for water, became what we know of as the letter ‘<strong>M</strong>’. Aleph, which stood for ox, became what we know of as the letter ‘<strong>A</strong>’, but the secret power of the alphabet, unknown to its inventors, was that it did not need Semitic speech to work.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/communication-system/1657344072177.jpg" class="img-fluid figure-img" width="373"></p>
-</figure>
-</div>
-<p>With modest adjustments, these miraculous letters would be fitted to diverse tongues of Europe, India, and Southeast Asia carrying literacy around the globe. This was the source of the Greek and later Roman alphabet forms we know today.</p>
-</section>
-<section id="collection-of-possible-symbols" class="level2">
-<h2 class="anchored" data-anchor-id="collection-of-possible-symbols"><strong>Collection of Possible Symbols</strong></h2>
-<p>The idea of an alphabet is a powerful method for transmitting and storing information. Realize, that it does not matter what the symbols are. Or how you choose them, or even what language it’s in, information is just a selection from a collection of <strong>possible symbols</strong>. And over time, we’ve always looked for faster, more efficient ways of transporting information across greater and greater spaces, and when we try doing this using new mediums, which travel faster than any human or animal, an engineering problem presents itself.</p>
-</section>
-</section>
-<section id="reference" class="level1">
-<h1>Reference:</h1>
-<ol type="1">
-<li><p><a href="https://www.quantamagazine.org/how-claude-shannons-information-theory-invented-the-future-20201222/">How Claude Shannon Invented the Future</a></p></li>
-<li><p><a href="https://web.mit.edu/6.933/www/Fall2001/Shannon2.pdf">INFORMATION THEORY AND THE DIGITAL AGE by AFTAB, CHEUNG, KIM, THAKKAR, YEDDANAPUDI</a></p></li>
-<li><p>Chiu, Eugene, et al.&nbsp;“Mathematical Theory of Claude Shannon.” 13 December 2001.</p></li>
-<li><p>Committee in Communication Sciences at the University of Michigan. Summary Report of the Program in Communication Sciences at the University of Michigan. April 15, 1960.</p></li>
-</ol>
-
-
-</section>
-
- ]]></description>
-  <category>Statistics</category>
-  <category>Information Theory</category>
-  <guid>https://cosmic-charade.netlify.app/posts/communication-system/index.html</guid>
-  <pubDate>Fri, 08 Jul 2022 18:30:00 GMT</pubDate>
-  <media:content url="https://cosmic-charade.netlify.app/posts/communication-system/info.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
