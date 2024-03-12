@@ -2,7 +2,7 @@
 title: "Birth of Baby Wormhole in Quantum Lab"
 author: Aditi Roy Chowdhury
 date: 2024-03-03
-categories: [Astronomy, Astrophysics, ]
+categories: [Astronomy, Astrophysics]
 image: cover.png
 ---
 

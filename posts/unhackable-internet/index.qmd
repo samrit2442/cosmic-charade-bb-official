@@ -1,0 +1,51 @@
+---
+title: "Unhackable Internet"
+author: Diganta Paul
+date: 2024-03-11
+categories: [Technology, Physics]
+image: Cover Image.jpg
+---
+
+When it comes to traditional communications using internet, most information is protected by giving the sender and recipient a shared key and then encrypting the information with that key. The recipient can then decrypt the information at their end using their key. The security of traditional communication is based on classical computing, and it is built on a key generation process that is difficult but not impossible for hackers to crack. That is why scientists are attempting to make this communication mechanism “Quantum”, they are trying to bring “Quantum Internet” to reality! The security of communication using quantum internet lies at the heart of “**Quantum Key Distribution**” which is based on “**Quantum Computing**”.
+
+## Qubit
+
+We really cannot understand a quantity if we cannot measure it, and we need a unit to measure the quantity. Similarly, to comprehend “Quantum Computing”, we need to know about a basic unit that is used in “Quantum Computing” to process information. “Quantum Bit” or “Qubit” is such a type of unit. In other words, “Qubit” is the quantum version of the “Binary Digit” which is a basic unit of information in classical computing. If we want to realize a qubit physically, we can consider it to be a two-state quantum system. The examples of the simplest two-state quantum systems include an electron for which the two states can be taken as spin up and spin down; or a single photon for which the two states can be taken to be the vertical polarization and the horizontal polarization.
+
+![(*left*) Spin Up Electron (Qubit \|1\>State); (*right*) Spin Down Electron (Qubit \|0\>State)](Image%20-%20Spin%20Up%20and%20Spin%20Down%20Electron.png){style="text-align:center" fig-align="center"}
+
+![Vertically Polarized Photon (Qubit in \|1\> State) and Horizontally Polarized Photon (Qubit in \|0\> State)](Image%20-%20Horizontal%20and%20Vertical%20Polarization%20of%20Photon.png){style="text-align: center" fig-align="center"}
+
+## Qubit vs Binary Digits
+
+When we have already got a superficial understanding of what qubit is, its physical comparison with binary digit will provide us with insight.
+
+A binary digit is physically a two-state classical system that is always in single state i.e. it must be in either \|0\> state or \|1\> state, just like a light switch must be either on or off, or just like a cat must be either dead or living. The state of a binary digit never gets disturbed when it is processed. On the other hand; qubit remains in dual state i.e. \|0\> state and \|1\> state both at the same time when it is being transmitted from sender to recipient, but it is demoted to single state i.e. either \|0\> state or \|1\> state as soon as the recipient processes it.
+
+## Quantum Internet
+
+The quantum internet is a network that allows quantum computers or quantum CPUs to communicate using quantum signals, in other words, quantum internet allows quantum computers or quantum CPUs to exchange information using qubits.
+
+Though two ways have been identified so far to transmit quantum signals, quantum internet is still in its infancy due to some impediments!
+
+The first way is to deliver qubits of particular quantum state (dual state) one-way to the recipient through optical fibre cables. Because qubits may quickly get attenuated or dispersed in an optical fibre cable, quantum signals are extremely error-prone and have a hard time travelling great distances. In reality, current tests are restricted to only a few hundred kilometres in range. Moreover, qubits are so fragile that they tend to break down when recipient processes them, but a new research has been conducted by a team of renowned physicists and the study has demonstrated that researchers can read out signals from a type of qubit known as superconducting qubit using visible laser without the risk of destroying it. The team has used a wafer-thin piece of silicon and nitrogen to transform the signal that comes out of a superconducting qubit into visible laser photons and then the photons have been sent to recipient through optical fibre cable for processing.
+
+The second way of quantum signal transmission utilizes the quantum property called “Quantum Entanglement”. If two qubits, whose quantum states are entangled, are delivered respectively to the sender and the recipient in a matching circuit of optical fibre cables; the sender may effectively transfer information to the qubit of recipient end by making some change in the quantum state of the qubit of its end without the help of any physical link to connect the two qubits. The bottlenecks in this mechanism of signal transmission are the difficulty to produce entangled qubits, the difficulty to transmit them across vast distances, and the difficulty to process them without destroying their content.
+
+![Quantum Entanglement](Image%20-%20Quantum%20Entanglement.png){fig-align="center"}
+
+## Why is Quantum Internet Unhackable?
+
+Quantum internet is unhackable due to the secure communication method called “Quantum Key Distribution” which implements a cryptographic protocol involving components of quantum mechanics. It enables the sender and the recipient to produce a shared random secret key known only to them, they are able to use it to encrypt and decrypt information. An important and unique property of quantum key distribution is the ability of the sender and the recipient to detect the presence of any third party trying to gain knowledge of the key! This results from a fundamental aspect of quantum mechanics: the process of measuring a parameter of a quantum system in general disturbs the quantum system. By using quantum entanglement or transmitting information in quantum states, quantum internet behaves as a quantum system. A third party trying to eavesdrop on the key must in some way measure it, and thus it introduces detectable anomalies in quantum internet!
+
+If the level of eavesdropping is below a certain threshold, a key is produced but the eavesdropper will have no information about the key; if the level of eavesdropping crosses the threshold, no key gets produced and the communication between the sender and the recipient will be aborted! As result, no way an unwanted third party gets to know the information that is being transmitted from the sender to the recipient.
+
+## References:
+
+1.  [Everything You Must Know About Unhackable Quantum Internet](https://www.analyticsinsight.net/everything-you-must-know-about-unhackable-quantum-internet/)
+
+2.  [Quantum Internet By Professor Lili Saghafi](https://www.slideshare.net/lsaghafi/quantum-internet-by-professor-lili-saghafi)
+
+3.  Shannon, C. E. (1949). "Communication Theory of Secrecy Systems\*". *Bell System Technical Journal*. Institute of Electrical and Electronics Engineers (IEEE). **28** (4): 656–715.
+
+4.  [https://jemengineering.com/](https://jemengineering.com/%5D)
