@@ -1,2 +1,1 @@
-**Official Website of Cosmic Charade**
-
+# Official Website of Cosmic Charade
