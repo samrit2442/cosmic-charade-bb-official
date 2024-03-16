@@ -52,6 +52,10 @@ $$
 :::
 
 ::: {style="font-family: Kalpurush; font-size: 20px"}
+[এখান](https://samritpramanik.shinyapps.io/collatz-conjecture-shiny/ "https://samritpramanik.shinyapps.io/collatz-conjecture-shiny/")ে একটি সুন্দর R Shiny এনিমেটেড ভিজ্যুয়ালাইজেশন প্রস্তুত করা হয়েছে। (A beautiful R Shiny animated Visualization is presented [here](https://samritpramanik.shinyapps.io/collatz-conjecture-shiny/ "https://samritpramanik.shinyapps.io/collatz-conjecture-shiny/")).
+:::
+
+::: {style="font-family: Kalpurush; font-size: 20px"}
 ### তথ্য সূত্র:
 :::
 
@@ -59,4 +63,4 @@ $$
 
 -   Collatz Conjecture - Wikipedia
 
--   [The Simple Math Problem We Still Can\'t Solve \| Quanta Magazine](https://www.quantamagazine.org/why-mathematicians-still-cant-solve-the-collatz-conjecture-20200922/#:~:text=The%20Collatz%20conjecture%20states%20that,can%20start%20around%20300%20quintillion.)
+-   [The Simple Math Problem We Still Can't Solve \| Quanta Magazine](https://www.quantamagazine.org/why-mathematicians-still-cant-solve-the-collatz-conjecture-20200922/#:~:text=The%20Collatz%20conjecture%20states%20that,can%20start%20around%20300%20quintillion.)
