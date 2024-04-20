@@ -12,6 +12,8 @@ website:
        - text: Home
          file: index.qmd
        - href: about.qmd
+       - text: Submit Your Blog
+         file: guidelines.qmd
        - href: posts.qmd
        - href: liter.qmd
        - text: Cosmic Courses
