@@ -12,8 +12,8 @@ website:
        - text: Home
          file: index.qmd
        - href: about.qmd
-       - text: Submit Your Blog
-         file: guidelines.qmd
+       # - text: Submit Your Blog
+       #   file: guidelines.qmd
        - href: posts.qmd
        - href: liter.qmd
        - text: Cosmic Courses
@@ -39,6 +39,7 @@ website:
         href: https://youtube.com/@cosmiccharade33?si=m3B9lqSqcioNJVtb
   page-footer: Proudly made with Quarto 💙 <br> Copyright © 2024 | Contact us <br> [Privacy Policy](privacy_policy.qmd)
   margin-footer: subscribe.html
+  # margin-header: guidelines.qmd
   reader-mode: true
   # page-footer: href: date_time.qmd
       #   href: https://github.com/

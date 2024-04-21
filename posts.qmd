@@ -9,7 +9,9 @@ listing:
   filter-ui: true
   fields: [image, date, description, categories, title, author, reading-time]
   feed: true
-  page-size: 30
+  page-size: 10
 page-layout: full
 title-block-banner: true
 ---
+
+## [Submit Your Blog](guidelines.qmd) {style="text-align: center; background-image: linear-gradient(to right, blue, black, blue); border-radius: 8px 10px;"}
