@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.433">
+<meta name="generator" content="quarto-1.4.553">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -50,7 +50,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -59,6 +65,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -115,6 +122,8 @@ cookieconsent.run({
   "notice_banner_reject_button_hide":false,
   "preferences_center_close_button_hide":false,
   "website_name":""
+  ,
+"language":"en"
   });
 });
 </script> 
@@ -123,19 +132,46 @@ cookieconsent.run({
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 <link rel="stylesheet" href="styles.css">
-<link rel="alternate" type="application/rss+xml" title="Cosmic Charade🪐🌠" href="posts.xml"><meta property="og:title" content="Cosmic Charade🪐🌠 - Blogs">
+<link rel="alternate" type="application/rss+xml" title="Cosmic Charade🪐🌠" href="posts.xml" data-external="1"><meta property="og:title" content="Cosmic Charade🪐🌠 - Blogs">
 <meta property="og:image" content="https://cosmic-charade.netlify.app/logo-with-bg-2.jpg">
-<meta property="og:site-name" content="Cosmic Charade🪐🌠">
+<meta property="og:site_name" content="Cosmic Charade🪐🌠">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Cosmic Charade🪐🌠</span>
     </a>
@@ -147,81 +183,81 @@ cookieconsent.run({
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
- <span class="menu-text">Home</span></a>
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
- <span class="menu-text">About Us</span></a>
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About Us</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./posts.html" rel="" target="" aria-current="page">
- <span class="menu-text">Blogs</span></a>
+    <a class="nav-link active" href="./posts.html" aria-current="page"> 
+<span class="menu-text">Blogs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./liter.html" rel="" target="">
- <span class="menu-text">Cosmic Literature</span></a>
+    <a class="nav-link" href="./liter.html"> 
+<span class="menu-text">Cosmic Literature</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-cosmic-courses" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-cosmic-courses" role="button" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Cosmic Courses</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-cosmic-courses">    
         <li>
-    <a class="dropdown-item" href="./r4e.pdf" rel="" target="">
+    <a class="dropdown-item" href="./r4e.pdf">
  <span class="dropdown-text">R for Everyone</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./actrp.pdf" rel="" target="">
+    <a class="dropdown-item" href="./actrp.pdf">
  <span class="dropdown-text">Computational Thinking with R + Python</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./squad_new2.html" rel="" target="">
- <span class="menu-text">Cosmic Squad</span></a>
+    <a class="nav-link" href="./squad_new2.html"> 
+<span class="menu-text">Cosmic Squad</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="mailto:cosmiccharade0@gmail.com" rel="" target=""><i class="bi bi-envelope" role="img">
+    <a class="nav-link" href="mailto:cosmiccharade0@gmail.com"> <i class="bi bi-envelope" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://www.instagram.com/bismoykar_bramhanda/" rel="" target=""><i class="bi bi-instagram" role="img">
+    <a class="nav-link" href="https://www.instagram.com/bismoykar_bramhanda/"> <i class="bi bi-instagram" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://linkedin.com/company/bismoykar-bramhanda" rel="" target=""><i class="bi bi-linkedin" role="img">
+    <a class="nav-link" href="https://linkedin.com/company/bismoykar-bramhanda"> <i class="bi bi-linkedin" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://chat.whatsapp.com/BwGDsLPHX6i1ID4711I2DQ" rel="" target=""><i class="bi bi-whatsapp" role="img">
+    <a class="nav-link" href="https://chat.whatsapp.com/BwGDsLPHX6i1ID4711I2DQ"> <i class="bi bi-whatsapp" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://t.me/bismoykar_bramhanda_cc" rel="" target=""><i class="bi bi-telegram" role="img">
+    <a class="nav-link" href="https://t.me/bismoykar_bramhanda_cc"> <i class="bi bi-telegram" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://youtube.com/@cosmiccharade33?si=m3B9lqSqcioNJVtb" rel="" target=""><i class="bi bi-youtube" role="img">
+    <a class="nav-link" href="https://youtube.com/@cosmiccharade33?si=m3B9lqSqcioNJVtb"> <i class="bi bi-youtube" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
   <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
   <div class="quarto-reader-toggle-btn">
   <i class="bi"></i>
   </div>
 </a>
 </div>
-          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -234,7 +270,7 @@ cookieconsent.run({
   </div>
     
   
-  <div class="quarto-title-meta">
+  <div class="quarto-title-meta column-page-left">
 
       
     
@@ -247,7 +283,7 @@ cookieconsent.run({
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(27)</span></div><div class="category" data-category="Art">Art <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Astronomy">Astronomy <span class="quarto-category-count">(10)</span></div><div class="category" data-category="Astrophysics">Astrophysics <span class="quarto-category-count">(11)</span></div><div class="category" data-category="Bayesian">Bayesian <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Conjecture">Conjecture <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Information Theory">Information Theory <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Mathematics">Mathematics <span class="quarto-category-count">(11)</span></div><div class="category" data-category="Music">Music <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Networking">Networking <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Paradox">Paradox <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Physics">Physics <span class="quarto-category-count">(11)</span></div><div class="category" data-category="Probability">Probability <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Statistics">Statistics <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Technology">Technology <span class="quarto-category-count">(1)</span></div></div><div class="quarto-margin-footer"><div class="margin-footer-item">
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(28)</span></div><div class="category" data-category="Art">Art <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Astronomy">Astronomy <span class="quarto-category-count">(10)</span></div><div class="category" data-category="Astrophysics">Astrophysics <span class="quarto-category-count">(11)</span></div><div class="category" data-category="Bayesian">Bayesian <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Conjecture">Conjecture <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Information Theory">Information Theory <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Mathematics">Mathematics <span class="quarto-category-count">(12)</span></div><div class="category" data-category="Music">Music <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Networking">Networking <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Paradox">Paradox <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Physics">Physics <span class="quarto-category-count">(11)</span></div><div class="category" data-category="Probability">Probability <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Probability Theory">Probability Theory <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Statistics">Statistics <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Technology">Technology <span class="quarto-category-count">(1)</span></div></div><div class="quarto-margin-footer"><div class="margin-footer-item">
 <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-071822.css" rel="stylesheet" type="text/css">
 <style type="text/css">
@@ -288,6 +324,7 @@ cookieconsent.run({
 
 
 
+
 <section id="submit-your-blog" class="level2" style="text-align: center; background-image: linear-gradient(to right, blue, black, blue); border-radius: 8px 10px;">
 <h2 style="text-align: center; background-image: linear-gradient(to right, blue, black, blue); border-radius: 8px 10px;" class="anchored" data-anchor-id="submit-your-blog"><a href="./guidelines.html">Submit Your Blog</a></h2>
 
@@ -322,19 +359,58 @@ cookieconsent.run({
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Technology,Physics" data-listing-date-sort="1710095400000" data-listing-file-modified-sort="1710216741204" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
+<div class="quarto-post image-right" data-index="0" data-categories="Mathematics,Probability Theory,Paradox" data-listing-file-modified-sort="1713999833834" data-listing-reading-time-sort="9" data-listing-word-count-sort="1768">
 <div class="thumbnail">
-<p><a href="./posts/unhackable-internet/index.html"> <img src="./posts/unhackable-internet/Cover Image.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/parrondo-paradox/index.html" class="no-external"></a></p><a href="./posts/parrondo-paradox/index.html" class="no-external">
+<p><img src="./posts/parrondo-paradox/wallpaper.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/parrondo-paradox/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/unhackable-internet/index.html">
 <h3 class="no-anchor listing-title">
-Unhackable Internet
+<a href="./posts/parrondo-paradox/index.html" class="no-external">The Art of Turning Losses into Wins</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/parrondo-paradox/index.html" class="no-external">Embracing Parrondo’s Paradox in the Game of Life</a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Mathematics'); return false;">
+Mathematics
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Probability Theory'); return false;">
+Probability Theory
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Paradox'); return false;">
+Paradox
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/parrondo-paradox/index.html" class="no-external"><strong>A combination of losing strategies becomes a winning strategy</strong></a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./posts/parrondo-paradox/index.html" class="no-external"></a></p><a href="./posts/parrondo-paradox/index.html" class="no-external">
+<div class="listing-author">
+Abhirup Moitra
+</div>
+<div class="listing-reading-time">
+9 min
 </div>
 </a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="Technology,Physics" data-listing-date-sort="1710095400000" data-listing-file-modified-sort="1713621270075" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1005">
+<div class="thumbnail">
+<p><a href="./posts/unhackable-internet/index.html" class="no-external"></a></p><a href="./posts/unhackable-internet/index.html" class="no-external">
+<p><img src="./posts/unhackable-internet/Cover Image.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/unhackable-internet/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/unhackable-internet/index.html" class="no-external">Unhackable Internet</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/unhackable-internet/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Technology'); return false;">
 Technology
@@ -343,14 +419,12 @@ Technology
 Physics
 </div>
 </div>
-<a href="./posts/unhackable-internet/index.html">
 <div class="listing-description">
-When it comes to traditional communications using internet, most information is protected by giving the sender and recipient a shared key and then encrypting the information…<strong></strong><strong></strong>
+<a href="./posts/unhackable-internet/index.html" class="no-external">When it comes to traditional communications using internet, most information is protected by giving the sender and recipient a shared key and then encrypting the information…<strong></strong><strong></strong></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/unhackable-internet/index.html">
+<a href="./posts/unhackable-internet/index.html" class="no-external">
 <div class="listing-date">
 Mar 11, 2024
 </div>
@@ -363,19 +437,19 @@ Diganta Paul
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="Astronomy,Astrophysics" data-listing-date-sort="1709404200000" data-listing-file-modified-sort="1710050660863" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<div class="quarto-post image-right" data-index="2" data-categories="Astronomy,Astrophysics" data-listing-date-sort="1709404200000" data-listing-file-modified-sort="1713621270062" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="912">
 <div class="thumbnail">
-<p><a href="./posts/birth-of-baby-worm-hole/index.html"> <img src="./posts/birth-of-baby-worm-hole/cover.png" class="thumbnail-image"> </a></p>
+<p><a href="./posts/birth-of-baby-worm-hole/index.html" class="no-external"></a></p><a href="./posts/birth-of-baby-worm-hole/index.html" class="no-external">
+<p><img src="./posts/birth-of-baby-worm-hole/cover.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/birth-of-baby-worm-hole/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/birth-of-baby-worm-hole/index.html">
 <h3 class="no-anchor listing-title">
-Birth of Baby Wormhole in Quantum Lab
+<a href="./posts/birth-of-baby-worm-hole/index.html" class="no-external">Birth of Baby Wormhole in Quantum Lab</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/birth-of-baby-worm-hole/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Astronomy'); return false;">
 Astronomy
@@ -384,14 +458,12 @@ Astronomy
 Astrophysics
 </div>
 </div>
-<a href="./posts/birth-of-baby-worm-hole/index.html">
 <div class="listing-description">
-It was 2014, a team of explorers travelled beyond this galaxy through a newly discovered wormhole, but not in real, in movie. Yes, you got it right. It is the…
+<a href="./posts/birth-of-baby-worm-hole/index.html" class="no-external">It was 2014, a team of explorers travelled beyond this galaxy through a newly discovered wormhole, but not in real, in movie. Yes, you got it right. It is the famous science…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/birth-of-baby-worm-hole/index.html">
+<a href="./posts/birth-of-baby-worm-hole/index.html" class="no-external">
 <div class="listing-date">
 Mar 3, 2024
 </div>
@@ -404,19 +476,19 @@ Aditi Roy Chowdhury
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="Probability,Mathematics" data-listing-date-sort="1687199400000" data-listing-file-modified-sort="1687204777062" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<div class="quarto-post image-right" data-index="3" data-categories="Probability,Mathematics" data-listing-date-sort="1687199400000" data-listing-file-modified-sort="1706505625118" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="857">
 <div class="thumbnail">
-<p><a href="./posts/probability-problem/index.html"> <img src="./posts/probability-problem/dice.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/probability-problem/index.html" class="no-external"></a></p><a href="./posts/probability-problem/index.html" class="no-external">
+<p><img src="./posts/probability-problem/dice.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/probability-problem/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/probability-problem/index.html">
 <h3 class="no-anchor listing-title">
-A Deadly Dice Game
+<a href="./posts/probability-problem/index.html" class="no-external">A Deadly Dice Game</a>
 </h3>
 <div class="listing-subtitle">
-Always be a little improbable
+<a href="./posts/probability-problem/index.html" class="no-external">Always be a little improbable</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Probability'); return false;">
 Probability
@@ -425,14 +497,12 @@ Probability
 Mathematics
 </div>
 </div>
-<a href="./posts/probability-problem/index.html">
 <div class="listing-description">
-A deadly dice game that from your perspective gives you a <span class="math inline">\(97.2\%\)</span> chance of surviving. But from your friend’s perspective, there’s a <span class="math inline">\(90\%\)</span> chance that this game…
+<a href="./posts/probability-problem/index.html" class="no-external">A deadly dice game that from your perspective gives you a <span class="math inline">\(97.2\%\)</span> chance of surviving. But from your friend’s perspective, there’s a <span class="math inline">\(90\%\)</span> chance that this game kills…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/probability-problem/index.html">
+<a href="./posts/probability-problem/index.html" class="no-external">
 <div class="listing-date">
 Jun 20, 2023
 </div>
@@ -445,19 +515,19 @@ Abhirup Moitra
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="Physics,Art,Astronomy" data-listing-date-sort="1685989800000" data-listing-file-modified-sort="1686035908723" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<div class="quarto-post image-right" data-index="4" data-categories="Physics,Art,Astronomy" data-listing-date-sort="1685989800000" data-listing-file-modified-sort="1706505625491" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="880">
 <div class="thumbnail">
-<p><a href="./posts/van-gough-his-art/index.html"> <img src="./posts/van-gough-his-art/art-starry-night.gif" class="thumbnail-image"> </a></p>
+<p><a href="./posts/van-gough-his-art/index.html" class="no-external"></a></p><a href="./posts/van-gough-his-art/index.html" class="no-external">
+<p><img src="./posts/van-gough-his-art/art-starry-night.gif" class="thumbnail-image"></p>
+</a><p><a href="./posts/van-gough-his-art/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/van-gough-his-art/index.html">
 <h3 class="no-anchor listing-title">
-Art of Impulse
+<a href="./posts/van-gough-his-art/index.html" class="no-external">Art of Impulse</a>
 </h3>
 <div class="listing-subtitle">
-Great things are not done by impulse
+<a href="./posts/van-gough-his-art/index.html" class="no-external">Great things are not done by impulse</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Physics'); return false;">
 Physics
@@ -469,14 +539,12 @@ Art
 Astronomy
 </div>
 </div>
-<a href="./posts/van-gough-his-art/index.html">
 <div class="listing-description">
-Thoughts without content are empty, intuitions without concepts are blind.
+<a href="./posts/van-gough-his-art/index.html" class="no-external">Thoughts without content are empty, intuitions without concepts are blind.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/van-gough-his-art/index.html">
+<a href="./posts/van-gough-his-art/index.html" class="no-external">
 <div class="listing-date">
 Jun 6, 2023
 </div>
@@ -489,19 +557,19 @@ Abhirup Moitra
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="Astrophysics,Physics" data-listing-date-sort="1683743400000" data-listing-file-modified-sort="1683902333521" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13">
+<div class="quarto-post image-right" data-index="5" data-categories="Astrophysics,Physics" data-listing-date-sort="1683743400000" data-listing-file-modified-sort="1706505625124" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13" data-listing-word-count-sort="2528">
 <div class="thumbnail">
-<p><a href="./posts/raman-scattering/index.html"> <img src="./posts/raman-scattering/rays-scattering.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/raman-scattering/index.html" class="no-external"></a></p><a href="./posts/raman-scattering/index.html" class="no-external">
+<p><img src="./posts/raman-scattering/rays-scattering.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/raman-scattering/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/raman-scattering/index.html">
 <h3 class="no-anchor listing-title">
-A Glorious Dispersion
+<a href="./posts/raman-scattering/index.html" class="no-external">A Glorious Dispersion</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/raman-scattering/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Astrophysics'); return false;">
 Astrophysics
@@ -510,14 +578,12 @@ Astrophysics
 Physics
 </div>
 </div>
-<a href="./posts/raman-scattering/index.html">
 <div class="listing-description">
-<strong><em>A scattering beam of light brings glory in the dark. A little positive effort can take you so far, towards the glory of&nbsp;our beautiful cosmos.</em></strong>
+<a href="./posts/raman-scattering/index.html" class="no-external"><strong><em>A scattering beam of light brings glory in the dark. A little positive effort can take you so far, towards the glory of&nbsp;our beautiful cosmos.</em></strong></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/raman-scattering/index.html">
+<a href="./posts/raman-scattering/index.html" class="no-external">
 <div class="listing-date">
 May 11, 2023
 </div>
@@ -530,32 +596,30 @@ Rajat Kanti Chatterjee
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="Mathematics" data-listing-date-sort="1680892200000" data-listing-file-modified-sort="1681410491821" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11">
+<div class="quarto-post image-right" data-index="6" data-categories="Mathematics" data-listing-date-sort="1680892200000" data-listing-file-modified-sort="1706505625017" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2021">
 <div class="thumbnail">
-<p><a href="./posts/pattern-in-prime/index.html"> <img src="./posts/pattern-in-prime/cover.gif" class="thumbnail-image"> </a></p>
+<p><a href="./posts/pattern-in-prime/index.html" class="no-external"></a></p><a href="./posts/pattern-in-prime/index.html" class="no-external">
+<p><img src="./posts/pattern-in-prime/cover.gif" class="thumbnail-image"></p>
+</a><p><a href="./posts/pattern-in-prime/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/pattern-in-prime/index.html">
 <h3 class="no-anchor listing-title">
-Melody in Patterns
+<a href="./posts/pattern-in-prime/index.html" class="no-external">Melody in Patterns</a>
 </h3>
 <div class="listing-subtitle">
-The true logic for this world is the calculus of Probabilities
+<a href="./posts/pattern-in-prime/index.html" class="no-external">The true logic for this world is the calculus of Probabilities</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Mathematics'); return false;">
 Mathematics
 </div>
 </div>
-<a href="./posts/pattern-in-prime/index.html">
 <div class="listing-description">
-It is evident that the primes are randomly distributed but, unfortunately, we don’t know what ‘<strong>random</strong>’ means.
+<a href="./posts/pattern-in-prime/index.html" class="no-external">It is evident that the primes are randomly distributed but, unfortunately, we don’t know what ‘<strong>random</strong>’ means.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/pattern-in-prime/index.html">
+<a href="./posts/pattern-in-prime/index.html" class="no-external">
 <div class="listing-date">
 Apr 8, 2023
 </div>
@@ -568,19 +632,19 @@ Abhirup Moitra
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="Astronomy,Astrophysics" data-listing-date-sort="1679769000000" data-listing-file-modified-sort="1709448247126" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
+<div class="quarto-post image-right" data-index="7" data-categories="Astronomy,Astrophysics" data-listing-date-sort="1679769000000" data-listing-file-modified-sort="1706505624721" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1091">
 <div class="thumbnail">
-<p><a href="./posts/art-of-gravitational-lensing/index.html"> <img src="./posts/art-of-gravitational-lensing/cover.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/art-of-gravitational-lensing/index.html" class="no-external"></a></p><a href="./posts/art-of-gravitational-lensing/index.html" class="no-external">
+<p><img src="./posts/art-of-gravitational-lensing/cover.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/art-of-gravitational-lensing/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/art-of-gravitational-lensing/index.html">
 <h3 class="no-anchor listing-title">
-The Art of Gravitational Lensing
+<a href="./posts/art-of-gravitational-lensing/index.html" class="no-external">The Art of Gravitational Lensing</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/art-of-gravitational-lensing/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Astronomy'); return false;">
 Astronomy
@@ -589,14 +653,12 @@ Astronomy
 Astrophysics
 </div>
 </div>
-<a href="./posts/art-of-gravitational-lensing/index.html">
 <div class="listing-description">
-“Gravitational lensing by a neutron star is so strong that a neutron can see its own back!” — Let’s peep through a natural, gigantic magnifying glass.
+<a href="./posts/art-of-gravitational-lensing/index.html" class="no-external">“Gravitational lensing by a neutron star is so strong that a neutron can see its own back!” — Let’s peep through a natural, gigantic magnifying glass.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/art-of-gravitational-lensing/index.html">
+<a href="./posts/art-of-gravitational-lensing/index.html" class="no-external">
 <div class="listing-date">
 Mar 26, 2023
 </div>
@@ -609,19 +671,19 @@ Shruti Bhattacharya
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="Astronomy,Astrophysics" data-listing-date-sort="1676572200000" data-listing-file-modified-sort="1676577018917" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8">
+<div class="quarto-post image-right" data-index="8" data-categories="Astronomy,Astrophysics" data-listing-date-sort="1676572200000" data-listing-file-modified-sort="1706505624749" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1546">
 <div class="thumbnail">
-<p><a href="./posts/early-astronomy/index.html"> <img src="./posts/early-astronomy/cover.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/early-astronomy/index.html" class="no-external"></a></p><a href="./posts/early-astronomy/index.html" class="no-external">
+<p><img src="./posts/early-astronomy/cover.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/early-astronomy/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/early-astronomy/index.html">
 <h3 class="no-anchor listing-title">
-Early Astronomy: The Beginning of Cosmic Expedition
+<a href="./posts/early-astronomy/index.html" class="no-external">Early Astronomy: The Beginning of Cosmic Expedition</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/early-astronomy/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Astronomy'); return false;">
 Astronomy
@@ -630,14 +692,12 @@ Astronomy
 Astrophysics
 </div>
 </div>
-<a href="./posts/early-astronomy/index.html">
 <div class="listing-description">
-“Earth is a small town with many neighbourhoods in a very big universe” — Ron Garan.
+<a href="./posts/early-astronomy/index.html" class="no-external">“Earth is a small town with many neighbourhoods in a very big universe” — Ron Garan.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/early-astronomy/index.html">
+<a href="./posts/early-astronomy/index.html" class="no-external">
 <div class="listing-date">
 Feb 17, 2023
 </div>
@@ -650,19 +710,19 @@ Nanda Lal Debnath
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="Astronomy,Astrophysics" data-listing-date-sort="1675103400000" data-listing-file-modified-sort="1675103989951" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9">
+<div class="quarto-post image-right" data-index="9" data-categories="Astronomy,Astrophysics" data-listing-date-sort="1675103400000" data-listing-file-modified-sort="1706505624958" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1608">
 <div class="thumbnail">
-<p><a href="./posts/jerry-nelson/index.html"> <img src="./posts/jerry-nelson/pic1.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/jerry-nelson/index.html" class="no-external"></a></p><a href="./posts/jerry-nelson/index.html" class="no-external">
+<p><img src="./posts/jerry-nelson/pic1.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/jerry-nelson/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/jerry-nelson/index.html">
 <h3 class="no-anchor listing-title">
-Jerry Nelson: The Father of W.M. Keck Observatory Telescopes
+<a href="./posts/jerry-nelson/index.html" class="no-external">Jerry Nelson: The Father of W.M. Keck Observatory Telescopes</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/jerry-nelson/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Astronomy'); return false;">
 Astronomy
@@ -671,14 +731,12 @@ Astronomy
 Astrophysics
 </div>
 </div>
-<a href="./posts/jerry-nelson/index.html">
 <div class="listing-description">
-“Two…
+<a href="./posts/jerry-nelson/index.html" class="no-external">“Two things fill the mind with ever new and increasing admiration and awe, the more often and steadily we reflect upon them: the starry heavens above me and the moral law…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/jerry-nelson/index.html">
+<a href="./posts/jerry-nelson/index.html" class="no-external">
 <div class="listing-date">
 Jan 31, 2023
 </div>
@@ -691,19 +749,19 @@ Shounak Bhattacharya
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="Astrophysics,Astronomy" data-listing-date-sort="1673548200000" data-listing-file-modified-sort="1674054726102" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8">
+<div class="quarto-post image-right" data-index="10" data-categories="Astrophysics,Astronomy" data-listing-date-sort="1673548200000" data-listing-file-modified-sort="1706505625207" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1476">
 <div class="thumbnail">
-<p><a href="./posts/story-of-relic-radiation/index.html"> <img src="./posts/story-of-relic-radiation/wmap.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/story-of-relic-radiation/index.html" class="no-external"></a></p><a href="./posts/story-of-relic-radiation/index.html" class="no-external">
+<p><img data-src="./posts/story-of-relic-radiation/wmap.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/story-of-relic-radiation/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/story-of-relic-radiation/index.html">
 <h3 class="no-anchor listing-title">
-Story of a Relic Radiation
+<a href="./posts/story-of-relic-radiation/index.html" class="no-external">Story of a Relic Radiation</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/story-of-relic-radiation/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Astrophysics'); return false;">
 Astrophysics
@@ -712,14 +770,12 @@ Astrophysics
 Astronomy
 </div>
 </div>
-<a href="./posts/story-of-relic-radiation/index.html">
 <div class="listing-description">
-<strong>“The next time you complain that there is nothing on, remember that you can always watch the birth of the universe.”</strong>
+<a href="./posts/story-of-relic-radiation/index.html" class="no-external"><strong>“The next time you complain that there is nothing on, remember that you can always watch the birth of the universe.”</strong></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/story-of-relic-radiation/index.html">
+<a href="./posts/story-of-relic-radiation/index.html" class="no-external">
 <div class="listing-date">
 Jan 13, 2023
 </div>
@@ -732,19 +788,19 @@ Rajat Kanti Chatterjee
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="Physics,Mathematics,Statistics" data-listing-date-sort="1672511400000" data-listing-file-modified-sort="1681410152277" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8">
+<div class="quarto-post image-right" data-index="11" data-categories="Physics,Mathematics,Statistics" data-listing-date-sort="1672511400000" data-listing-file-modified-sort="1706505625299" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1436">
 <div class="thumbnail">
-<p><a href="./posts/the-valuable-moment/index.html"> <img data-src="./posts/the-valuable-moment/moment.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/the-valuable-moment/index.html" class="no-external"></a></p><a href="./posts/the-valuable-moment/index.html" class="no-external">
+<p><img data-src="./posts/the-valuable-moment/moment.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/the-valuable-moment/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/the-valuable-moment/index.html">
 <h3 class="no-anchor listing-title">
-The Valuable Moment
+<a href="./posts/the-valuable-moment/index.html" class="no-external">The Valuable Moment</a>
 </h3>
 <div class="listing-subtitle">
-Muddled again at the moment
+<a href="./posts/the-valuable-moment/index.html" class="no-external">Muddled again at the moment</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Physics'); return false;">
 Physics
@@ -756,14 +812,12 @@ Mathematics
 Statistics
 </div>
 </div>
-<a href="./posts/the-valuable-moment/index.html">
 <div class="listing-description">
-<strong>Sometimes you will never know the true value of moment until it becomes memory. So, let’s explore the idea of the moment in terms of mathematics and relate this to reality.</strong>
+<a href="./posts/the-valuable-moment/index.html" class="no-external"><strong>Sometimes you will never know the true value of moment until it becomes memory. So, let’s explore the idea of the moment in terms of mathematics and relate this to reality.</strong></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/the-valuable-moment/index.html">
+<a href="./posts/the-valuable-moment/index.html" class="no-external">
 <div class="listing-date">
 Jan 1, 2023
 </div>
@@ -776,19 +830,19 @@ Abhirup Moitra
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="Statistics,Mathematics,Networking" data-listing-date-sort="1669833000000" data-listing-file-modified-sort="1679391672071" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="16">
+<div class="quarto-post image-right" data-index="12" data-categories="Statistics,Mathematics,Networking" data-listing-date-sort="1669833000000" data-listing-file-modified-sort="1706505624849" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="16" data-listing-word-count-sort="3104">
 <div class="thumbnail">
-<p><a href="./posts/friendship-paradox/index.html"> <img data-src="./posts/friendship-paradox/social-network.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/friendship-paradox/index.html" class="no-external"></a></p><a href="./posts/friendship-paradox/index.html" class="no-external">
+<p><img data-src="./posts/friendship-paradox/social-network.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/friendship-paradox/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/friendship-paradox/index.html">
 <h3 class="no-anchor listing-title">
-A Friend in Need is a Friend Indeed
+<a href="./posts/friendship-paradox/index.html" class="no-external">A Friend in Need is a Friend Indeed</a>
 </h3>
 <div class="listing-subtitle">
-Your friends, on average have more friends than you do
+<a href="./posts/friendship-paradox/index.html" class="no-external">Your friends, on average have more friends than you do</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Statistics'); return false;">
 Statistics
@@ -800,14 +854,12 @@ Mathematics
 Networking
 </div>
 </div>
-<a href="./posts/friendship-paradox/index.html">
 <div class="listing-description">
-<strong>Do you ever feel sad? Do you feel like you’re unpopular, like all your friends have way more friends than you? everyone feels that way sometimes.</strong>
+<a href="./posts/friendship-paradox/index.html" class="no-external"><strong>Do you ever feel sad? Do you feel like you’re unpopular, like all your friends have way more friends than you? everyone feels that way sometimes.</strong></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/friendship-paradox/index.html">
+<a href="./posts/friendship-paradox/index.html" class="no-external">
 <div class="listing-date">
 Dec 1, 2022
 </div>
@@ -820,19 +872,19 @@ Abhirup Moitra
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="Physics,Mathematics,Music" data-listing-date-sort="1669487400000" data-listing-file-modified-sort="1673033956228" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
+<div class="quarto-post image-right" data-index="13" data-categories="Physics,Mathematics,Music" data-listing-date-sort="1669487400000" data-listing-file-modified-sort="1706505624991" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1144">
 <div class="thumbnail">
-<p><a href="./posts/music-a-mathematical-camouflage/index.html"> <img data-src="./posts/music-a-mathematical-camouflage/harmonious-equations.png" class="thumbnail-image"> </a></p>
+<p><a href="./posts/music-a-mathematical-camouflage/index.html" class="no-external"></a></p><a href="./posts/music-a-mathematical-camouflage/index.html" class="no-external">
+<p><img data-src="./posts/music-a-mathematical-camouflage/harmonious-equations.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/music-a-mathematical-camouflage/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/music-a-mathematical-camouflage/index.html">
 <h3 class="no-anchor listing-title">
-Music: A Mathematical Camouflage
+<a href="./posts/music-a-mathematical-camouflage/index.html" class="no-external">Music: A Mathematical Camouflage</a>
 </h3>
 <div class="listing-subtitle">
-Music around the world is incredibly diverse.Music and mathematics have been traditionally thought of as closely associated.
+<a href="./posts/music-a-mathematical-camouflage/index.html" class="no-external">Music around the world is incredibly diverse.Music and mathematics have been traditionally thought of as closely associated.</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Physics'); return false;">
 Physics
@@ -844,14 +896,12 @@ Mathematics
 Music
 </div>
 </div>
-<a href="./posts/music-a-mathematical-camouflage/index.html">
 <div class="listing-description">
-“<em>Music is the pleasure that human soul experiences from counting without being aware that it is counting</em>”— Gottfried Wilhelm von Leibniz (1646-1716).
+<a href="./posts/music-a-mathematical-camouflage/index.html" class="no-external">“<em>Music is the pleasure that human soul experiences from counting without being aware that it is counting</em>”— Gottfried Wilhelm von Leibniz (1646-1716).</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/music-a-mathematical-camouflage/index.html">
+<a href="./posts/music-a-mathematical-camouflage/index.html" class="no-external">
 <div class="listing-date">
 Nov 27, 2022
 </div>
@@ -864,19 +914,19 @@ Abhirup Moitra
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="Astrophysics,Physics" data-listing-date-sort="1669141800000" data-listing-file-modified-sort="1675101749292" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<div class="quarto-post image-right" data-index="14" data-categories="Astrophysics,Physics" data-listing-date-sort="1669141800000" data-listing-file-modified-sort="1706505624695" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1294">
 <div class="thumbnail">
-<p><a href="./posts/all-consuming-monster/index.html"> <img data-src="./posts/all-consuming-monster/bh_cover.png" class="thumbnail-image"> </a></p>
+<p><a href="./posts/all-consuming-monster/index.html" class="no-external"></a></p><a href="./posts/all-consuming-monster/index.html" class="no-external">
+<p><img data-src="./posts/all-consuming-monster/bh_cover.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/all-consuming-monster/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/all-consuming-monster/index.html">
 <h3 class="no-anchor listing-title">
-An All-Consuming Monster
+<a href="./posts/all-consuming-monster/index.html" class="no-external">An All-Consuming Monster</a>
 </h3>
 <div class="listing-subtitle">
-Einstein was wrong when he said, ‘God does not play dice.’
+<a href="./posts/all-consuming-monster/index.html" class="no-external">Einstein was wrong when he said, ‘God does not play dice.’</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Astrophysics'); return false;">
 Astrophysics
@@ -885,14 +935,12 @@ Astrophysics
 Physics
 </div>
 </div>
-<a href="./posts/all-consuming-monster/index.html">
 <div class="listing-description">
-Consideration of black holes suggests, not only that God does play dice, but that he sometimes confuses us by throwing them where they can’t be seen.
+<a href="./posts/all-consuming-monster/index.html" class="no-external">Consideration of black holes suggests, not only that God does play dice, but that he sometimes confuses us by throwing them where they can’t be seen.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/all-consuming-monster/index.html">
+<a href="./posts/all-consuming-monster/index.html" class="no-external">
 <div class="listing-date">
 Nov 23, 2022
 </div>
@@ -905,19 +953,19 @@ Rajat Kanti Chatterjee
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="14" data-categories="Astrophysics,Physics,Astronomy" data-listing-date-sort="1668450600000" data-listing-file-modified-sort="1702071588544" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<div class="quarto-post image-right" data-index="15" data-categories="Astrophysics,Physics,Astronomy" data-listing-date-sort="1668450600000" data-listing-file-modified-sort="1706505624877" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1229">
 <div class="thumbnail">
-<p><a href="./posts/imaginary-world-next-to-ours/index.html"> <img data-src="./posts/imaginary-world-next-to-ours/p-univ.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/imaginary-world-next-to-ours/index.html" class="no-external"></a></p><a href="./posts/imaginary-world-next-to-ours/index.html" class="no-external">
+<p><img data-src="./posts/imaginary-world-next-to-ours/p-univ.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/imaginary-world-next-to-ours/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/imaginary-world-next-to-ours/index.html">
 <h3 class="no-anchor listing-title">
-Imaginary World: Next to Ours
+<a href="./posts/imaginary-world-next-to-ours/index.html" class="no-external">Imaginary World: Next to Ours</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/imaginary-world-next-to-ours/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Astrophysics'); return false;">
 Astrophysics
@@ -929,14 +977,12 @@ Physics
 Astronomy
 </div>
 </div>
-<a href="./posts/imaginary-world-next-to-ours/index.html">
 <div class="listing-description">
-<strong>“If a coin comes down heads, that means that the possibility of its coming…</strong>
+<a href="./posts/imaginary-world-next-to-ours/index.html" class="no-external"><strong>“If a coin comes down heads, that means that the possibility of its coming down tails has collapsed. Until that moment the two possibilities were equal. But on another…</strong></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/imaginary-world-next-to-ours/index.html">
+<a href="./posts/imaginary-world-next-to-ours/index.html" class="no-external">
 <div class="listing-date">
 Nov 15, 2022
 </div>
@@ -949,19 +995,19 @@ Abhirup Moitra
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="15" data-categories="Astrophysics,Physics,Astronomy" data-listing-date-sort="1667586600000" data-listing-file-modified-sort="1672596321729" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9">
+<div class="quarto-post image-right" data-index="16" data-categories="Astrophysics,Physics,Astronomy" data-listing-date-sort="1667586600000" data-listing-file-modified-sort="1706505625423" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1761">
 <div class="thumbnail">
-<p><a href="./posts/universe-from-infinitesimals-to-infinite/index.html"> <img data-src="./posts/universe-from-infinitesimals-to-infinite/cosmo.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/universe-from-infinitesimals-to-infinite/index.html" class="no-external"></a></p><a href="./posts/universe-from-infinitesimals-to-infinite/index.html" class="no-external">
+<p><img data-src="./posts/universe-from-infinitesimals-to-infinite/cosmo.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/universe-from-infinitesimals-to-infinite/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/universe-from-infinitesimals-to-infinite/index.html">
 <h3 class="no-anchor listing-title">
-Universe: From the Infinitesimals to Infinite
+<a href="./posts/universe-from-infinitesimals-to-infinite/index.html" class="no-external">Universe: From the Infinitesimals to Infinite</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/universe-from-infinitesimals-to-infinite/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Astrophysics'); return false;">
 Astrophysics
@@ -973,14 +1019,12 @@ Physics
 Astronomy
 </div>
 </div>
-<a href="./posts/universe-from-infinitesimals-to-infinite/index.html">
 <div class="listing-description">
-The <strong>Big Bang</strong> happened 13.8 billion years ago, and the speed of light is constant, as far as we know…
+<a href="./posts/universe-from-infinitesimals-to-infinite/index.html" class="no-external">The <strong>Big Bang</strong> happened 13.8 billion years ago, and the speed of light is constant, as far as we know it. Even though the universe might be infinite, the observable universe…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/universe-from-infinitesimals-to-infinite/index.html">
+<a href="./posts/universe-from-infinitesimals-to-infinite/index.html" class="no-external">
 <div class="listing-date">
 Nov 5, 2022
 </div>
@@ -993,19 +1037,19 @@ Abhirup Moitra
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="16" data-categories="Physics,Music" data-listing-date-sort="1667413800000" data-listing-file-modified-sort="1672054922116" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<div class="quarto-post image-right" data-index="17" data-categories="Physics,Music" data-listing-date-sort="1667413800000" data-listing-file-modified-sort="1706505625220" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1258">
 <div class="thumbnail">
-<p><a href="./posts/the-physics-of-music/index.html"> <img data-src="./posts/the-physics-of-music/melody_music.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/the-physics-of-music/index.html" class="no-external"></a></p><a href="./posts/the-physics-of-music/index.html" class="no-external">
+<p><img data-src="./posts/the-physics-of-music/melody_music.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/the-physics-of-music/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/the-physics-of-music/index.html">
 <h3 class="no-anchor listing-title">
-The Physics of Music
+<a href="./posts/the-physics-of-music/index.html" class="no-external">The Physics of Music</a>
 </h3>
 <div class="listing-subtitle">
-Music is the one incorporeal entrance into the higher world of knowledge which comprehends mankind, but which mankind cannot comprehend” ~ Ludwig van Beethoven
+<a href="./posts/the-physics-of-music/index.html" class="no-external">Music is the one incorporeal entrance into the higher world of knowledge which comprehends mankind, but which mankind cannot comprehend” ~ Ludwig van Beethoven</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Physics'); return false;">
 Physics
@@ -1014,14 +1058,12 @@ Physics
 Music
 </div>
 </div>
-<a href="./posts/the-physics-of-music/index.html">
 <div class="listing-description">
-<strong>Technology has changed the way people make music. It started with a phonograph in 1877, invented by Thomas Edison that used complex moving parts, and now companies like…</strong>
+<a href="./posts/the-physics-of-music/index.html" class="no-external"><strong>Technology has changed the way people make music. It started with a phonograph in 1877, invented by Thomas Edison that used complex moving parts, and now companies like…</strong></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/the-physics-of-music/index.html">
+<a href="./posts/the-physics-of-music/index.html" class="no-external">
 <div class="listing-date">
 Nov 3, 2022
 </div>
@@ -1034,19 +1076,19 @@ Abhirup Moitra
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="17" data-categories="Astronomy,Astrophysics,Physics" data-listing-date-sort="1666981800000" data-listing-file-modified-sort="1671219896572" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<div class="quarto-post image-right" data-index="18" data-categories="Astronomy,Astrophysics,Physics" data-listing-date-sort="1666981800000" data-listing-file-modified-sort="1706505625217" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1270">
 <div class="thumbnail">
-<p><a href="./posts/teleological-overview-of-the-cosmos/index.html"> <img data-src="./posts/teleological-overview-of-the-cosmos/Multiverse_Lead.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/teleological-overview-of-the-cosmos/index.html" class="no-external"></a></p><a href="./posts/teleological-overview-of-the-cosmos/index.html" class="no-external">
+<p><img data-src="./posts/teleological-overview-of-the-cosmos/Multiverse_Lead.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/teleological-overview-of-the-cosmos/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/teleological-overview-of-the-cosmos/index.html">
 <h3 class="no-anchor listing-title">
-Teleological Overview of the Cosmos
+<a href="./posts/teleological-overview-of-the-cosmos/index.html" class="no-external">Teleological Overview of the Cosmos</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/teleological-overview-of-the-cosmos/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Astronomy'); return false;">
 Astronomy
@@ -1058,14 +1100,12 @@ Astrophysics
 Physics
 </div>
 </div>
-<a href="./posts/teleological-overview-of-the-cosmos/index.html">
 <div class="listing-description">
-<em>Some people look for value in their lives through material success, through personal relationships. But being blessed with the…</em>
+<a href="./posts/teleological-overview-of-the-cosmos/index.html" class="no-external"><em>Some people look for value in their lives through material success, through personal relationships. But being blessed with the intellect to decipher the nature’s deepest…</em></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/teleological-overview-of-the-cosmos/index.html">
+<a href="./posts/teleological-overview-of-the-cosmos/index.html" class="no-external">
 <div class="listing-date">
 Oct 29, 2022
 </div>
@@ -1078,19 +1118,19 @@ Samrit Pramanik
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="18" data-categories="Physics,Astronomy,Astrophysics" data-listing-date-sort="1665599400000" data-listing-file-modified-sort="1672599168967" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<div class="quarto-post image-right" data-index="19" data-categories="Physics,Astronomy,Astrophysics" data-listing-date-sort="1665599400000" data-listing-file-modified-sort="1706505625260" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1348">
 <div class="thumbnail">
-<p><a href="./posts/the-truth-of-the-universe/index.html"> <img data-src="./posts/the-truth-of-the-universe/dialation.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/the-truth-of-the-universe/index.html" class="no-external"></a></p><a href="./posts/the-truth-of-the-universe/index.html" class="no-external">
+<p><img data-src="./posts/the-truth-of-the-universe/dialation.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/the-truth-of-the-universe/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/the-truth-of-the-universe/index.html">
 <h3 class="no-anchor listing-title">
-The Truth of The Universe
+<a href="./posts/the-truth-of-the-universe/index.html" class="no-external">The Truth of The Universe</a>
 </h3>
 <div class="listing-subtitle">
-Time moves slower for an observer who is in motion relative to another observer
+<a href="./posts/the-truth-of-the-universe/index.html" class="no-external">Time moves slower for an observer who is in motion relative to another observer</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Physics'); return false;">
 Physics
@@ -1102,14 +1142,12 @@ Astronomy
 Astrophysics
 </div>
 </div>
-<a href="./posts/the-truth-of-the-universe/index.html">
 <div class="listing-description">
-<strong>Apparent slowing down of time is one of the strangest side-effects of intense fear…</strong>
+<a href="./posts/the-truth-of-the-universe/index.html" class="no-external"><strong>Apparent slowing down of time is one of the strangest side-effects of intense fear…</strong></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/the-truth-of-the-universe/index.html">
+<a href="./posts/the-truth-of-the-universe/index.html" class="no-external">
 <div class="listing-date">
 Oct 13, 2022
 </div>
@@ -1122,19 +1160,19 @@ Abhirup Moitra
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="19" data-categories="Mathematics,Paradox" data-listing-date-sort="1664130600000" data-listing-file-modified-sort="1672054752000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<div class="quarto-post image-right" data-index="20" data-categories="Mathematics,Paradox" data-listing-date-sort="1664130600000" data-listing-file-modified-sort="1706505624955" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1214">
 <div class="thumbnail">
-<p><a href="./posts/infinity-is-a-way-of-thinking/index.html"> <img data-src="./posts/infinity-is-a-way-of-thinking/hilbert-david.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/infinity-is-a-way-of-thinking/index.html" class="no-external"></a></p><a href="./posts/infinity-is-a-way-of-thinking/index.html" class="no-external">
+<p><img data-src="./posts/infinity-is-a-way-of-thinking/hilbert-david.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/infinity-is-a-way-of-thinking/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/infinity-is-a-way-of-thinking/index.html">
 <h3 class="no-anchor listing-title">
-Infinity is a Way of Thinking
+<a href="./posts/infinity-is-a-way-of-thinking/index.html" class="no-external">Infinity is a Way of Thinking</a>
 </h3>
 <div class="listing-subtitle">
-The power of imagination make us infinite.
+<a href="./posts/infinity-is-a-way-of-thinking/index.html" class="no-external">The power of imagination make us infinite.</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Mathematics'); return false;">
 Mathematics
@@ -1143,14 +1181,12 @@ Mathematics
 Paradox
 </div>
 </div>
-<a href="./posts/infinity-is-a-way-of-thinking/index.html">
 <div class="listing-description">
-<strong>There are only two kinds of certain knowledge: Awareness of our own existence and the truths of mathematics</strong>
+<a href="./posts/infinity-is-a-way-of-thinking/index.html" class="no-external"><strong>There are only two kinds of certain knowledge: Awareness of our own existence and the truths of mathematics</strong></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/infinity-is-a-way-of-thinking/index.html">
+<a href="./posts/infinity-is-a-way-of-thinking/index.html" class="no-external">
 <div class="listing-date">
 Sep 26, 2022
 </div>
@@ -1163,19 +1199,19 @@ Abhirup Moitra
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="20" data-categories="Mathematics,Paradox" data-listing-date-sort="1662661800000" data-listing-file-modified-sort="1672055104242" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9">
+<div class="quarto-post image-right" data-index="21" data-categories="Mathematics,Paradox" data-listing-date-sort="1662661800000" data-listing-file-modified-sort="1706505625334" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1792">
 <div class="thumbnail">
-<p><a href="./posts/towards-crossing the-intellectual-boundaries/index.html"> <img data-src="./posts/towards-crossing the-intellectual-boundaries/Par.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/towards-crossing the-intellectual-boundaries/index.html" class="no-external"></a></p><a href="./posts/towards-crossing the-intellectual-boundaries/index.html" class="no-external">
+<p><img data-src="./posts/towards-crossing the-intellectual-boundaries/Par.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/towards-crossing the-intellectual-boundaries/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/towards-crossing the-intellectual-boundaries/index.html">
 <h3 class="no-anchor listing-title">
-Towards Crossing the Intellectual Boundaries
+<a href="./posts/towards-crossing the-intellectual-boundaries/index.html" class="no-external">Towards Crossing the Intellectual Boundaries</a>
 </h3>
 <div class="listing-subtitle">
-Intellectual boundaries comes from our intellectual fascination
+<a href="./posts/towards-crossing the-intellectual-boundaries/index.html" class="no-external">Intellectual boundaries comes from our intellectual fascination</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Mathematics'); return false;">
 Mathematics
@@ -1184,14 +1220,12 @@ Mathematics
 Paradox
 </div>
 </div>
-<a href="./posts/towards-crossing the-intellectual-boundaries/index.html">
 <div class="listing-description">
-<strong>Intellectual fascination crosses many boundaries. Here, Paradoxes lead us to define and push our intellectual boundaries which comes from our intellectual fascination.</strong>
+<a href="./posts/towards-crossing the-intellectual-boundaries/index.html" class="no-external"><strong>Intellectual fascination crosses many boundaries. Here, Paradoxes lead us to define and push our intellectual boundaries which comes from our intellectual fascination.</strong></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/towards-crossing the-intellectual-boundaries/index.html">
+<a href="./posts/towards-crossing the-intellectual-boundaries/index.html" class="no-external">
 <div class="listing-date">
 Sep 9, 2022
 </div>
@@ -1204,19 +1238,19 @@ Abhirup Moitra
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="21" data-categories="Statistics,Information Theory" data-listing-date-sort="1657305000000" data-listing-file-modified-sort="1672596209316" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9">
+<div class="quarto-post image-right" data-index="22" data-categories="Statistics,Information Theory" data-listing-date-sort="1657305000000" data-listing-file-modified-sort="1706505624742" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1649">
 <div class="thumbnail">
-<p><a href="./posts/communication-system/index.html"> <img data-src="./posts/communication-system/info.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/communication-system/index.html" class="no-external"></a></p><a href="./posts/communication-system/index.html" class="no-external">
+<p><img data-src="./posts/communication-system/info.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/communication-system/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/communication-system/index.html">
 <h3 class="no-anchor listing-title">
-Evolution of Communication System
+<a href="./posts/communication-system/index.html" class="no-external">Evolution of Communication System</a>
 </h3>
 <div class="listing-subtitle">
-Information can only be acquired in two ways: by choice or by chance
+<a href="./posts/communication-system/index.html" class="no-external">Information can only be acquired in two ways: by choice or by chance</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Statistics'); return false;">
 Statistics
@@ -1225,14 +1259,12 @@ Statistics
 Information Theory
 </div>
 </div>
-<a href="./posts/communication-system/index.html">
 <div class="listing-description">
-Imagine Abhirup has an idea, and he wants to share it. There are so many ways to share an…
+<a href="./posts/communication-system/index.html" class="no-external">Imagine Abhirup has an idea, and he wants to share it. There are so many ways to share an idea. He could draw a picture, make an engraving, write a song, or send a telegraph…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/communication-system/index.html">
+<a href="./posts/communication-system/index.html" class="no-external">
 <div class="listing-date">
 Jul 9, 2022
 </div>
@@ -1245,19 +1277,19 @@ Abhirup Moitra
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="22" data-categories="Mathematics,Bayesian,Probability" data-listing-date-sort="1653849000000" data-listing-file-modified-sort="1672054041207" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
+<div class="quarto-post image-right" data-index="23" data-categories="Mathematics,Bayesian,Probability" data-listing-date-sort="1653849000000" data-listing-file-modified-sort="1706505624725" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1022">
 <div class="thumbnail">
-<p><a href="./posts/bayesianism-a-future-of-humanity/index.html"> <img data-src="./posts/bayesianism-a-future-of-humanity/Ai_pic.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/bayesianism-a-future-of-humanity/index.html" class="no-external"></a></p><a href="./posts/bayesianism-a-future-of-humanity/index.html" class="no-external">
+<p><img data-src="./posts/bayesianism-a-future-of-humanity/Ai_pic.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/bayesianism-a-future-of-humanity/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/bayesianism-a-future-of-humanity/index.html">
 <h3 class="no-anchor listing-title">
-Bayesianism, A Future of Humanity
+<a href="./posts/bayesianism-a-future-of-humanity/index.html" class="no-external">Bayesianism, A Future of Humanity</a>
 </h3>
 <div class="listing-subtitle">
-The world of science lives fairly comfortably with paradox
+<a href="./posts/bayesianism-a-future-of-humanity/index.html" class="no-external">The world of science lives fairly comfortably with paradox</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Mathematics'); return false;">
 Mathematics
@@ -1269,14 +1301,12 @@ Bayesian
 Probability
 </div>
 </div>
-<a href="./posts/bayesianism-a-future-of-humanity/index.html">
 <div class="listing-description">
-<strong>The most important questions of life are indeed, for the most part, really only problems of probability.</strong>
+<a href="./posts/bayesianism-a-future-of-humanity/index.html" class="no-external"><strong>The most important questions of life are indeed, for the most part, really only problems of probability.</strong></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/bayesianism-a-future-of-humanity/index.html">
+<a href="./posts/bayesianism-a-future-of-humanity/index.html" class="no-external">
 <div class="listing-date">
 May 30, 2022
 </div>
@@ -1289,19 +1319,19 @@ Abhirup Moitra
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="23" data-categories="Conjecture,Paradox,Mathematics" data-listing-date-sort="1651948200000" data-listing-file-modified-sort="1710618061408" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="quarto-post image-right" data-index="24" data-categories="Conjecture,Paradox,Mathematics" data-listing-date-sort="1651948200000" data-listing-file-modified-sort="1713621270062" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="721">
 <div class="thumbnail">
-<p><a href="./posts/jete-chaile-jete-debo-na/index.html"> <img data-src="./posts/jete-chaile-jete-debo-na/cover.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/jete-chaile-jete-debo-na/index.html" class="no-external"></a></p><a href="./posts/jete-chaile-jete-debo-na/index.html" class="no-external">
+<p><img data-src="./posts/jete-chaile-jete-debo-na/cover.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/jete-chaile-jete-debo-na/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/jete-chaile-jete-debo-na/index.html">
 <h3 class="no-anchor listing-title">
-যেতে চাইলে যেতে দেব না, না না, যেতে দেব না
+<a href="./posts/jete-chaile-jete-debo-na/index.html" class="no-external">যেতে চাইলে যেতে দেব না, না না, যেতে দেব না</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/jete-chaile-jete-debo-na/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Conjecture'); return false;">
 Conjecture
@@ -1313,14 +1343,12 @@ Paradox
 Mathematics
 </div>
 </div>
-<a href="./posts/jete-chaile-jete-debo-na/index.html">
 <div class="listing-description">
-অ্যালার্মের শব্দে ঘুম ভাঙতেই ধড়ফড়িয়ে উঠে পড়লেন বিছানা ছেড়ে। দেখলেন ঘরের জানলা দরজা সব বন্ধ। অবাক হয়ে তাকিয়ে রইলেন বেশ কিছুক্ষণ। হঠাৎই মনে…
+<a href="./posts/jete-chaile-jete-debo-na/index.html" class="no-external">অ্যালার্মের শব্দে ঘুম ভাঙতেই ধড়ফড়িয়ে উঠে পড়লেন বিছানা ছেড়ে। দেখলেন ঘরের জানলা দরজা সব বন্ধ। অবাক হয়ে তাকিয়ে রইলেন বেশ কিছুক্ষণ। হঠাৎই মনে হল যেন একটা বদ্ধ ঘরে আটকা…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/jete-chaile-jete-debo-na/index.html">
+<a href="./posts/jete-chaile-jete-debo-na/index.html" class="no-external">
 <div class="listing-date">
 May 8, 2022
 </div>
@@ -1333,19 +1361,19 @@ Samrit Pramanik
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="24" data-categories="Probability,Bayesian" data-listing-date-sort="1650652200000" data-listing-file-modified-sort="1674899841753" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<div class="quarto-post image-right" data-index="25" data-categories="Probability,Bayesian" data-listing-date-sort="1650652200000" data-listing-file-modified-sort="1706505625160" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="912">
 <div class="thumbnail">
-<p><a href="./posts/story-of-non-conformist-theologician/index.html"> <img data-src="./posts/story-of-non-conformist-theologician/Bayes.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/story-of-non-conformist-theologician/index.html" class="no-external"></a></p><a href="./posts/story-of-non-conformist-theologician/index.html" class="no-external">
+<p><img data-src="./posts/story-of-non-conformist-theologician/Bayes.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/story-of-non-conformist-theologician/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/story-of-non-conformist-theologician/index.html">
 <h3 class="no-anchor listing-title">
-Story of a Nonconformist Theologian
+<a href="./posts/story-of-non-conformist-theologician/index.html" class="no-external">Story of a Nonconformist Theologian</a>
 </h3>
 <div class="listing-subtitle">
-Nothing occurs at random, but everything for a reason and by necessity.
+<a href="./posts/story-of-non-conformist-theologician/index.html" class="no-external">Nothing occurs at random, but everything for a reason and by necessity.</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Probability'); return false;">
 Probability
@@ -1354,14 +1382,12 @@ Probability
 Bayesian
 </div>
 </div>
-<a href="./posts/story-of-non-conformist-theologician/index.html">
 <div class="listing-description">
-<strong>The most important thing in life is to stop saying ‘I wish’ and start saying ‘I will’.</strong>
+<a href="./posts/story-of-non-conformist-theologician/index.html" class="no-external"><strong>The most important thing in life is to stop saying ‘I wish’ and start saying ‘I will’.</strong></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/story-of-non-conformist-theologician/index.html">
+<a href="./posts/story-of-non-conformist-theologician/index.html" class="no-external">
 <div class="listing-date">
 Apr 23, 2022
 </div>
@@ -1374,19 +1400,19 @@ Abhirup Moitra
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="25" data-categories="Probability,Statistics,Mathematics" data-listing-date-sort="1649529000000" data-listing-file-modified-sort="1672585710720" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="quarto-post image-right" data-index="26" data-categories="Probability,Statistics,Mathematics" data-listing-date-sort="1649529000000" data-listing-file-modified-sort="1706505625211" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="464">
 <div class="thumbnail">
-<p><a href="./posts/system-of-beliefs/index.html"> <img data-src="./posts/system-of-beliefs/beliefs.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/system-of-beliefs/index.html" class="no-external"></a></p><a href="./posts/system-of-beliefs/index.html" class="no-external">
+<p><img data-src="./posts/system-of-beliefs/beliefs.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/system-of-beliefs/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/system-of-beliefs/index.html">
 <h3 class="no-anchor listing-title">
-The System of Beliefs
+<a href="./posts/system-of-beliefs/index.html" class="no-external">The System of Beliefs</a>
 </h3>
 <div class="listing-subtitle">
-Everything existing in the universe is the fruit of chance
+<a href="./posts/system-of-beliefs/index.html" class="no-external">Everything existing in the universe is the fruit of chance</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Probability'); return false;">
 Probability
@@ -1398,14 +1424,12 @@ Statistics
 Mathematics
 </div>
 </div>
-<a href="./posts/system-of-beliefs/index.html">
 <div class="listing-description">
-Probability has evolved from a philosophical background as well as a realistic background. It is an abstract representation of reality. We know that in the probability…
+<a href="./posts/system-of-beliefs/index.html" class="no-external">Probability has evolved from a philosophical background as well as a realistic background. It is an abstract representation of reality. We know that in the probability…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/system-of-beliefs/index.html">
+<a href="./posts/system-of-beliefs/index.html" class="no-external">
 <div class="listing-date">
 Apr 10, 2022
 </div>
@@ -1418,19 +1442,19 @@ Abhirup Moitra
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="26" data-categories="Probability,Statistics,Mathematics" data-listing-date-sort="1646159400000" data-listing-file-modified-sort="1672585693150" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<div class="quarto-post image-right" data-index="27" data-categories="Probability,Statistics,Mathematics" data-listing-date-sort="1646159400000" data-listing-file-modified-sort="1706505625424" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1281">
 <div class="thumbnail">
-<p><a href="./posts/untold-stroy-of-probability/index.html"> <img data-src="./posts/untold-stroy-of-probability/prob-img.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/untold-stroy-of-probability/index.html" class="no-external"></a></p><a href="./posts/untold-stroy-of-probability/index.html" class="no-external">
+<p><img data-src="./posts/untold-stroy-of-probability/prob-img.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/untold-stroy-of-probability/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/untold-stroy-of-probability/index.html">
 <h3 class="no-anchor listing-title">
-Untold Story of Probability
+<a href="./posts/untold-stroy-of-probability/index.html" class="no-external">Untold Story of Probability</a>
 </h3>
 <div class="listing-subtitle">
-Pattern in Chaos
+<a href="./posts/untold-stroy-of-probability/index.html" class="no-external">Pattern in Chaos</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Probability'); return false;">
 Probability
@@ -1442,14 +1466,12 @@ Statistics
 Mathematics
 </div>
 </div>
-<a href="./posts/untold-stroy-of-probability/index.html">
 <div class="listing-description">
-<strong>Probability theory is nothing but common sense reduced to calculation</strong>
+<a href="./posts/untold-stroy-of-probability/index.html" class="no-external"><strong>Probability theory is nothing but common sense reduced to calculation</strong></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/untold-stroy-of-probability/index.html">
+<a href="./posts/untold-stroy-of-probability/index.html" class="no-external">
 <div class="listing-date">
 Mar 2, 2022
 </div>
@@ -1549,10 +1571,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/cosmic-charade\.netlify\.app");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -1562,8 +1601,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -1575,7 +1623,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -1619,6 +1790,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -1644,6 +1816,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -1709,12 +1907,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       &nbsp;
     </div>   
-    <div class="nav-footer-center">Proudly made with Quarto 💙 <br> Copyright © 2024 | Contact us <br> <a href="./privacy_policy.html">Privacy Policy</a><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="nav-footer-center">
+<p>Proudly made with Quarto 💙 <br> Copyright © 2024 | Contact us <br> <a href="./privacy_policy.html">Privacy Policy</a></p>
+<div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
   </div>
 </footer>
+
 
 
 

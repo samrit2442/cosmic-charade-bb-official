@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.433">
+<meta name="generator" content="quarto-1.4.553">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -50,7 +50,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -59,6 +65,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -85,29 +92,59 @@ cookieconsent.run({
   "notice_banner_reject_button_hide":false,
   "preferences_center_close_button_hide":false,
   "website_name":""
+  ,
+"language":"en"
   });
 });
 </script> 
   
 <link href="../../site_libs/vembedr-0.1.5/css/vembedr.css" rel="stylesheet">
 
+
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 <meta property="og:title" content="Cosmic Charade🪐🌠 - Towards Crossing the Intellectual Boundaries">
 <meta property="og:description" content="Intellectual boundaries comes from our intellectual fascination">
-<meta property="og:image" content="https://cosmic-charade.netlify.app/posts/towards-crossing the-intellectual-boundaries/logo-with-bg-2.jpg">
-<meta property="og:site-name" content="Cosmic Charade🪐🌠">
+<meta property="og:image" content="https://cosmic-charade.netlify.app/posts/towards-crossing the-intellectual-boundaries/Par.jpg">
+<meta property="og:site_name" content="Cosmic Charade🪐🌠">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Cosmic Charade🪐🌠</span>
     </a>
@@ -119,81 +156,81 @@ cookieconsent.run({
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html" rel="" target="">
- <span class="menu-text">Home</span></a>
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html" rel="" target="">
- <span class="menu-text">About Us</span></a>
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About Us</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../posts.html" rel="" target="">
- <span class="menu-text">Blogs</span></a>
+    <a class="nav-link" href="../../posts.html"> 
+<span class="menu-text">Blogs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../liter.html" rel="" target="">
- <span class="menu-text">Cosmic Literature</span></a>
+    <a class="nav-link" href="../../liter.html"> 
+<span class="menu-text">Cosmic Literature</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-cosmic-courses" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-cosmic-courses" role="button" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Cosmic Courses</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-cosmic-courses">    
         <li>
-    <a class="dropdown-item" href="../../r4e.pdf" rel="" target="">
+    <a class="dropdown-item" href="../../r4e.pdf">
  <span class="dropdown-text">R for Everyone</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../actrp.pdf" rel="" target="">
+    <a class="dropdown-item" href="../../actrp.pdf">
  <span class="dropdown-text">Computational Thinking with R + Python</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../squad_new2.html" rel="" target="">
- <span class="menu-text">Cosmic Squad</span></a>
+    <a class="nav-link" href="../../squad_new2.html"> 
+<span class="menu-text">Cosmic Squad</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="mailto:cosmiccharade0@gmail.com" rel="" target=""><i class="bi bi-envelope" role="img">
+    <a class="nav-link" href="mailto:cosmiccharade0@gmail.com"> <i class="bi bi-envelope" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://www.instagram.com/bismoykar_bramhanda/" rel="" target=""><i class="bi bi-instagram" role="img">
+    <a class="nav-link" href="https://www.instagram.com/bismoykar_bramhanda/"> <i class="bi bi-instagram" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://linkedin.com/company/bismoykar-bramhanda" rel="" target=""><i class="bi bi-linkedin" role="img">
+    <a class="nav-link" href="https://linkedin.com/company/bismoykar-bramhanda"> <i class="bi bi-linkedin" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://chat.whatsapp.com/BwGDsLPHX6i1ID4711I2DQ" rel="" target=""><i class="bi bi-whatsapp" role="img">
+    <a class="nav-link" href="https://chat.whatsapp.com/BwGDsLPHX6i1ID4711I2DQ"> <i class="bi bi-whatsapp" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://t.me/bismoykar_bramhanda_cc" rel="" target=""><i class="bi bi-telegram" role="img">
+    <a class="nav-link" href="https://t.me/bismoykar_bramhanda_cc"> <i class="bi bi-telegram" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://youtube.com/@cosmiccharade33?si=m3B9lqSqcioNJVtb" rel="" target=""><i class="bi bi-youtube" role="img">
+    <a class="nav-link" href="https://youtube.com/@cosmiccharade33?si=m3B9lqSqcioNJVtb"> <i class="bi bi-youtube" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
   <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
   <div class="quarto-reader-toggle-btn">
   <i class="bi"></i>
   </div>
 </a>
 </div>
-          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -277,6 +314,7 @@ cookieconsent.run({
 
 
 
+
 <div style="color: navy; font-size: 18px; font-family: Garamond; text-align: center; border-radius: 3px; background-image: linear-gradient(#C3E5E5, #F6F7FC);">
 <p><strong>Intellectual fascination crosses many boundaries. Here, Paradoxes lead us to define and push our intellectual boundaries which comes from our intellectual fascination.</strong></p>
 </div>
@@ -285,7 +323,7 @@ cookieconsent.run({
 <p>There is a dilemma i.e., you have three envelopes and you can choose only one. They are red, white and brown.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="Envelope.jpg" class="img-fluid figure-img" width="375"></p>
+<p><img src="Envelope.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="375"></p>
 </figure>
 </div>
 <p><strong>‘Di’</strong> comes from the Greek for ‘twice’ and <strong>‘lemma’</strong> means ‘premise’. So, a dilemma involves two premises from which you have to choose. Adding a third envelope means this isn’t technically a dilemma. But it does set up a very famous paradox.</p>
@@ -295,7 +333,7 @@ cookieconsent.run({
 <p>People think the paradox is like an unsolvable brain teaser. So, how do three envelopes set up a paradox?</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="conf.jpg" class="img-fluid figure-img" width="259"></p>
+<p><img src="conf.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="259"></p>
 </figure>
 </div>
 <p>In 1961, logician and philosopher <a href="https://en.wikipedia.org/wiki/Willard_Van_Orman_Quine"><strong>Willard Van Orman Quine</strong></a>outlined the three categories of paradoxes. Let’s consider that I have them each hidden inside these three envelopes. One represents the kind of paradox that you’re most familiar with. Those that defy logic are like the <strong>Impossible Waterfall</strong>. The Waterfall painted by <a href="https://en.wikipedia.org/wiki/Waterfall_(M._C._Escher)"><strong>Maurits Cornelis Escher</strong></a>.</p>
@@ -312,13 +350,13 @@ cookieconsent.run({
 <p>See <a href="https://en.wikipedia.org/wiki/What_the_Tortoise_Said_to_Achilles"><strong>What the Tortoise Said to Achilles.</strong></a></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="Tortoise Said Achilles.jpg" class="img-fluid figure-img" width="261"></p>
+<p><img src="Tortoise Said Achilles.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="261"></p>
 </figure>
 </div>
 <p>Assuming that, if the tortoise gets a 100-meter head start, then Achilles starts running, by the time he gets to the 100-meter mark, the tortoise will have moved another meter. It takes Achilles some more time to get to that 101-meter mark and in that time, the tortoise has moved forward even further.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="Zeno_para.jpg" class="img-fluid figure-img" width="445"></p>
+<p><img src="Zeno_para.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="445"></p>
 </figure>
 </div>
 <p>Achilles will always be catching up to the place the tortoise was as the tortoise inches forward. The gap will get smaller, but the tortoise is always slightly ahead. According to Greek philosopher <a href="https://en.wikipedia.org/wiki/Zeno_of_Elea"><strong>Zeno of Elea</strong></a>, who dreamed up&nbsp;this paradox 2500 years ago, the fastest runner in the world can never overtake a tortoise in a race because you infinitely divide the distance between them as the tortoise advances. But that’s ridiculous. We know it’s not true. Even with the head start, you could outrun a tortoise and you aren’t Achilles. So how can this be a paradox?</p>
@@ -338,7 +376,7 @@ cookieconsent.run({
 <p>From this point of view, your odds of winning clearly 50/50. You should always switch. And here’s why. The odds of winning with your first chosen envelope are 1/3. So, you have a 33.33% repeating chance of being right and a 66.66% repeating chance of being wrong. When the game show host revealed the Sherlock, it didn’t suddenly improve your odds to 50/50. The proof is in the options. After first choosing an envelope, the thing revealed by the host will never be the money because that would ruin the tension of the game show. So, if your initial 1 out of 3 picks wasn’t the money and the money is Y, then the host will reveal Z. If you chose wrong and the money is Z, then the host reveals Y. If you luckily chose the money the first time, then the host can reveal either Z or Y. It doesn’t matter. No matter what you’re still stuck in that initial 33% chance that you chose right the very first time. If you switch, regardless of the prize revealed, you now leap into the 66% zone. You’ve doubled your chances of getting the money.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="pie.jpg" class="img-fluid figure-img" width="328"></p>
+<p><img src="pie.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="328"></p>
 </figure>
 </div>
 <p>To put it another way, when you are asked if you want to switch, you’re actually being given a dilemma: Do you want to keep your single envelope, or do you want both of the other two? It just so happens that you already know what’s inside one of them. But since the one revealed will never contain the money, the chances that the other unopened envelope has the money are twice as high as the first one that you chose.</p>
@@ -364,7 +402,7 @@ cookieconsent.run({
 <p>Who knows which antinomies of today will be solved in the future? Right now we are struggling with the paradox of the <a href="https://en.wikipedia.org/wiki/Faint_young_Sun_paradox"><strong>Faint Young Sun</strong></a>: our current knowledge of stars says that billions of years ago, our sun wasn’t hot enough to keep the Earth from being a ball of ice. But our geological evidence shows an ancient Earth with liquid oceans and budding life when everything should have been frozen. How could the Earth have liquid water without a sun hot enough to melt ice? It’s antinomy until we fully comprehend the situation. Maybe our current understanding of the sun isn’t perfect or maybe our knowledge of early Earth is missing some pieces.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="Faint.jpg" class="img-fluid figure-img" width="456"></p>
+<p><img src="Faint.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="456"></p>
 </figure>
 </div>
 <p>A paradox is a problem where the solution is, or made to seem, impossible. Sometimes they’re purposely designed for fun because our minds like puzzles. Sometimes we just stumble on a gap between what we know and how we talk about what we know, and what is actually true. When we solve an impossible antinomy, it becomes falsidical or veridical. Someone who knows the answer can see what the problem was all along: We tricked ourselves by knowing too little or by asking the wrong question. In one way or another, all paradoxes come from people. By challenging us to find the flaw or fill the gap in our knowledge, paradoxes help us to define and push our intellectual boundaries. There’s always for us to know. Whether we know it or not.</p>
@@ -465,10 +503,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/cosmic-charade\.netlify\.app");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -478,8 +533,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -491,7 +555,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -535,6 +722,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -560,6 +748,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -625,12 +839,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       &nbsp;
     </div>   
-    <div class="nav-footer-center">Proudly made with Quarto 💙 <br> Copyright © 2024 | Contact us <br> <a href="privacy_policy.qmd">Privacy Policy</a><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="nav-footer-center">
+<p>Proudly made with Quarto 💙 <br> Copyright © 2024 | Contact us <br> <a href="privacy_policy.qmd">Privacy Policy</a></p>
+<div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
   </div>
 </footer>
+
 
 
 
