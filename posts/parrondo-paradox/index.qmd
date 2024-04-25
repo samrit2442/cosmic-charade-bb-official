@@ -4,8 +4,9 @@ subtitle: "Embracing Parrondo's Paradox in the Game of Life"
 author: "Abhirup Moitra"
 editor: visual
 format: html
+date: "2024-04-25"
 toc: true
-categories: [Mathematics, Probability Theory, Paradox]
+categories: [Mathematics, Probability, Paradox]
 image: wallpaper.jpg
 ---
 
@@ -57,11 +58,11 @@ Well, it's like finding a secret recipe for success in places you least expect. 
 
 Imagine three unbalanced coins:
 
--   **Coin 1:** Probability of $\text{head=0.495}$ and probability of $\text{tail=0.505}$
+-   **Coin 1:** Probability of $\text{head = 0.495}$ and probability of $\text{tail = 0.505}$
 
--   **Coin 2:** Probability of $\text{head=0.745}$ and probability of $\text{tail=0.255}$
+-   **Coin 2:** Probability of $\text{head = 0.745}$ and probability of $\text{tail = 0.255}$
 
--   **Coin 3:** Probability of $\text{head=0.095}$ and probability of $\text{tail=0.905}$
+-   **Coin 3:** Probability of $\text{head = 0.095}$ and probability of $\text{tail = 0.905}$
 
 Now let’s define two games using these coins:
 
@@ -216,5 +217,3 @@ It's a mindset shift. Instead of seeing failure as a dead end, Parrondo's parado
 2.  Harmer, G. P.; [Abbott, D.](https://en.wikipedia.org/wiki/Derek_Abbott "Derek Abbott") (1999). ["Losing strategies can win by Parrondo's paradox"](https://doi.org/10.1038%2F47220). *Nature*. **402** (6764): 864. [doi](https://en.wikipedia.org/wiki/Doi_(identifier) "Doi (identifier)"):[10.1038/47220](https://doi.org/10.1038%2F47220). [S2CID](https://en.wikipedia.org/wiki/S2CID_(identifier) "S2CID (identifier)") [41319393](https://api.semanticscholar.org/CorpusID:41319393).
 
 3.  D. Minor, "Parrondo's Paradox - Hope for Losers!", *The College Mathematics Journal* 34(1) (2003) 15-20
-
-![](thank-you.jpg){fig-align="center" width="415"}
