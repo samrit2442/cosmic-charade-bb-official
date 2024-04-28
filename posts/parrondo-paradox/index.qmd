@@ -64,7 +64,7 @@ Imagine three unbalanced coins:
 
 -   **Coin 3:** Probability of $\text{head = 0.095}$ and probability of $\text{tail = 0.905}$
 
-Now let’s define two games using these coins:
+Now, let’s define two games using these coins:
 
 -   **Game A:** You toss coin 1 and if it comes up head you receive 1€ but if not, you lose 1€
 
