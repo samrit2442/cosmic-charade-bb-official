@@ -10,7 +10,159 @@
 <atom:link href="https://cosmic-charade.netlify.app/posts.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.3.433</generator>
-<lastBuildDate>Wed, 24 Apr 2024 18:30:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 07 May 2024 18:30:00 GMT</lastBuildDate>
+<item>
+  <title>Capturing the Symphony of Motion</title>
+  <dc:creator>Abhirup Moitra</dc:creator>
+  <link>https://cosmic-charade.netlify.app/posts/harmonograph/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div style="color: navy; font-size: 18px; font-family: Garamond; text-align: center; border-radius: 3px; background-image: linear-gradient(#C3E5E5, #F6F7FC);">
+<p><strong>Within the rhythmic swings of pendulums lies the hidden language of harmony, where mathematics whispers to the soul through the artistry of motion.</strong></p>
+</div>
+<section id="echoes-of-harmony" class="level1">
+<h1><strong>Echoes of Harmony</strong></h1>
+<p>In the realm where science and art intersect, there exists a gadget that captures the imagination and stirs the soul—a device known as the harmonograph. Imagine a scene reminiscent of a Victorian parlour, where guests gather around an intriguing apparatus, eagerly awaiting the unveiling of its mysterious creations.</p>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://cosmic-charade.netlify.app/posts/harmonograph/harmomono-graph.jpg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Harmonograph</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://cosmic-charade.netlify.app/posts/harmonograph/drawing-machine.jpg" class="img-fluid figure-img" width="327"></p>
+<figcaption class="figure-caption">Three-Pendulum Rotary Harmonograph</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<p>The harmonograph, born in the 19th century, is a mechanical marvel designed to produce intricate and mesmerising drawings through the harmonious movement of pendulums. Picture two pendulums swinging in perfect synchronisation, their motions orchestrated to create harmonious patterns on paper below. It’s as if the very essence of music is translated into visual form, each stroke a note in a silent symphony.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="vembedr">
+<div>
+<iframe src="https://www.youtube.com/embed/HJYvc-ISrf8" width="533" height="300" frameborder="0" allowfullscreen="" data-external="1"></iframe>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="the-enchanting-world-of-the-harmonograph" class="level1">
+<h1><strong>The Enchanting World of the Harmonograph</strong></h1>
+<p>Let us delve deeper into the story behind this enchanting invention. Legend has it that the harmonograph’s origins can be traced back to the curious minds of mathematicians and artists alike, seeking to explore the connections between mathematics, physics, and aesthetics. Among them stands the figure of Scottish mathematician <a href="https://en.wikipedia.org/wiki/Hugh_Blackburn">Hugh Blackburn,</a> credited with popularizing the device in the mid-19th century.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://cosmic-charade.netlify.app/posts/harmonograph/blackburn-pendulum.jpg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption"><a href="https://petapixel.com/2014/10/03/photographer-uses-giant-blackburn-pendulum-create-abstract-large-format-light-paintings/">Giant Blackburn Pendulum</a></figcaption>
+</figure>
+</div>
+<p>As the tale goes, Blackburn’s harmonograph captured the imagination of the public, becoming a centrepiece of Victorian parlours and scientific salons. Guests would marvel at the intricate patterns produced by the swinging pendulums, each creation a unique expression of mathematical harmony.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="vembedr">
+<div>
+<iframe src="https://www.youtube.com/embed/B8wWKJ372h4" width="533" height="300" frameborder="0" allowfullscreen="" data-external="1"></iframe>
+</div>
+</div>
+</div>
+</div>
+<div style="font-family: Georgia; text-align: center; font-size: 17px">
+<p><strong>But what exactly makes the harmonograph tick?</strong></p>
+</div>
+<p>At its core are the principles of harmonic motion and resonance, concepts deeply rooted in the laws of physics. By harnessing the natural oscillations of pendulums, the harmonograph transforms motion into art, unveiling the hidden beauty of mathematical patterns.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://cosmic-charade.netlify.app/posts/harmonograph/simple-pendulum.gif" class="img-fluid figure-img" width="159"></p>
+</figure>
+</div>
+<p>Imagine the scene, a dimly lit room, the air heavy with anticipation as the harmonograph comes to life. With each swing of the pendulum, delicate lines emerge on the paper below, forming elaborate spirals, loops, and curves. It’s a dance of precision and grace, where the laws of nature meet the creative impulses of the human spirit. But the story of the harmonograph does not end in the past. Even today, this captivating device continues to inspire artists, scientists, and enthusiasts around the world. In an age dominated by digital technologies, the harmonograph reminds us of the timeless allure of analogue craftsmanship and the beauty of simplicity. As we bid farewell to our journey through the world of the harmonograph, let us carry with us the memory of its mesmerizing creations—a testament to the enduring marriage of art and science, where imagination knows no bounds.</p>
+</section>
+<section id="from-pendulum-swings-to-digital-brushstrokes" class="level1">
+<h1><strong>From Pendulum Swings to Digital Brushstrokes</strong></h1>
+<p>Here, we present a series of computer-simulated images inspired by the harmonograph’s elegant movements. Each image is a testament to the power of technology to capture the essence of natural phenomena and to explore the boundless possibilities of artistic expression.</p>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="https://cosmic-charade.netlify.app/posts/harmonograph/harmony1.jpg" class="img-fluid"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="https://cosmic-charade.netlify.app/posts/harmonograph/harmony2.jpg" class="img-fluid"></p>
+</div>
+</div>
+</div>
+<p>As we behold these digital creations, we are drawn into a world where the boundaries between art and science blur, where the precision of mathematical algorithms intertwines with the boundless creativity of human imagination. In these simulated images, we witness the culmination of centuries of exploration, where the harmonograph’s timeless allure finds new expression in the realm of pixels and code.</p>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="https://cosmic-charade.netlify.app/posts/harmonograph/harmonograph-img.jpg" class="img-fluid"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="https://cosmic-charade.netlify.app/posts/harmonograph/img-harmonograph.jpg" class="img-fluid"></p>
+</div>
+</div>
+</div>
+<p>Each stroke, each curve, is a testament to the harmonious interplay between mathematics and aesthetics—a delicate dance of form and function that transcends the limitations of time and space. In these intricate patterns, we find echoes of the harmonograph’s elegant movements, reminding us of the beauty that lies at the intersection of calculation and creativity.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://cosmic-charade.netlify.app/posts/harmonograph/harmonograph01.png" class="img-fluid figure-img" width="618"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://cosmic-charade.netlify.app/posts/harmonograph/knn_lissajous_002.png" class="img-fluid figure-img" width="546"></p>
+</figure>
+</div>
+</section>
+<section id="conclusion" class="level1">
+<h1><strong>Conclusion</strong></h1>
+<p>In the end, the harmonograph invites us to embrace the wonders of the universe, to explore the mysteries of motion and form, and to celebrate the beauty that surrounds us in every moment. So, the next time you find yourself captivated by the dance of a pendulum or the elegance of a mathematical equation, remember the harmonograph and the enchanting tale it tells—a story of harmony, resonance, and the boundless creativity of the human spirit.</p>
+</section>
+<section id="further-readings" class="level1">
+<h1><strong>Further Readings</strong></h1>
+<ul>
+<li><p><a href="https://www.karlsims.com/harmonograph/"><strong>How to Make a Three-Pendulum Rotary Harmonograph—Karl Sims</strong></a></p></li>
+<li><p><a href="https://petapixel.com/2014/10/03/photographer-uses-giant-blackburn-pendulum-create-abstract-large-format-light-paintings/"><strong>Photographer Uses Giant Blackburn Pendulum to Create Abstract Large Format Light Paintings</strong></a></p></li>
+</ul>
+</section>
+<section id="references" class="level1">
+<h1><strong>References</strong></h1>
+<ol type="1">
+<li><p>Turner, Steven (February 1997). “Demonstrating Harmony: Some of the Many Devices Used To Produce Lissajous Curves Before the Oscilloscope”.&nbsp;<em>Rittenhouse</em>.&nbsp;<strong>11</strong>&nbsp;(42): 41.</p></li>
+<li><p>Baker, Gregory L.; Blackburn, James A. (2005).&nbsp;<em>The Pendulum: a case study in physics</em>. Oxford.&nbsp;<a href="https://en.wikipedia.org/wiki/ISBN_(identifier)" title="ISBN (identifier)">ISBN</a>&nbsp;<a href="https://en.wikipedia.org/wiki/Special:BookSources/978-0-19-156530-4" title="Special:BookSources/978-0-19-156530-4">978-0-19-156530-4</a>.</p></li>
+</ol>
+</section>
+<section id="external-links" class="level1">
+<h1><strong>External Links</strong></h1>
+<ul>
+<li><p><a href="http://www.jonathan.lansey.net/pastimes/pendulum/index.html">A complex harmonograph with a unique single pendulum design</a></p></li>
+<li><p><a href="http://www.fxmtech.com/harmonog.html">Harmonographs, pintographs, and Excel models</a></p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://cosmic-charade.netlify.app/posts/harmonograph/thank-you.jpg" class="img-fluid figure-img" width="420"></p>
+</figure>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>Mathematics</category>
+  <category>Physics</category>
+  <guid>https://cosmic-charade.netlify.app/posts/harmonograph/index.html</guid>
+  <pubDate>Tue, 07 May 2024 18:30:00 GMT</pubDate>
+  <media:content url="https://cosmic-charade.netlify.app/posts/harmonograph/wallpaper.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>The Art of Turning Losses into Wins</title>
   <dc:creator>Abhirup Moitra</dc:creator>
@@ -2298,165 +2450,6 @@ Note
   <guid>https://cosmic-charade.netlify.app/posts/teleological-overview-of-the-cosmos/index.html</guid>
   <pubDate>Fri, 28 Oct 2022 18:30:00 GMT</pubDate>
   <media:content url="https://cosmic-charade.netlify.app/posts/teleological-overview-of-the-cosmos/Multiverse_Lead.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>The Truth of The Universe</title>
-  <dc:creator>Abhirup Moitra</dc:creator>
-  <link>https://cosmic-charade.netlify.app/posts/the-truth-of-the-universe/index.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<div style="color: navy; font-size: 18px; font-family: Garamond; text-align: center; border-radius: 3px; background-image: linear-gradient(#C3E5E5, #F6F7FC);">
-<p><strong>Apparent slowing down of time is one of the strangest side-effects of intense fear…</strong></p>
-</div>
-<section id="the-beginning" class="level1">
-<h1>The Beginning</h1>
-<p>One evening in the spring of 1905 <a href="https://en.wikipedia.org/wiki/Albert_Einstein">Albert Einstein</a>, the patent clark in Bern, after wrap-up his days work he decided to board a tram car on his way home. Einstein would often wrap up his work as soon as possible to contemplate the truths of the universe in his free time. It was one of these thought experiments he devised on that tram car that revolutionized modern physics forever.</p>
-<section id="thought-experiment" class="level2">
-<h2 class="anchored" data-anchor-id="thought-experiment">Thought Experiment</h2>
-<p>While receding away from the Zytglogge clock tower Einstein imagined and extended his imagination.</p>
-<div style="font-family: Georgia; text-align: center; font-size: 16px">
-<p><strong><em>What would happen if the tram car were receding at the speed of light ?</em></strong></p>
-</div>
-<p>He realized that if he were to travel at 186000 miles per second the clocks hands would appear to completely freeze. At the same time Einstein knew that back at the clock tower the hands would tick along at their normal pace. For Einstein time had slowed down.</p>
-<p>This thought blew his mind.Einstein concluded that ’<strong>the faster you move through space the slower you move through time’</strong>.</p>
-</section>
-<section id="motivation" class="level2">
-<h2 class="anchored" data-anchor-id="motivation">Motivation</h2>
-<p>Einstein’s work was heavily influenced by two of the most iconic physicists of all time. First there were <a href="https://www.britannica.com/science/equation-of-motion"><strong>the laws of motion</strong></a> discovered by his idol <a href="https://en.wikipedia.org/wiki/Isaac_Newton">Issac Newton</a> and second were the <a href="https://en.wikipedia.org/wiki/History_of_Maxwell%27s_equations"><strong>laws of electromagnetism</strong></a> laid down by <a href="https://en.wikipedia.org/wiki/James_Clerk_Maxwell">James Clerk Maxwell</a>.</p>
-<section id="newtons-observation" class="level3">
-<h3 class="anchored" data-anchor-id="newtons-observation">Newton’s Observation</h3>
-<p>Newton’s laws insisted that velocities are never absolute but always relative , so that their magnitudes must be appended by the phrase “with respect to”.</p>
-<p>For instance a train travels at 40 km/h with respect to someone at rest. However, it only travels with respect to a train travelling 20 km/h in the same direction or it travels 60 km/h with respect to another train travelling in the opposite direction at 20 km/h. This is also true for the velocities of Earth, the Sun and the and the entire Milky Way galaxy.</p>
-</section>
-<section id="maxwells-observation" class="level3">
-<h3 class="anchored" data-anchor-id="maxwells-observation">Maxwell’s Observation</h3>
-<p>On the other hand Maxwell found that the speed of an electromagnetic wave such as light is fixed at an exorbitant <img src="https://latex.codecogs.com/png.latex?299,792,458"> m/s regardless of who observes it. However, Maxwell’s notion seems incompatible with Newton’s notion of relative velocities.</p>
-<div style="font-family: Georgia; text-align: center; font-size: 19px">
-<p><strong><em>If Newton’s laws are truly universal , why should the speed of the light be an exception?</em></strong></p>
-</div>
-</section>
-</section>
-<section id="way-to-revolution" class="level2">
-<h2 class="anchored" data-anchor-id="way-to-revolution">Way to Revolution</h2>
-<p>This presented Einstein with a daunting dilemma. This conflict between the ideas of Newton and Maxwell can be demonstrated with another of Einstein’s brilliant thought experiments.</p>
-<p>Einstein imagined himself on a train platform witnessing two lightning bolts strike on either side of him. Now because Einstein stands precisely in the middle of the two strikes he receives the resulting beams of light from both sides at the same time. However, things get more complicated when someone on a passing train views this event while whizzing past Einstein at the speed of light. If the speed of light conforms to the rules of relativity, then the person on the train wouldn’t weakness the lightning strike simultaneously.</p>
-<div style="font-family: Georgia; text-align: center; font-size: 19px">
-<p><strong><em>Logically the light closure to the man on the train would reach him first.</em></strong></p>
-</div>
-<div class="cell">
-<div class="cell-output-display">
-<div class="vembedr">
-<div>
-<iframe src="https://www.youtube.com/embed/-jJ5PPcLUw8" width="533" height="300" frameborder="0" allowfullscreen="" data-external="1"></iframe>
-</div>
-</div>
-</div>
-</div>
-<p>A measurement of the speed of light made by both men would differ in magnitude, this would contradict an apparently fundamental truth of the universe. Einstein had to make a difficult choice. Either Newton’s laws were incomplete or the speed of light wasn’t a universal constant. Einstein realized that the two notions could coexist with a small tweak in Newton’s laws.</p>
-<p><img src="https://latex.codecogs.com/png.latex?2c%20=%20%5Cdfrac%7Bd%7D%7Bt%7D"></p>
-<p><img src="https://latex.codecogs.com/png.latex?2c%20=%20%5Cdfrac%7Bd%7D%7B%5Cdfrac%7Bt%7D%7B2%7D%7D"></p>
-<p><img src="https://latex.codecogs.com/png.latex?2c%20=%20%5Cdfrac%7B2d%7D%7Bt%7D"></p>
-<p><img src="https://latex.codecogs.com/png.latex?c%20=%20%5Cdfrac%20%7Bd%7D%7Bt%7D"></p>
-<p>To get rid of the discrepancy in the measurements Einstein suggested the time itself for the man of the train must slow down to compensate for the decrease in speed such that the magnitude remains a constant.</p>
-<p>Einstein called this absurdity ‘<a href="https://en.wikipedia.org/wiki/Time_dilation"><strong>time dilation</strong></a>’ and his new found theory “<a href="https://en.wikipedia.org/wiki/Special_relativity"><strong>special relativity</strong></a>”</p>
-<p><img src="https://latex.codecogs.com/png.latex?t_0%20=%20t%5Csqrt%7B1-v%5E2/c%5E2%7D"></p>
-<p><img src="https://latex.codecogs.com/png.latex?E%20=%20mc%5E2"></p>
-</section>
-<section id="concept-of-space-time" class="level2">
-<h2 class="anchored" data-anchor-id="concept-of-space-time">Concept of Space-time</h2>
-<p>Newton believed the time moved unflinchingly in a single direction forward. Einstein however had just realized the time stretches and contracts varying with velocity. Due to its malleability time like space deserved its own dimension in fact Einstein claimed that the two were one and the same together they formed a four dimensional fabric or continuum called space-time upon which the mundane events of the universe would unfold.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/the-truth-of-the-universe/4-dim.jpg" class="img-fluid figure-img"></p>
-</figure>
-</div>
-<p>Einstein suggested that massive objects like the Sun didn’t pull bodies like earth with mysterious Inexplicable tug, but rather curved the fabric of space-time around them. Forcing earth to fall down into this steep valley.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/the-truth-of-the-universe/curvature.jpg" class="img-fluid figure-img" width="343"></p>
-</figure>
-</div>
-<section id="intuitive-explanation" class="level3">
-<h3 class="anchored" data-anchor-id="intuitive-explanation">Intuitive Explanation</h3>
-<p>A highly simplified analogy is the dip in a trampoline made by a falling bowling ball. If a marble were placed on that trampoline the marble would immediately roll towards the bowling ball in the center. This is also true for the Earth’s gravity. We’re pinned to the ground because space so distorted by the Earth’s mass pushes us down from above. However, the slump in the fabric around Earth is not uniform and Earth’s gravity grows more intense as we move towards its center where the curvature is at a maximum.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div class="vembedr">
-<div>
-<iframe src="https://www.youtube.com/embed/MTY1Kje0yLg" width="533" height="300" frameborder="0" allowfullscreen="" data-external="1"></iframe>
-</div>
-</div>
-</div>
-</div>
-<p>Therefore like the marble on the trampoline an object that falls towards the earth accelerates as it races towards the center of the planet. It falls faster when just above the surface than it does say when it is slightly above the atmosphere. But according to special relativity the faster you move through space the slower you move through time. This means that time runs slower on Earth’s surface then it does above the atmosphere.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/the-truth-of-the-universe/falling.png" class="img-fluid figure-img" width="391"></p>
-</figure>
-</div>
-<p>Different planets have different masses and the different gravitational strength. They also accelerate objects at different rates as he have learnt this means a variable passage of time.</p>
-<p>This what happened in the movie ‘<a href="https://en.wikipedia.org/wiki/Interstellar_(film)">Interstellar</a>’ when the protagonist land on a planet in the proximity of a black hole.</p>
-<div style="font-family: Georgia; text-align: center; font-size: 19px">
-<p><strong><em>The gravity on the planet is so server that one hour of the surface is equivalent to seven years on the Earth.</em></strong></p>
-</div>
-</section>
-<section id="timekeeping-mechanism" class="level3">
-<h3 class="anchored" data-anchor-id="timekeeping-mechanism">Timekeeping Mechanism</h3>
-<p>To understand how motion effects time let’s considered the simplest timekeeping mechanism. A second passes each time the photon is reflected.</p>
-<div class="columns">
-<div class="column">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/the-truth-of-the-universe/photon-reflect.png" class="img-fluid figure-img" width="298"></p>
-</figure>
-</div>
-</div><div class="column">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/the-truth-of-the-universe/falling-down.png" class="img-fluid figure-img" width="353"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>Let’s imagine two people one in a spaceship slightly above Earth’s atmosphere and the second on top of a small hill just above the Earth’s surface. Both are watching a man fall from space towards the ground.</p>
-<p>Let’s say that the falling man is carrying the photon clock</p>
-<div style="font-family: Georgia; text-align: center; font-size: 16px">
-<p><strong><em>What to each of the two man observe as the man falls pass them ?</em></strong></p>
-<p><strong><em>What they observe is eerily similar to what a stationary person would observe when watching a ball bounce in a moving train ?</em></strong></p>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/the-truth-of-the-universe/exp.png" class="img-fluid figure-img" width="459"></p>
-</figure>
-</div>
-<p>As the man falls from the space, the light in his clock would appear to move in triangles to the observers.This would mean that light travels a longer distance consequently stretching the duration of a second. It’s obvious that the length of triangles the light traces and therefore the duration of a second is proportional to the velocity of the falling man.</p>
-<p>When we recall that objects closer to the center of the planet fall faster . We can determine the time would appear to pass slower to the man on the hill than it does to the man in the spaceship above. Of course the difference is infinitesimal. The difference between the time measured by clocks at the tops of mountains and at the surface of Earth is a matter of nano seconds.Time dilation affects every clock whether it relies on basic electromagnetism or a complex combination of electromagnetism and Newton’s laws of motion. In fact even biological processes are slowed down.</p>
-<p>Yes, that’s right your head is slightly older than your feet.</p>
-</section>
-</section>
-<section id="references" class="level2">
-<h2 class="anchored" data-anchor-id="references">References:</h2>
-<ol type="1">
-<li><p>At the Speed of Light by G.Venkataraman</p></li>
-<li><p><a href="https://www.ijser.org/researchpaper/The-Scientific-Conceptualization-of-Time-dilation.pdf">The Scientific Conceptualization of Time dilation</a></p></li>
-<li><p>Relativity: The Special and the General Theory by Albert Einstein</p></li>
-<li><p><a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.91.190403">Improved Test of Time Dilation in Special Relativity G. Saathoff, S. Karpuk, U. Eisenbarth, G. Huber, S. Krohn, R. Muñoz Horta, S. Reinhardt, D. Schwalm, A. Wolf, and G. Gwinner Phys. Rev.&nbsp;Lett. 91, 190403</a></p></li>
-</ol>
-
-
-</section>
-</section>
-
- ]]></description>
-  <category>Physics</category>
-  <category>Astronomy</category>
-  <category>Astrophysics</category>
-  <guid>https://cosmic-charade.netlify.app/posts/the-truth-of-the-universe/index.html</guid>
-  <pubDate>Wed, 12 Oct 2022 18:30:00 GMT</pubDate>
-  <media:content url="https://cosmic-charade.netlify.app/posts/the-truth-of-the-universe/dialation.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

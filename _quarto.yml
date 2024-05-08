@@ -18,10 +18,11 @@ website:
        - href: liter.qmd
        - text: Cosmic Courses
          menu:
-          - text: R for Everyone
-            href: r4e.pdf
+          # - text: R for Everyone
+          #   href: r4e.pdf
           - text: Computational Thinking with R + Python 
             href: actrp.pdf
+       - href: mag.qmd
        - href: squad_new2.qmd
     right:
       # - href: bb.qmd

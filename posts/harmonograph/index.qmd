@@ -2,6 +2,7 @@
 title: "Capturing the Symphony of Motion"
 subtitle: "A Harmonograph Odyssey"
 author: "Abhirup Moitra"
+date: 2024-05-08
 toc: true
 categories: [Mathematics, Physics]
 image: wallpaper.jpg

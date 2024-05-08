@@ -1,0 +1,49 @@
+---
+title: "Magazine's Space"
+title-block-banner: true
+page-layout: full
+---
+
+![](mag_2side_jpg.jpg){fig-align="center" width="639"}
+
+::: {style="text-align: center; font-size: 26px"}
+We have unveiled the cosmic wonders within the pages of our first issue, in the [***International Kolkata Book Fair***](https://www.kolkatabookfair.net/) ***2024***, presented by
+
+***বিস্ময়কর ব্রহ্মাণ্ড — Cosmic Charade***🌠
+:::
+
+::: {style="font-family: Georgia;"}
+Our esteemed authors of the first issue are:
+:::
+
+-   [Barun Kumar Dutta](https://www.facebook.com/barun.datta.10485)
+
+-   [Shounak Bhattacharya](https://www.linkedin.com/in/shounakbhattacharya/)
+
+-   [Sandipan Ganguly](https://www.facebook.com/sandipan.ganguly.35)
+
+-   Dr. Pranjal Kumar Phukan
+
+-   [Sovan Kapuria](https://www.facebook.com/profile.php?id=100090678347007)
+
+-   [Shubhrangshu Adhikary](https://www.linkedin.com/in/subhrangshu-adhikary/)
+
+-   [Dr. Arunima Bhattacharya](https://www.linkedin.com/in/arunima-bhattacharya-0885099b/)
+
+-   Diganta Paul
+
+-   [Abhijit Pal](https://www.facebook.com/profile.php?id=100011548837325)
+
+-   [Samrit Pramanik](https://www.linkedin.com/in/samritpramanik24/)
+
+![](images/clipboard-3529325739.png){fig-align="center" width="473"}
+
+::: {style="font-size: 26px; font-family: Georgia Pro"}
+The physical copy of the magazine is available at [*Dhyanbindu Prakashani*](https://dhyanbindu.com/)*, College Street* (except Sunday).
+
+Address: [Bankim Chatterjee St, College Square, East, Kolkata, West Bengal – 700073](https://www.google.com/maps/dir//Bankim+Chatterjee+St,+College+Square,+East,+Kolkata,+West+Bengal+700073/@22.5740947,88.2819666,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3a027652e94c674d:0x3e640db170cf90f9!2m2!1d88.3643682!2d22.5741157?entry=ttu)
+:::
+
+::: {style="text-align: center; font-family: Georgia; font-size: 30px"}
+*Grab the magazine and support us!*
+:::
