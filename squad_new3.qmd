@@ -60,11 +60,11 @@ Kazi Abu Rousan
 
 <summary>Research Scholar and Academic Instructor</summary>
 
-He is a research fellow at the Indian Association for the Cultivation of Science, pursuing an Integrated MS-PhD in Physics with a focus on Cosmology. He teaches Mathematics and Physics for olympiad preparation at Cheenta Ganit Kendra and serves as a Course Instructor at Cosmic Charade. He designed the course "Approaching Towards Computational Thinking" and mentors students and research fellows in developing scientific computing skills.
+He completed his Masters in Physics with a focus on Cosmology from Indian Association for the Cultivation of Science. He teaches Mathematics and Physics for olympiad preparation at Cheenta Ganit Kendra and serves as a Course Instructor at Cosmic Charade. He designed the course "Approaching Towards Computational Thinking" and mentors students and research fellows in developing scientific computing skills.
 
 </details>
 
-<a href="mailto:kaziaburousan@gmail.com"><img src="icons/gmail.png" style="width:28px;"/></a> <a href="https://aburousan.github.io/azazaya/"><img src="icons/world-wide-web2.png" alt="LinkedIn" style="width:28px;"/></a> <a href="https://www.linkedin.com/in/abhirup-moitra-7a66731a6/"><img src="icons/linkedin.png" style="width:28px;"/></a> <a href="https://github.com/aburousan"><img src="icons/github.png" style="width:28px;"/></a> <a href="https://www.researchgate.net/profile/Kazi-Abu-Rousan"><img src="icons/researchgate.png" style="width:28px;"/></a> <a href="https://scholar.google.co.in/citations?user=p-6AtmEAAAAJ&hl=en"><img src="icons/scholar.png" style="width:28px;"/></a>
+<a href="mailto:kaziaburousan@gmail.com"><img src="icons/gmail.png" style="width:28px;"/></a> <a href="https://aburousan.github.io/azazaya/"><img src="icons/world-wide-web2.png" style="width:28px;"/></a> <a href="https://www.linkedin.com/in/abhirup-moitra-7a66731a6/"><img src="icons/linkedin.png" style="width:28px;"/></a> <a href="https://github.com/aburousan"><img src="icons/github.png" style="width:28px;"/></a>
 :::
 
 ::: {style="flex-basis: 30%; margin: 10px; text-align: center;"}
