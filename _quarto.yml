@@ -23,7 +23,8 @@ website:
           - text: Computational Thinking with R + Python 
             href: actrp.pdf
        - href: mag.qmd
-       - href: squad_new2.qmd
+       - text: Cosmic Squad
+         href: squad_new3.qmd
     right:
       # - href: bb.qmd
       - icon: envelope

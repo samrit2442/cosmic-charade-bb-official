@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.433">
+<meta name="generator" content="quarto-1.4.554">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -50,7 +50,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -59,6 +65,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -85,6 +92,8 @@ cookieconsent.run({
   "notice_banner_reject_button_hide":false,
   "preferences_center_close_button_hide":false,
   "website_name":""
+  ,
+"language":"en"
   });
 });
 </script> 
@@ -93,20 +102,47 @@ cookieconsent.run({
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 <link rel="stylesheet" href="../../styles.css">
 <meta property="og:title" content="Cosmic Charade🪐🌠 - A Glorious Dispersion">
 <meta property="og:description" content="">
-<meta property="og:image" content="https://cosmic-charade.netlify.app/posts/raman-scattering/logo-with-bg-2.jpg">
-<meta property="og:site-name" content="Cosmic Charade🪐🌠">
+<meta property="og:image" content="https://cosmic-charade.netlify.app/posts/raman-scattering/rays-scattering.jpg">
+<meta property="og:site_name" content="Cosmic Charade🪐🌠">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Cosmic Charade🪐🌠</span>
     </a>
@@ -118,81 +154,81 @@ cookieconsent.run({
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html" rel="" target="">
- <span class="menu-text">Home</span></a>
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html" rel="" target="">
- <span class="menu-text">About Us</span></a>
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About Us</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../posts.html" rel="" target="">
- <span class="menu-text">Blogs</span></a>
+    <a class="nav-link" href="../../posts.html"> 
+<span class="menu-text">Blogs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../liter.html" rel="" target="">
- <span class="menu-text">Cosmic Literature</span></a>
+    <a class="nav-link" href="../../liter.html"> 
+<span class="menu-text">Cosmic Literature</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-cosmic-courses" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-cosmic-courses" role="button" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Cosmic Courses</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-cosmic-courses">    
         <li>
-    <a class="dropdown-item" href="../../actrp.pdf" rel="" target="">
+    <a class="dropdown-item" href="../../actrp.pdf">
  <span class="dropdown-text">Computational Thinking with R + Python</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../mag.html" rel="" target="">
- <span class="menu-text">Magazine’s Space</span></a>
+    <a class="nav-link" href="../../mag.html"> 
+<span class="menu-text">Magazine’s Space</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../squad_new2.html" rel="" target="">
- <span class="menu-text">Cosmic Squad</span></a>
+    <a class="nav-link" href="../../squad_new3.html"> 
+<span class="menu-text">Cosmic Squad</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="mailto:cosmiccharade0@gmail.com" rel="" target=""><i class="bi bi-envelope" role="img">
+    <a class="nav-link" href="mailto:cosmiccharade0@gmail.com"> <i class="bi bi-envelope" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://www.instagram.com/bismoykar_bramhanda/" rel="" target=""><i class="bi bi-instagram" role="img">
+    <a class="nav-link" href="https://www.instagram.com/bismoykar_bramhanda/"> <i class="bi bi-instagram" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://linkedin.com/company/bismoykar-bramhanda" rel="" target=""><i class="bi bi-linkedin" role="img">
+    <a class="nav-link" href="https://linkedin.com/company/bismoykar-bramhanda"> <i class="bi bi-linkedin" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://chat.whatsapp.com/BwGDsLPHX6i1ID4711I2DQ" rel="" target=""><i class="bi bi-whatsapp" role="img">
+    <a class="nav-link" href="https://chat.whatsapp.com/BwGDsLPHX6i1ID4711I2DQ"> <i class="bi bi-whatsapp" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://t.me/bismoykar_bramhanda_cc" rel="" target=""><i class="bi bi-telegram" role="img">
+    <a class="nav-link" href="https://t.me/bismoykar_bramhanda_cc"> <i class="bi bi-telegram" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://youtube.com/@cosmiccharade33?si=m3B9lqSqcioNJVtb" rel="" target=""><i class="bi bi-youtube" role="img">
+    <a class="nav-link" href="https://youtube.com/@cosmiccharade33?si=m3B9lqSqcioNJVtb"> <i class="bi bi-youtube" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
   <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
   <div class="quarto-reader-toggle-btn">
   <i class="bi"></i>
   </div>
 </a>
 </div>
-          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -300,14 +336,18 @@ cookieconsent.run({
 
 
 
+
 <div style="color: navy; font-size: 19px; font-family: Garamond; text-align: center; border-radius: 4px; background-image: linear-gradient(#C3E5E5, #F6F7FC)">
 <p><strong><em>A scattering beam of light brings glory in the dark. A little positive effort can take you so far, towards the glory of&nbsp;our beautiful cosmos.</em></strong></p>
 </div>
 <section id="a-review-of-light" class="level1">
 <h1>A Review of Light</h1>
 <p>Light is our primary means of perceiving the world around us. Indeed, in a scientific context, the detection of light is a very powerful tool for probing the universe around us. Light is electromagnetic radiation that shows the properties of both waves and particles. Electromagnetic radiation, as the name suggests, describes fluctuations of electric and magnetic fields, transporting energy at the Speed of Light (which is <span class="math inline">\(3\times10^8\  \text{m/s}\)</span>). Light is a form of energy that can be detected by the human eye. Light exists in tiny energy packets called photons.</p>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
 <p><img src="light-wave.png" class="img-fluid"></p>
 </div>
@@ -323,7 +363,7 @@ cookieconsent.run({
 <p>The study of how ‘species’ (i.e., atoms, molecules, solutions) react to light. Some studies depend on how much light an atom absorbs. The electromagnetic radiation absorbed, emitted, or scattered by the molecule is analyzed. Typically, a beam of radiation from a source such as a laser is passed through a sample, and the radiation exiting the sample is measured. Some, like Raman, depend on a molecule’s vibrations in reaction to the light.&nbsp;This figure shows the Electromagnetic Spectrum, highlighting the narrow window of Visible Light that is detectable by the human eye.&nbsp;</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="spectroscopy.png" class="img-fluid figure-img"></p>
+<p><img src="spectroscopy.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
 </section>
@@ -332,28 +372,31 @@ cookieconsent.run({
 <p>Light can be examined entirely from its source. When light passes from one medium to any other medium say air, or a glass of water then a part of the light is absorbed by particles of the medium preceded by its subsequent radiation in a particular direction. This phenomenon is termed scattering of light. The intensity of scattered light depends on the size of the particles and the wavelength of the light.&nbsp;</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="scattering-phenomenon.png" class="img-fluid figure-img"></p>
+<p><img src="scattering-phenomenon.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
 </section>
 <section id="raman-spectroscopy" class="level1">
 <h1><strong>Raman Spectroscopy</strong></h1>
 <p>In 1928, the Indian physicist Chandrasekhara Venkata Raman discovered that the visible wavelength of a small fraction of the radiation scattered by certain molecules differs from that of the incident beam.&nbsp;</p>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 42.2%;justify-content: center;">
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="c-v-raman.jpg" class="img-fluid figure-img" width="261"></p>
-<figcaption class="figure-caption">Sir Chandrasekhara Venkata Raman</figcaption>
+<figcaption>Sir Chandrasekhara Venkata Raman</figcaption>
 </figure>
 </div>
 </div>
-<div class="quarto-layout-cell" style="flex-basis: 57.8%;justify-content: center;">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="raman-spectra.png" class="img-fluid figure-img" width="358"></p>
-<figcaption class="figure-caption">First Photograph of Raman Spectra</figcaption>
+<figcaption>First Photograph of Raman Spectra</figcaption>
 </figure>
 </div>
 </div>
@@ -365,7 +408,7 @@ cookieconsent.run({
 <p>When a monochromatic radiation of frequency <span class="math inline">\(\nu\)</span> is passed through a non-absorbing medium, it is found that most of it is transmitted without any change, and some of it is scattered. If the scattered energy is analyzed utilizing a spectrometer, the bulk of the energy is found at the frequency of the incident beam 𝜈 but a small portion of the scattered energy will be found at frequencies <span class="math inline">\(\nu=\nu_{0}\pm \nu_m\)</span>. The scattering of radiation with a change of frequency is called Raman scattering.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="monochromatic.jpg" class="img-fluid figure-img"></p>
+<p><img src="monochromatic.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
 <section id="why-raman-scattering" class="level3">
@@ -377,7 +420,7 @@ cookieconsent.run({
 <p>Scattering of electromagnetic radiation is in two common types Rayleigh and Raman scattering. Even though there are some differences between them, the key difference between Rayleigh and Raman scattering is that Rayleigh scattering is a form of elastic scattering of light or any other electromagnetic radiation whereas Raman scattering is a form of inelastic scattering of light or any other electromagnetic radiation.&nbsp;</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="why-ramn.png" class="img-fluid figure-img"></p>
+<p><img src="why-ramn.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
 <p>The frequency of the scattered light can be:</p>
@@ -387,7 +430,7 @@ cookieconsent.run({
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="r-scatter-raman-scatter.png" class="img-fluid figure-img"></p>
+<p><img src="r-scatter-raman-scatter.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
 </section>
@@ -398,7 +441,7 @@ cookieconsent.run({
 <p>Raman spectroscopy is based on Raman scattering (or Raman effect) that reveals the vibrational, rotational, and other low-frequency modes of molecules. In this technique, the sample is exposed to an intense beam of monochromatic light (typically a laser beam) in the frequency range of the visible, near-infrared, or near-ultraviolet region. Electromagnetic radiation, interacting with a substance, can be transmitted, absorbed, or scattered. When the monochromatic radiation is scattered by molecules, the majority of the radiation undergoes the common Rayleigh scattering (radiation’s frequency/wavelength is unchanged). However, a small fraction of the scattered radiation is observed to have a slightly different frequency from that of the incident radiation. This is known as the <strong>Raman effect</strong>. The Raman lines show up pairwise. The dominant Stokes lines have a lower frequency (longer wavelength) than the initial radiation, whereas the weaker (often non-detectable) anti-stokes lines have a higher frequency (shorter wavelength). The frequency shifts are virtually independent of the excitation wavelength and are characteristic of the particular substance/molecule. Usually, one only records the relatively strong Stokes lines, which therefore are attributed to a positive frequency shift. Such spectral coordinate is called the <strong>Raman shift</strong> and is measured in wave numbers (in cm-1). See the scheme in the figure below.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="rr-shift.png" class="img-fluid figure-img" width="506"></p>
+<p><img src="rr-shift.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="506"></p>
 </figure>
 </div>
 <p><strong>Note:</strong>&nbsp;Raman shift can correspond either to rotational, vibrational, or electronic frequencies.&nbsp;</p>
@@ -411,7 +454,7 @@ cookieconsent.run({
 <p>As with other spectroscopic techniques, Raman spectroscopy detects certain interactions of light with matter. In particular, this technique exploits the existence of Stokes and Anti-Stokes scattering to examine molecular structure. When radiation in the near-infrared (NIR) or visible range interacts with a molecule, several types of scattering can occur. Three of these can be seen in the energy diagram in the figure below.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="img-scat.jpg" class="img-fluid figure-img"></p>
+<p><img src="img-scat.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
 <p>Three types of scattering by a molecule excited by a photon with energy, <span class="math inline">\(E = hν\)</span>. The most common transition is marked with bold arrows.&nbsp;</p>
@@ -419,7 +462,7 @@ cookieconsent.run({
 <p>Rayleigh scattering is by far the most common transition since no change has to occur in the vibrational state of the molecule. The anti-Stokes transition is the least common, as it requires the molecule to be vibrationally excited before the photon is incident upon it. Due to the lack of intensity of the anti-Stokes signal and filtering requirements that eliminate photons with incident energy and higher, generally, only Stokes scattering is used in Raman measurements. The relative intensities of Rayleigh, Stokes, and anti-Stokes scattering can be seen in the figure below.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="scat-img.png" class="img-fluid figure-img"></p>
+<p><img src="scat-img.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
 <p>We can see the Location and relative intensity (indicated by peak height and width) of the Stokes and anti-Stokes scattering relative to Rayleigh scattering.&nbsp;</p>
@@ -466,7 +509,7 @@ p=\left[\alpha_0\ +\ \left(\dfrac{\partial \alpha}{\partial r}\right) r_{\text{m
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="dipole-ir.jpg" class="img-fluid figure-img" width="467"></p>
-<figcaption class="figure-caption">A change in dipole moment is required for a vibrational mode to be IR active</figcaption>
+<figcaption>A change in dipole moment is required for a vibrational mode to be IR active</figcaption>
 </figure>
 </div>
 <ul>
@@ -476,7 +519,7 @@ p=\left[\alpha_0\ +\ \left(\dfrac{\partial \alpha}{\partial r}\right) r_{\text{m
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="polarizability-ellipsoid.jpg" class="img-fluid figure-img" width="547"></p>
-<figcaption class="figure-caption">A change in the polarizability of a bond is required for a vibrational mode to be Raman active</figcaption>
+<figcaption>A change in the polarizability of a bond is required for a vibrational mode to be Raman active</figcaption>
 </figure>
 </div>
 <p>Many molecules that are inactive or weak in the IR will have intense Raman signals. This results in often complementary techniques.&nbsp;</p>
@@ -501,7 +544,7 @@ p=\left[\alpha_0\ +\ \left(\dfrac{\partial \alpha}{\partial r}\right) r_{\text{m
 <p>Now the time is to introduce Surface-enhanced Raman spectroscopy (SERS). One of the limitations of the Raman effect is that it is a very weak phenomenon. About one in 107 photons undergo Raman scattering. Therefore, the Raman signal is very low from low concentrations of the analyte or poor Raman scatterers. Sometimes the high fluorescence from the molecule obscures the Raman signals. Surface-enhanced Raman spectroscopy (SERS) is all about amplifying Raman signals from molecules, by several orders of magnitude. SERS is a technique where molecules undergo much higher scattering efficiencies when adsorbed on metal colloidal nanoparticles or rough metal surfaces.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="Fleischmann-cf.jpg" class="img-fluid figure-img"></p>
+<p><img src="Fleischmann-cf.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
 <p>The group discovered an anomalously large enhancement of the Raman signal of pyridine in the presence of a roughened silver electrode. In the definition of SERS, we can say, SERS is a phenomenon associated with the enhancement of the electromagnetic field surrounding small objects optically excited near an intense and sharp plasmon resonance. The enhanced fields excite the adsorbate (probe) and the scattered radiation will again be enhanced. Surface-enhanced Raman scattering (SERS) consists in using the large local field enhancements that can exist at metallic surfaces (under the right conditions, typically by profiting from localized surface plasmon resonances) to boost the Raman scattering signal of molecules at (or close to) the surface.</p>
@@ -605,10 +648,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/cosmic-charade\.netlify\.app");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -618,8 +678,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -631,7 +700,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -675,6 +867,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -700,6 +893,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -765,12 +984,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       &nbsp;
     </div>   
-    <div class="nav-footer-center">Proudly made with Quarto 💙 <br> Copyright © 2024 | Contact us <br> <a href="privacy_policy.qmd">Privacy Policy</a><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="nav-footer-center">
+<p>Proudly made with Quarto 💙 <br> Copyright © 2024 | Contact us <br> <a href="privacy_policy.qmd">Privacy Policy</a></p>
+<div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
   </div>
 </footer>
+
 
 
 

@@ -9,13 +9,14 @@
 <link>https://cosmic-charade.netlify.app/posts.html</link>
 <atom:link href="https://cosmic-charade.netlify.app/posts.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.3.433</generator>
+<generator>quarto-1.4.554</generator>
 <lastBuildDate>Tue, 07 May 2024 18:30:00 GMT</lastBuildDate>
 <item>
   <title>Capturing the Symphony of Motion</title>
   <dc:creator>Abhirup Moitra</dc:creator>
-  <link>https://cosmic-charade.netlify.app/posts/harmonograph/index.html</link>
+  <link>https://cosmic-charade.netlify.app/posts/harmonograph/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -26,21 +27,24 @@
 <section id="echoes-of-harmony" class="level1">
 <h1><strong>Echoes of Harmony</strong></h1>
 <p>In the realm where science and art intersect, there exists a gadget that captures the imagination and stirs the soul—a device known as the harmonograph. Imagine a scene reminiscent of a Victorian parlour, where guests gather around an intriguing apparatus, eagerly awaiting the unveiling of its mysterious creations.</p>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://cosmic-charade.netlify.app/posts/harmonograph/harmomono-graph.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Harmonograph</figcaption>
+<figcaption>Harmonograph</figcaption>
 </figure>
 </div>
 </div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://cosmic-charade.netlify.app/posts/harmonograph/drawing-machine.jpg" class="img-fluid figure-img" width="327"></p>
-<figcaption class="figure-caption">Three-Pendulum Rotary Harmonograph</figcaption>
+<figcaption>Three-Pendulum Rotary Harmonograph</figcaption>
 </figure>
 </div>
 </div>
@@ -63,7 +67,7 @@
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://cosmic-charade.netlify.app/posts/harmonograph/blackburn-pendulum.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption"><a href="https://petapixel.com/2014/10/03/photographer-uses-giant-blackburn-pendulum-create-abstract-large-format-light-paintings/">Giant Blackburn Pendulum</a></figcaption>
+<figcaption><a href="https://petapixel.com/2014/10/03/photographer-uses-giant-blackburn-pendulum-create-abstract-large-format-light-paintings/">Giant Blackburn Pendulum</a></figcaption>
 </figure>
 </div>
 <p>As the tale goes, Blackburn’s harmonograph captured the imagination of the public, becoming a centrepiece of Victorian parlours and scientific salons. Guests would marvel at the intricate patterns produced by the swinging pendulums, each creation a unique expression of mathematical harmony.</p>
@@ -82,7 +86,7 @@
 <p>At its core are the principles of harmonic motion and resonance, concepts deeply rooted in the laws of physics. By harnessing the natural oscillations of pendulums, the harmonograph transforms motion into art, unveiling the hidden beauty of mathematical patterns.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/harmonograph/simple-pendulum.gif" class="img-fluid figure-img" width="159"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/harmonograph/simple-pendulum.gif" class="img-fluid quarto-figure quarto-figure-center figure-img" width="159"></p>
 </figure>
 </div>
 <p>Imagine the scene, a dimly lit room, the air heavy with anticipation as the harmonograph comes to life. With each swing of the pendulum, delicate lines emerge on the paper below, forming elaborate spirals, loops, and curves. It’s a dance of precision and grace, where the laws of nature meet the creative impulses of the human spirit. But the story of the harmonograph does not end in the past. Even today, this captivating device continues to inspire artists, scientists, and enthusiasts around the world. In an age dominated by digital technologies, the harmonograph reminds us of the timeless allure of analogue craftsmanship and the beauty of simplicity. As we bid farewell to our journey through the world of the harmonograph, let us carry with us the memory of its mesmerizing creations—a testament to the enduring marriage of art and science, where imagination knows no bounds.</p>
@@ -90,8 +94,11 @@
 <section id="from-pendulum-swings-to-digital-brushstrokes" class="level1">
 <h1><strong>From Pendulum Swings to Digital Brushstrokes</strong></h1>
 <p>Here, we present a series of computer-simulated images inspired by the harmonograph’s elegant movements. Each image is a testament to the power of technology to capture the essence of natural phenomena and to explore the boundless possibilities of artistic expression.</p>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
 <p><img src="https://cosmic-charade.netlify.app/posts/harmonograph/harmony1.jpg" class="img-fluid"></p>
 </div>
@@ -101,8 +108,11 @@
 </div>
 </div>
 <p>As we behold these digital creations, we are drawn into a world where the boundaries between art and science blur, where the precision of mathematical algorithms intertwines with the boundless creativity of human imagination. In these simulated images, we witness the culmination of centuries of exploration, where the harmonograph’s timeless allure finds new expression in the realm of pixels and code.</p>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
 <p><img src="https://cosmic-charade.netlify.app/posts/harmonograph/harmonograph-img.jpg" class="img-fluid"></p>
 </div>
@@ -114,12 +124,12 @@
 <p>Each stroke, each curve, is a testament to the harmonious interplay between mathematics and aesthetics—a delicate dance of form and function that transcends the limitations of time and space. In these intricate patterns, we find echoes of the harmonograph’s elegant movements, reminding us of the beauty that lies at the intersection of calculation and creativity.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/harmonograph/harmonograph01.png" class="img-fluid figure-img" width="618"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/harmonograph/harmonograph01.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="618"></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/harmonograph/knn_lissajous_002.png" class="img-fluid figure-img" width="546"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/harmonograph/knn_lissajous_002.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="546"></p>
 </figure>
 </div>
 </section>
@@ -149,7 +159,7 @@
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/harmonograph/thank-you.jpg" class="img-fluid figure-img" width="420"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/harmonograph/thank-you.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="420"></p>
 </figure>
 </div>
 
@@ -159,15 +169,16 @@
  ]]></description>
   <category>Mathematics</category>
   <category>Physics</category>
-  <guid>https://cosmic-charade.netlify.app/posts/harmonograph/index.html</guid>
+  <guid>https://cosmic-charade.netlify.app/posts/harmonograph/</guid>
   <pubDate>Tue, 07 May 2024 18:30:00 GMT</pubDate>
   <media:content url="https://cosmic-charade.netlify.app/posts/harmonograph/wallpaper.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>The Art of Turning Losses into Wins</title>
   <dc:creator>Abhirup Moitra</dc:creator>
-  <link>https://cosmic-charade.netlify.app/posts/parrondo-paradox/index.html</link>
+  <link>https://cosmic-charade.netlify.app/posts/parrondo-paradox/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -221,13 +232,13 @@
 <p>Starting with 0€, it is easy to simulate the three games along 500 plays. This is an example of one of these simulations:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/parrondo-paradox/img1.jpg" class="img-fluid figure-img" width="591"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/parrondo-paradox/img1.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="591"></p>
 </figure>
 </div>
 <p>The resulting profit of Game A+B after 500 plays&nbsp; is +52€ and is -9€ and -3€ for Games A and B respectively. Let’s do some more simulations.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/parrondo-paradox/parrondo02.jpg" class="img-fluid figure-img" width="622"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/parrondo-paradox/parrondo02.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="622"></p>
 </figure>
 </div>
 </section>
@@ -236,7 +247,7 @@
 <p>As you can see, Game A+B is the most profitable in almost all the previous simulations. This is a consequence of the stunning <em>Parrondo’s Paradox</em> which states that <strong>two losing games can combine into a winning one</strong>. If you still don’t believe in this <em>brain-crashing</em> paradox, you can see the empirical distributions of final profits of three games after 1000 plays:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/parrondo-paradox/img2.jpg" class="img-fluid figure-img" width="575"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/parrondo-paradox/img2.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="575"></p>
 </figure>
 </div>
 <p>After 1000 plays, the mean profit of Game A is -13€, -7€ for Game B and 17€ for Game A+B.</p>
@@ -306,15 +317,16 @@
   <category>Mathematics</category>
   <category>Probability</category>
   <category>Paradox</category>
-  <guid>https://cosmic-charade.netlify.app/posts/parrondo-paradox/index.html</guid>
+  <guid>https://cosmic-charade.netlify.app/posts/parrondo-paradox/</guid>
   <pubDate>Wed, 24 Apr 2024 18:30:00 GMT</pubDate>
   <media:content url="https://cosmic-charade.netlify.app/posts/parrondo-paradox/wallpaper.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Unhackable Internet</title>
   <dc:creator>Diganta Paul</dc:creator>
-  <link>https://cosmic-charade.netlify.app/posts/unhackable-internet/index.html</link>
+  <link>https://cosmic-charade.netlify.app/posts/unhackable-internet/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -326,13 +338,13 @@
 <div class="quarto-figure quarto-figure-center" style="text-align:center">
 <figure class="figure">
 <p><img src="https://cosmic-charade.netlify.app/posts/unhackable-internet/Image - Spin Up and Spin Down Electron.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">(<em>left</em>) Spin Up Electron (Qubit |1&gt;State); (<em>right</em>) Spin Down Electron (Qubit |0&gt;State)</figcaption>
+<figcaption>(<em>left</em>) Spin Up Electron (Qubit |1&gt;State); (<em>right</em>) Spin Down Electron (Qubit |0&gt;State)</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center" style="text-align: center">
 <figure class="figure">
 <p><img src="https://cosmic-charade.netlify.app/posts/unhackable-internet/Image - Horizontal and Vertical Polarization of Photon.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Vertically Polarized Photon (Qubit in |1&gt; State) and Horizontally Polarized Photon (Qubit in |0&gt; State)</figcaption>
+<figcaption>Vertically Polarized Photon (Qubit in |1&gt; State) and Horizontally Polarized Photon (Qubit in |0&gt; State)</figcaption>
 </figure>
 </div>
 </section>
@@ -350,7 +362,7 @@
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://cosmic-charade.netlify.app/posts/unhackable-internet/Image - Quantum Entanglement.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Quantum Entanglement</figcaption>
+<figcaption>Quantum Entanglement</figcaption>
 </figure>
 </div>
 </section>
@@ -374,15 +386,16 @@
  ]]></description>
   <category>Technology</category>
   <category>Physics</category>
-  <guid>https://cosmic-charade.netlify.app/posts/unhackable-internet/index.html</guid>
+  <guid>https://cosmic-charade.netlify.app/posts/unhackable-internet/</guid>
   <pubDate>Sun, 10 Mar 2024 18:30:00 GMT</pubDate>
   <media:content url="https://cosmic-charade.netlify.app/posts/unhackable-internet/Cover Image.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Birth of Baby Wormhole in Quantum Lab</title>
   <dc:creator>Aditi Roy Chowdhury</dc:creator>
-  <link>https://cosmic-charade.netlify.app/posts/birth-of-baby-worm-hole/index.html</link>
+  <link>https://cosmic-charade.netlify.app/posts/birth-of-baby-worm-hole/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -394,7 +407,7 @@
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://cosmic-charade.netlify.app/posts/birth-of-baby-worm-hole/Picture1.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">The alternative route can be considered as a wormhole. The two connecting point can be thought as two black hole or more specifically a black hole and another one is the hypothetical white hole (time reversal of black hole)</figcaption>
+<figcaption>The alternative route can be considered as a wormhole. The two connecting point can be thought as two black hole or more specifically a black hole and another one is the hypothetical white hole (time reversal of black hole)</figcaption>
 </figure>
 </div>
 <p><strong>It was 1935, Einstein along with Nathan Rosen, published the ER paper</strong>. They developed the concept of a certain type of a wormhole called an Einstein-Rosen (ER) bridge.</p>
@@ -404,7 +417,7 @@
 <p>Now, wormhole is too unstable. anything with mass or energy tries to entering into a wormhole, it’s gravitational effect immediately closes it<strong>. Then, how was this wormhole created?</strong> According to general relativity, to keep the wormhole open, some negative energy is needed to provide a force against the gravitational collapse. But Negative energy is something physically impossible! But in quantum system it is possible. Negative energy can be simulated in laboratory by manipulating the electrical field to change the spin direction of the qubits.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/birth-of-baby-worm-hole/Picture2.svg" class="img-fluid figure-img"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/birth-of-baby-worm-hole/Picture2.svg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
 <p>The experiment is done in following steps:</p>
@@ -444,15 +457,16 @@ Note
  ]]></description>
   <category>Astronomy</category>
   <category>Astrophysics</category>
-  <guid>https://cosmic-charade.netlify.app/posts/birth-of-baby-worm-hole/index.html</guid>
+  <guid>https://cosmic-charade.netlify.app/posts/birth-of-baby-worm-hole/</guid>
   <pubDate>Sat, 02 Mar 2024 18:30:00 GMT</pubDate>
   <media:content url="https://cosmic-charade.netlify.app/posts/birth-of-baby-worm-hole/cover.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
   <title>A Deadly Dice Game</title>
   <dc:creator>Abhirup Moitra</dc:creator>
-  <link>https://cosmic-charade.netlify.app/posts/probability-problem/index.html</link>
+  <link>https://cosmic-charade.netlify.app/posts/probability-problem/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -469,7 +483,7 @@ Note
 <p>When an unlucky roller finally rolls double sixes — also called “boxcars”, or “midnight” — everyone in that room dies instantly. Kind of a grim game, but a million bucks is life-altering money so you may determine that it’s worth the risk. After all, the <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2394262/"><strong>odds of survival</strong></a> are in your favor. Six sides on each of two dice, marked with dots officially called pips, means there are a possible <img src="https://latex.codecogs.com/png.latex?36"> combinations you can roll. That’s a <img src="https://latex.codecogs.com/png.latex?%5Cfrac%7B1%7D%7B36%7D"> chance you’ll roll double sixes, which is only <img src="https://latex.codecogs.com/png.latex?2.77%5C%25"> repeating which will round up to <img src="https://latex.codecogs.com/png.latex?2.8%5C%25."></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/probability-problem/CluelessDefinitiveBongo-size_restricted.gif" class="img-fluid figure-img" width="293"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/probability-problem/CluelessDefinitiveBongo-size_restricted.gif" class="img-fluid quarto-figure quarto-figure-center figure-img" width="293"></p>
 </figure>
 </div>
 <p>To put it in another way, there are <img src="https://latex.codecogs.com/png.latex?35"> different combinations of surviving rolls and only <img src="https://latex.codecogs.com/png.latex?1"> combination of death rolls. You might think that the game could be played for <img src="https://latex.codecogs.com/png.latex?18"> rounds before there was a <img src="https://latex.codecogs.com/png.latex?50/50"> chance of rolling double sixes because <img src="https://latex.codecogs.com/png.latex?18"> rolls out of <img src="https://latex.codecogs.com/png.latex?36"> possible combinations are <img src="https://latex.codecogs.com/png.latex?50%5C%25."></p>
@@ -507,15 +521,16 @@ Note
  ]]></description>
   <category>Probability</category>
   <category>Mathematics</category>
-  <guid>https://cosmic-charade.netlify.app/posts/probability-problem/index.html</guid>
+  <guid>https://cosmic-charade.netlify.app/posts/probability-problem/</guid>
   <pubDate>Mon, 19 Jun 2023 18:30:00 GMT</pubDate>
   <media:content url="https://cosmic-charade.netlify.app/posts/probability-problem/dice.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Art of Impulse</title>
   <dc:creator>Abhirup Moitra</dc:creator>
-  <link>https://cosmic-charade.netlify.app/posts/van-gough-his-art/index.html</link>
+  <link>https://cosmic-charade.netlify.app/posts/van-gough-his-art/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -535,7 +550,7 @@ Note
 <p>In “The Starry Night”, his circular Brushstrokes create a night sky filled with swirling clouds and eddies of stars. Van Gogh and other impressionists represented light in a different way than their predecessors, seeming to capture its motion, for instance, across sun-dappled waters, or here in starlight that twinkles and melts through milky waves of the blue night sky. The effect is caused by <a href="https://en.wikipedia.org/wiki/Luminance"><strong>luminance</strong></a><strong>,</strong> the intensity of the light in the colors on the canvas. The more primitive part of our visual cortex, which sees light contrast and motion, but not color, will blend two differently colored areas together if they have the same luminance. But our brains’ primate subdivision will see the contrasting colors without blending. With these two interpretations happening at once, the light in many impressionist works seems to pulse, flicker, and radiate oddly. That’s how this and other impressionist works use quickly executed prominent brushstrokes to capture something strikingly real about how light moves.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/van-gough-his-art/difference-between-luminous-flux-and-intensity-illuminance-and-luminance.jpg" class="img-fluid figure-img" width="458"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/van-gough-his-art/difference-between-luminous-flux-and-intensity-illuminance-and-luminance.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="458"></p>
 </figure>
 </div>
 <section id="definition" class="level3">
@@ -554,14 +569,14 @@ Note
 <p>60 years later, Russian mathematician <a href="https://en.wikipedia.org/wiki/Andrey_Kolmogorov"><strong>Andrey Kolmogorov</strong></a> furthered our mathematical understanding of turbulence when he proposed that energy in a turbulent fluid at length R varies in proportion to <img src="https://latex.codecogs.com/png.latex?%5Cfrac%7B5%7D%7B3%7D"> power or R. Experimental measurements show Kolmogorov was remarkably close to the way turbulent flow works, although a complete description of turbulence remains one of the unsolved problems in physics. A turbulent flow is self-similar if there is an energy cascade. In other words, big eddies transfer theirs to smaller eddies, which do likewise at other scales. Examples of this include Jupiter’s Great Red Spot, cloud formations, and interstellar dust particles.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/van-gough-his-art/jupiter-great-red-spot.jpg" class="img-fluid figure-img" width="335"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/van-gough-his-art/jupiter-great-red-spot.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="335"></p>
 </figure>
 </div>
 <p>In 2004, using the <strong>Hubble Space Telescope</strong>, scientists saw the eddies of the distant cloud of dust and gas around a star, and it reminded them of Van Gogh’s <strong>“Starry Night”.</strong></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://cosmic-charade.netlify.app/posts/van-gough-his-art/starry-night.jpg" class="img-fluid figure-img" width="365"></p>
-<figcaption class="figure-caption">The illumination of interstellar dust comes from the red supergiant star at the middle of these images, which gave off a flashbulb-like pulse of light two years ago. V838 Mon is located about 20,000 light years from Earth in the direction of the constellation Monoceros, placing the star at the outer edge of the Milky Way. Courtesy of NASA, the Hubble Heritage Team (AURA/STScI) and ESA</figcaption>
+<figcaption>The illumination of interstellar dust comes from the red supergiant star at the middle of these images, which gave off a flashbulb-like pulse of light two years ago. V838 Mon is located about 20,000 light years from Earth in the direction of the constellation Monoceros, placing the star at the outer edge of the Milky Way. Courtesy of NASA, the Hubble Heritage Team (AURA/STScI) and ESA</figcaption>
 </figure>
 </div>
 </section>
@@ -585,15 +600,16 @@ Note
   <category>Physics</category>
   <category>Art</category>
   <category>Astronomy</category>
-  <guid>https://cosmic-charade.netlify.app/posts/van-gough-his-art/index.html</guid>
+  <guid>https://cosmic-charade.netlify.app/posts/van-gough-his-art/</guid>
   <pubDate>Mon, 05 Jun 2023 18:30:00 GMT</pubDate>
   <media:content url="https://cosmic-charade.netlify.app/posts/van-gough-his-art/art-starry-night.gif" medium="image" type="image/gif"/>
 </item>
 <item>
   <title>A Glorious Dispersion</title>
   <dc:creator>Rajat Kanti Chatterjee</dc:creator>
-  <link>https://cosmic-charade.netlify.app/posts/raman-scattering/index.html</link>
+  <link>https://cosmic-charade.netlify.app/posts/raman-scattering/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -604,8 +620,11 @@ Note
 <section id="a-review-of-light" class="level1">
 <h1>A Review of Light</h1>
 <p>Light is our primary means of perceiving the world around us. Indeed, in a scientific context, the detection of light is a very powerful tool for probing the universe around us. Light is electromagnetic radiation that shows the properties of both waves and particles. Electromagnetic radiation, as the name suggests, describes fluctuations of electric and magnetic fields, transporting energy at the Speed of Light (which is <img src="https://latex.codecogs.com/png.latex?3%5Ctimes10%5E8%5C%20%20%5Ctext%7Bm/s%7D">). Light is a form of energy that can be detected by the human eye. Light exists in tiny energy packets called photons.</p>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
 <p><img src="https://cosmic-charade.netlify.app/posts/raman-scattering/light-wave.png" class="img-fluid"></p>
 </div>
@@ -621,7 +640,7 @@ Note
 <p>The study of how ‘species’ (i.e., atoms, molecules, solutions) react to light. Some studies depend on how much light an atom absorbs. The electromagnetic radiation absorbed, emitted, or scattered by the molecule is analyzed. Typically, a beam of radiation from a source such as a laser is passed through a sample, and the radiation exiting the sample is measured. Some, like Raman, depend on a molecule’s vibrations in reaction to the light.&nbsp;This figure shows the Electromagnetic Spectrum, highlighting the narrow window of Visible Light that is detectable by the human eye.&nbsp;</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/raman-scattering/spectroscopy.png" class="img-fluid figure-img"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/raman-scattering/spectroscopy.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
 </section>
@@ -630,28 +649,31 @@ Note
 <p>Light can be examined entirely from its source. When light passes from one medium to any other medium say air, or a glass of water then a part of the light is absorbed by particles of the medium preceded by its subsequent radiation in a particular direction. This phenomenon is termed scattering of light. The intensity of scattered light depends on the size of the particles and the wavelength of the light.&nbsp;</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/raman-scattering/scattering-phenomenon.png" class="img-fluid figure-img"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/raman-scattering/scattering-phenomenon.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
 </section>
 <section id="raman-spectroscopy" class="level1">
 <h1><strong>Raman Spectroscopy</strong></h1>
 <p>In 1928, the Indian physicist Chandrasekhara Venkata Raman discovered that the visible wavelength of a small fraction of the radiation scattered by certain molecules differs from that of the incident beam.&nbsp;</p>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 42.2%;justify-content: center;">
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://cosmic-charade.netlify.app/posts/raman-scattering/c-v-raman.jpg" class="img-fluid figure-img" width="261"></p>
-<figcaption class="figure-caption">Sir Chandrasekhara Venkata Raman</figcaption>
+<figcaption>Sir Chandrasekhara Venkata Raman</figcaption>
 </figure>
 </div>
 </div>
-<div class="quarto-layout-cell" style="flex-basis: 57.8%;justify-content: center;">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://cosmic-charade.netlify.app/posts/raman-scattering/raman-spectra.png" class="img-fluid figure-img" width="358"></p>
-<figcaption class="figure-caption">First Photograph of Raman Spectra</figcaption>
+<figcaption>First Photograph of Raman Spectra</figcaption>
 </figure>
 </div>
 </div>
@@ -663,7 +685,7 @@ Note
 <p>When a monochromatic radiation of frequency <img src="https://latex.codecogs.com/png.latex?%5Cnu"> is passed through a non-absorbing medium, it is found that most of it is transmitted without any change, and some of it is scattered. If the scattered energy is analyzed utilizing a spectrometer, the bulk of the energy is found at the frequency of the incident beam 𝜈 but a small portion of the scattered energy will be found at frequencies <img src="https://latex.codecogs.com/png.latex?%5Cnu=%5Cnu_%7B0%7D%5Cpm%20%5Cnu_m">. The scattering of radiation with a change of frequency is called Raman scattering.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/raman-scattering/monochromatic.jpg" class="img-fluid figure-img"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/raman-scattering/monochromatic.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
 <section id="why-raman-scattering" class="level3">
@@ -675,7 +697,7 @@ Note
 <p>Scattering of electromagnetic radiation is in two common types Rayleigh and Raman scattering. Even though there are some differences between them, the key difference between Rayleigh and Raman scattering is that Rayleigh scattering is a form of elastic scattering of light or any other electromagnetic radiation whereas Raman scattering is a form of inelastic scattering of light or any other electromagnetic radiation.&nbsp;</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/raman-scattering/why-ramn.png" class="img-fluid figure-img"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/raman-scattering/why-ramn.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
 <p>The frequency of the scattered light can be:</p>
@@ -685,7 +707,7 @@ Note
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/raman-scattering/r-scatter-raman-scatter.png" class="img-fluid figure-img"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/raman-scattering/r-scatter-raman-scatter.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
 </section>
@@ -696,7 +718,7 @@ Note
 <p>Raman spectroscopy is based on Raman scattering (or Raman effect) that reveals the vibrational, rotational, and other low-frequency modes of molecules. In this technique, the sample is exposed to an intense beam of monochromatic light (typically a laser beam) in the frequency range of the visible, near-infrared, or near-ultraviolet region. Electromagnetic radiation, interacting with a substance, can be transmitted, absorbed, or scattered. When the monochromatic radiation is scattered by molecules, the majority of the radiation undergoes the common Rayleigh scattering (radiation’s frequency/wavelength is unchanged). However, a small fraction of the scattered radiation is observed to have a slightly different frequency from that of the incident radiation. This is known as the <strong>Raman effect</strong>. The Raman lines show up pairwise. The dominant Stokes lines have a lower frequency (longer wavelength) than the initial radiation, whereas the weaker (often non-detectable) anti-stokes lines have a higher frequency (shorter wavelength). The frequency shifts are virtually independent of the excitation wavelength and are characteristic of the particular substance/molecule. Usually, one only records the relatively strong Stokes lines, which therefore are attributed to a positive frequency shift. Such spectral coordinate is called the <strong>Raman shift</strong> and is measured in wave numbers (in cm-1). See the scheme in the figure below.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/raman-scattering/rr-shift.png" class="img-fluid figure-img" width="506"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/raman-scattering/rr-shift.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="506"></p>
 </figure>
 </div>
 <p><strong>Note:</strong>&nbsp;Raman shift can correspond either to rotational, vibrational, or electronic frequencies.&nbsp;</p>
@@ -709,7 +731,7 @@ Note
 <p>As with other spectroscopic techniques, Raman spectroscopy detects certain interactions of light with matter. In particular, this technique exploits the existence of Stokes and Anti-Stokes scattering to examine molecular structure. When radiation in the near-infrared (NIR) or visible range interacts with a molecule, several types of scattering can occur. Three of these can be seen in the energy diagram in the figure below.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/raman-scattering/img-scat.jpg" class="img-fluid figure-img"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/raman-scattering/img-scat.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
 <p>Three types of scattering by a molecule excited by a photon with energy, <img src="https://latex.codecogs.com/png.latex?E%20=%20h%CE%BD">. The most common transition is marked with bold arrows.&nbsp;</p>
@@ -717,7 +739,7 @@ Note
 <p>Rayleigh scattering is by far the most common transition since no change has to occur in the vibrational state of the molecule. The anti-Stokes transition is the least common, as it requires the molecule to be vibrationally excited before the photon is incident upon it. Due to the lack of intensity of the anti-Stokes signal and filtering requirements that eliminate photons with incident energy and higher, generally, only Stokes scattering is used in Raman measurements. The relative intensities of Rayleigh, Stokes, and anti-Stokes scattering can be seen in the figure below.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/raman-scattering/scat-img.png" class="img-fluid figure-img"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/raman-scattering/scat-img.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
 <p>We can see the Location and relative intensity (indicated by peak height and width) of the Stokes and anti-Stokes scattering relative to Rayleigh scattering.&nbsp;</p>
@@ -759,7 +781,7 @@ Note
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://cosmic-charade.netlify.app/posts/raman-scattering/dipole-ir.jpg" class="img-fluid figure-img" width="467"></p>
-<figcaption class="figure-caption">A change in dipole moment is required for a vibrational mode to be IR active</figcaption>
+<figcaption>A change in dipole moment is required for a vibrational mode to be IR active</figcaption>
 </figure>
 </div>
 <ul>
@@ -769,7 +791,7 @@ Note
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://cosmic-charade.netlify.app/posts/raman-scattering/polarizability-ellipsoid.jpg" class="img-fluid figure-img" width="547"></p>
-<figcaption class="figure-caption">A change in the polarizability of a bond is required for a vibrational mode to be Raman active</figcaption>
+<figcaption>A change in the polarizability of a bond is required for a vibrational mode to be Raman active</figcaption>
 </figure>
 </div>
 <p>Many molecules that are inactive or weak in the IR will have intense Raman signals. This results in often complementary techniques.&nbsp;</p>
@@ -794,7 +816,7 @@ Note
 <p>Now the time is to introduce Surface-enhanced Raman spectroscopy (SERS). One of the limitations of the Raman effect is that it is a very weak phenomenon. About one in 107 photons undergo Raman scattering. Therefore, the Raman signal is very low from low concentrations of the analyte or poor Raman scatterers. Sometimes the high fluorescence from the molecule obscures the Raman signals. Surface-enhanced Raman spectroscopy (SERS) is all about amplifying Raman signals from molecules, by several orders of magnitude. SERS is a technique where molecules undergo much higher scattering efficiencies when adsorbed on metal colloidal nanoparticles or rough metal surfaces.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/raman-scattering/Fleischmann-cf.jpg" class="img-fluid figure-img"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/raman-scattering/Fleischmann-cf.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
 <p>The group discovered an anomalously large enhancement of the Raman signal of pyridine in the presence of a roughened silver electrode. In the definition of SERS, we can say, SERS is a phenomenon associated with the enhancement of the electromagnetic field surrounding small objects optically excited near an intense and sharp plasmon resonance. The enhanced fields excite the adsorbate (probe) and the scattered radiation will again be enhanced. Surface-enhanced Raman scattering (SERS) consists in using the large local field enhancements that can exist at metallic surfaces (under the right conditions, typically by profiting from localized surface plasmon resonances) to boost the Raman scattering signal of molecules at (or close to) the surface.</p>
@@ -821,15 +843,16 @@ Note
  ]]></description>
   <category>Astrophysics</category>
   <category>Physics</category>
-  <guid>https://cosmic-charade.netlify.app/posts/raman-scattering/index.html</guid>
+  <guid>https://cosmic-charade.netlify.app/posts/raman-scattering/</guid>
   <pubDate>Wed, 10 May 2023 18:30:00 GMT</pubDate>
   <media:content url="https://cosmic-charade.netlify.app/posts/raman-scattering/rays-scattering.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Melody in Patterns</title>
   <dc:creator>Abhirup Moitra</dc:creator>
-  <link>https://cosmic-charade.netlify.app/posts/pattern-in-prime/index.html</link>
+  <link>https://cosmic-charade.netlify.app/posts/pattern-in-prime/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -892,12 +915,12 @@ Note
 <p>Basically, the prime counting function is a step function. It means that it’s not continuous. So, lets look at the graph of the prime counting function.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/pattern-in-prime/pi-func.jpg" class="img-fluid figure-img" width="463"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/pattern-in-prime/pi-func.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="463"></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/pattern-in-prime/graph.jpg" class="img-fluid figure-img" width="339"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/pattern-in-prime/graph.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="339"></p>
 </figure>
 </div>
 <p>This function was introduced by Gauss in the 18th century and another thing Gauss showed was that you could approximate the value of the prime counting function with <img src="https://latex.codecogs.com/png.latex?%5Cfrac%7Bx%7D%7B%20%5Cln(x)%7D">. This fact is called the prime number theorem. More formally,</p>
@@ -905,7 +928,7 @@ Note
 <p>If you take a look at this graph, you can see how it closely approaches 1 as <img src="https://latex.codecogs.com/png.latex?x%5Crightarrow%20%5Cinfty"> .</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/pattern-in-prime/prime-counter grph.jpg" class="img-fluid figure-img" width="377"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/pattern-in-prime/prime-counter grph.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="377"></p>
 </figure>
 </div>
 <p>Another result we can take from the prime number theorem i.e., the probability that a number chosen randomly from the set <img src="https://latex.codecogs.com/png.latex?%5C%7B%201,2,3,%20%5Cldots,%20x%20%5C%7D"> is roughly <img src="https://latex.codecogs.com/png.latex?%5Cfrac%7B1%7D%7B%5Cln(x)%7D">. In terms of prime counting function the prime number theorem tells us that each average step in the prime counting function is around <img src="https://latex.codecogs.com/png.latex?%5Cln(x)">. However there’s actually a better function to approximate the prime counting function.</p>
@@ -917,7 +940,7 @@ Note
 <div class="column" style="width:49%;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/pattern-in-prime/approximation.jpg" class="img-fluid figure-img" width="367"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/pattern-in-prime/approximation.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="367"></p>
 </figure>
 </div>
 </div><div class="column" style="width:2%;">
@@ -925,7 +948,7 @@ Note
 </div><div class="column" style="width:49%;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/pattern-in-prime/better-approximation.jpg" class="img-fluid figure-img" width="329"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/pattern-in-prime/better-approximation.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="329"></p>
 </figure>
 </div>
 </div>
@@ -947,7 +970,7 @@ Note
 <p>The term <img src="https://latex.codecogs.com/png.latex?%5CGamma(1-s)"> simply derive from the concept of the <a href="https://en.wikipedia.org/wiki/Gamma_function">gamma function</a>. Basically, the gamma function is to provide a continuous function that goes through a factorial point. Here, the sine term should equal to zero for all negative even integers. These zeros are called is trivial zeros for positive even integers the gamma function forms something called a pole which cancels out 0 of the sine function. A nice illustration of the trivial zeros of this Riemann zeta function would be real components of both the input and output. Look how <img src="https://latex.codecogs.com/png.latex?%5Czeta(s)%20=%200"> at negative real numbers.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/pattern-in-prime/riemann-zeta.jpeg" class="img-fluid figure-img" width="429"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/pattern-in-prime/riemann-zeta.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="429"></p>
 </figure>
 </div>
 <p>So, going back to the Euler product formula if the real component of the function is greater than 1 one of the products have to be equal zero for zeta to be equal to zero and this is impossible because of Euclid’s theorem which states that there are an infinite number of primes so the right component can not be equal to zero. That means the non-trivial zeros of the Riemann zeta function have have to have real component between 0 and 1. Let’s try to visualize them. The problem being that complex functions are like pretty hard to visualize. But this is our best we have showcase below.</p>
@@ -961,7 +984,7 @@ Note
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://cosmic-charade.netlify.app/posts/pattern-in-prime/spiral.gif" class="img-fluid figure-img" width="428"></p>
-<figcaption class="figure-caption">Source: https://community.wolfram.com/groups/-/m/t/2154374</figcaption>
+<figcaption>Source: https://community.wolfram.com/groups/-/m/t/2154374</figcaption>
 </figure>
 </div>
 </section>
@@ -970,7 +993,7 @@ Note
 <p>You’re wondering how all of this has any connection to the prime numbers. So, for this topic if we go back to the prime numbers theorem and recall how we could approximate the value of the prime counting function <img src="https://latex.codecogs.com/png.latex?%5Cpi(x)"> using the logarithmic integral function. The Riemann hypothesis helps us to talk about the error by which the logarithmic integral function can approximate this <img src="https://latex.codecogs.com/png.latex?%5Cpi(x)"> function. If the Riemann hypothesis is true this error is no more than some function of order <img src="https://latex.codecogs.com/png.latex?%5Csqrt%7Bx%7D%5C%20%5Cln(x)"> and this goes both ways if you can prove that the error is a function of order <img src="https://latex.codecogs.com/png.latex?%5Csqrt%7Bx%7D%5C%20%5Cln(x)"> the Riemann hypothesis is true.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/pattern-in-prime/riemann-primes.jpeg" class="img-fluid figure-img" width="393"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/pattern-in-prime/riemann-primes.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="393"></p>
 </figure>
 </div>
 <div style="font-family: Georgia; text-align: center; font-size: 17px">
@@ -981,7 +1004,7 @@ Note
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://cosmic-charade.netlify.app/posts/pattern-in-prime/riemann-explicit.gif" class="img-fluid figure-img" width="526"></p>
-<figcaption class="figure-caption">Riemann’s explicit formula using the first 200 non-trivial zeros of the zeta function</figcaption>
+<figcaption>Riemann’s explicit formula using the first 200 non-trivial zeros of the zeta function</figcaption>
 </figure>
 </div>
 <p>Here the graph is about Riemann’s explicit formula using the first 200 non-trivial zeros of the zeta function. And you can see how the graph becomes better and better approximation. Using non trivial zeros of the Riemann-zeta function you can approximate prime counting function to have a pretty high accuracy.</p>
@@ -1005,15 +1028,16 @@ Note
 
  ]]></description>
   <category>Mathematics</category>
-  <guid>https://cosmic-charade.netlify.app/posts/pattern-in-prime/index.html</guid>
+  <guid>https://cosmic-charade.netlify.app/posts/pattern-in-prime/</guid>
   <pubDate>Fri, 07 Apr 2023 18:30:00 GMT</pubDate>
   <media:content url="https://cosmic-charade.netlify.app/posts/pattern-in-prime/cover.gif" medium="image" type="image/gif"/>
 </item>
 <item>
   <title>The Art of Gravitational Lensing</title>
   <dc:creator>Shruti Bhattacharya</dc:creator>
-  <link>https://cosmic-charade.netlify.app/posts/art-of-gravitational-lensing/index.html</link>
+  <link>https://cosmic-charade.netlify.app/posts/art-of-gravitational-lensing/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -1030,13 +1054,13 @@ Note
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://cosmic-charade.netlify.app/posts/art-of-gravitational-lensing/Picture1.png" class="img-fluid figure-img" width="566"></p>
-<figcaption class="figure-caption">NASA’s Hubble Space Telescope has captured the first-ever picture of a group of five star-like images of a single distant quasar</figcaption>
+<figcaption>NASA’s Hubble Space Telescope has captured the first-ever picture of a group of five star-like images of a single distant quasar</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://cosmic-charade.netlify.app/posts/art-of-gravitational-lensing/Picture2.jpg" class="img-fluid figure-img" width="564"></p>
-<figcaption class="figure-caption">The bright star in the centre of the image is the nearby white dwarf Stein 2051B, only 17 light-years from Earth. The smaller star below is about 5000 light-years away. Astronomers observed Stein 2051B eight times within two years while the white dwarf travelled in front of the distant background star. During the close alignment, the white dwarf’s gravity bent the light from the distant star, making it appear offset by about 2 milliarcseconds from its actual position. This deviation is so small that it is equivalent to observing an ant crawl across the surface of a 1€ coin from 2300 kilometers away</figcaption>
+<figcaption>The bright star in the centre of the image is the nearby white dwarf Stein 2051B, only 17 light-years from Earth. The smaller star below is about 5000 light-years away. Astronomers observed Stein 2051B eight times within two years while the white dwarf travelled in front of the distant background star. During the close alignment, the white dwarf’s gravity bent the light from the distant star, making it appear offset by about 2 milliarcseconds from its actual position. This deviation is so small that it is equivalent to observing an ant crawl across the surface of a 1€ coin from 2300 kilometers away</figcaption>
 </figure>
 </div>
 <p><strong><em>Angular Einstein Radius</em></strong> gives us an appropriate scale for the angular deflection expected from a given lens:</p>
@@ -1055,7 +1079,7 @@ Note
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/art-of-gravitational-lensing/giant_lumi.jpg" class="img-fluid figure-img" width="401"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/art-of-gravitational-lensing/giant_lumi.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="401"></p>
 </figure>
 </div>
 <ul>
@@ -1064,7 +1088,7 @@ Note
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://cosmic-charade.netlify.app/posts/art-of-gravitational-lensing/quas.jpg" class="img-fluid figure-img" width="532"></p>
-<figcaption class="figure-caption">The Double-Quasar ‘Q0957+561’</figcaption>
+<figcaption>The Double-Quasar ‘Q0957+561’</figcaption>
 </figure>
 </div>
 <ul>
@@ -1072,7 +1096,7 @@ Note
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/art-of-gravitational-lensing/einstein-ring.jpg" class="img-fluid figure-img" width="308"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/art-of-gravitational-lensing/einstein-ring.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="308"></p>
 </figure>
 </div>
 <ul>
@@ -1080,7 +1104,7 @@ Note
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/art-of-gravitational-lensing/dark_matter.jpg" class="img-fluid figure-img" width="512"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/art-of-gravitational-lensing/dark_matter.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="512"></p>
 </figure>
 </div>
 <p>Einstein worked out the equations for his general theory of relativity and realized that massive objects caused a distortion in space-time.</p>
@@ -1107,15 +1131,16 @@ Note
  ]]></description>
   <category>Astronomy</category>
   <category>Astrophysics</category>
-  <guid>https://cosmic-charade.netlify.app/posts/art-of-gravitational-lensing/index.html</guid>
+  <guid>https://cosmic-charade.netlify.app/posts/art-of-gravitational-lensing/</guid>
   <pubDate>Sat, 25 Mar 2023 18:30:00 GMT</pubDate>
   <media:content url="https://cosmic-charade.netlify.app/posts/art-of-gravitational-lensing/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Early Astronomy: The Beginning of Cosmic Expedition</title>
   <dc:creator>Nanda Lal Debnath</dc:creator>
-  <link>https://cosmic-charade.netlify.app/posts/early-astronomy/index.html</link>
+  <link>https://cosmic-charade.netlify.app/posts/early-astronomy/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -1128,7 +1153,7 @@ Note
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://cosmic-charade.netlify.app/posts/early-astronomy/astronomy.jpg" class="img-fluid figure-img" width="600"></p>
-<figcaption class="figure-caption">Hanle Observatory (Ladakh, India)</figcaption>
+<figcaption>Hanle Observatory (Ladakh, India)</figcaption>
 </figure>
 </div>
 <section id="mesopotamia" class="level2">
@@ -1137,7 +1162,7 @@ Note
 <p>One of the oldest astronomical documents is <a href="https://en.wikipedia.org/wiki/Venus_tablet_of_Ammisaduqa">Venus tablet</a>. It is believed that this astronomical record was first compiled during the reign of King <a href="https://en.wikipedia.org/wiki/Ammi-Saduqa">Ammisaduqa</a>, the fourth ruler after <a href="https://en.wikipedia.org/wiki/Hammurabi">Hammurabi</a> (the sixth Amorite king of the old Babylonian Empire). The tablet gives the rise times of Venus and its first and last visibility on the horizon before or after sunrise and sunset in the form of lunar dates. These positions are given for a period of 21 years.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/early-astronomy/venus-tablet.jpg" class="img-fluid figure-img" width="185"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/early-astronomy/venus-tablet.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="185"></p>
 </figure>
 </div>
 </section>
@@ -1147,7 +1172,7 @@ Note
 <p>According to Chinese mythology, an eclipse occurred when a dragon was eating the sun and that only way to defeat the dragon was to make as much as noise possible. In the event of an eclipse, people would make a mighty racket, which would scare the dragon off, and naturally, the sun would return.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/early-astronomy/lunisolar-calender.jpg" class="img-fluid figure-img" width="179"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/early-astronomy/lunisolar-calender.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="179"></p>
 </figure>
 </div>
 </section>
@@ -1193,7 +1218,7 @@ Note
 <p>Archaeologists who specialize in investigating astronomical ruins are called archeo-astronomers. They discovered many celestial alignment. E.g. in the <a href="https://en.wikipedia.org/wiki/Neolithic_architecture">Neolithic structure</a>, <a href="https://en.wikipedia.org/wiki/Stonehenge">Stonehenge</a>, found in Wiltshire England the stone pillars are arranged so as to trace the position of the sun and the moon during solistices. Others argue that stonhenge is not meant to be celestially aligned and if this is the case then it is just a coincidence. <a href="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">The great pyramid of the Giza</a> seems to be aligned with <a href="https://en.wikipedia.org/wiki/Orion%27s_Belt">Orion’s belt</a>, so as to guide the death of Pharaoh to the stars of the belt, which were associated with the god of death, <a href="https://www.britannica.com/topic/Osiris-Egyptian-god">Osiris</a>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/early-astronomy/stonehenge.jpg" class="img-fluid figure-img" width="359"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/early-astronomy/stonehenge.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="359"></p>
 </figure>
 </div>
 <p>History of astronomy is a really long story. Our ancestors made many scripture, sculpture to unveil the mystery of our universe. As we know we are a part of this universe, so we must know about our origin. Astronomy is the one of the main doorway to know the mystery of our origin.</p>
@@ -1201,7 +1226,7 @@ Note
 <div class="column" style="width:48%;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/early-astronomy/pyramid.jpg" class="img-fluid figure-img" width="462"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/early-astronomy/pyramid.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="462"></p>
 </figure>
 </div>
 </div><div class="column" style="width:2%;">
@@ -1209,7 +1234,7 @@ Note
 </div><div class="column" style="width:48%;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/early-astronomy/orion.jpg" class="img-fluid figure-img" width="471"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/early-astronomy/orion.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="471"></p>
 </figure>
 </div>
 </div>
@@ -1230,15 +1255,16 @@ Note
  ]]></description>
   <category>Astronomy</category>
   <category>Astrophysics</category>
-  <guid>https://cosmic-charade.netlify.app/posts/early-astronomy/index.html</guid>
+  <guid>https://cosmic-charade.netlify.app/posts/early-astronomy/</guid>
   <pubDate>Thu, 16 Feb 2023 18:30:00 GMT</pubDate>
   <media:content url="https://cosmic-charade.netlify.app/posts/early-astronomy/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Jerry Nelson: The Father of W.M. Keck Observatory Telescopes</title>
   <dc:creator>Shounak Bhattacharya</dc:creator>
-  <link>https://cosmic-charade.netlify.app/posts/jerry-nelson/index.html</link>
+  <link>https://cosmic-charade.netlify.app/posts/jerry-nelson/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -1251,8 +1277,12 @@ Note
 <p>Our dream to look at distant stars and galaxies was first made possible by <a href="https://www.britannica.com/biography/Galileo-Galilei">Galileo Galilei</a>, around 1609. Since then, human beings have been trying always to get a better view of the unknown.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.nytimes.com/2017/06/21/science/jerry-nelson-segmented-telescope-dies-at-73.html"><img src="https://cosmic-charade.netlify.app/posts/jerry-nelson/pic1.jpg" class="img-fluid figure-img" width="412"></a></p>
-<figcaption class="figure-caption">Jerry Nelson, the father of segmented mirroring peering into a mirror at the Lick Observatory</figcaption>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www.nytimes.com/2017/06/21/science/jerry-nelson-segmented-telescope-dies-at-73.html"><img src="https://cosmic-charade.netlify.app/posts/jerry-nelson/pic1.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="412" alt="Jerry Nelson, the father of segmented mirroring peering into a mirror at the Lick Observatory"></a></p>
+</figure>
+</div>
+<figcaption>Jerry Nelson, the father of segmented mirroring peering into a mirror at the Lick Observatory</figcaption>
 </figure>
 </div>
 <section id="childhood-and-education" class="level1">
@@ -1269,21 +1299,21 @@ Note
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://cosmic-charade.netlify.app/posts/jerry-nelson/pic2.jpg" class="img-fluid figure-img" width="434"></p>
-<figcaption class="figure-caption">1952 – Horn d’Arturo with his 1.80 m tessellated mirror</figcaption>
+<figcaption>1952 – Horn d’Arturo with his 1.80 m tessellated mirror</figcaption>
 </figure>
 </div>
 <p>The new generation of multi-mirror telescope first breathed its life in the hands of Guido Horn d’Arturo, which was later nurtured by Dr.&nbsp;Jerry Nelson.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://cosmic-charade.netlify.app/posts/jerry-nelson/pic3.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">1.80 m tessellated mirror, installed at Museo della Specola, located at Via Zamboni, 33, 40126 Bologna BO, Italy</figcaption>
+<figcaption>1.80 m tessellated mirror, installed at Museo della Specola, located at Via Zamboni, 33, 40126 Bologna BO, Italy</figcaption>
 </figure>
 </div>
 <p>Back in 1900, <a href="https://www.mtwilson.edu/">Mount Wilson</a>, California was the home of a 100-inch telescope, which was then considered to be the largest telescope in the world. American astronomer, <a href="https://www.britannica.com/biography/George-Ellery-Hale">George Ellery Hale</a> was already busy counting his card, to build even a larger telescope.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://cosmic-charade.netlify.app/posts/jerry-nelson/pic4.jpg" class="img-fluid figure-img" alt="Mount Wilson's 100-inch telescope. Astronomer George Ellery Hale attempted to build the world's largest telescope to see objects beyond our Milky Way"></p>
-<figcaption class="figure-caption">Mount Wilson’s 100-inch telescope. Astronomer George Ellery Hale attempted to build the world’s largest telescope to see objects beyond our Milky Way</figcaption>
+<figcaption>Mount Wilson’s 100-inch telescope. Astronomer George Ellery Hale attempted to build the world’s largest telescope to see objects beyond our Milky Way</figcaption>
 </figure>
 </div>
 <p>In 1960, as the need for observations in astronomy became predominant, further plans were made for better telescopes. In general, there are two types of telescopes:</p>
@@ -1296,8 +1326,12 @@ Note
 <p>Mount Hopkins, Arizona was the first to implement MMT which is a <a href="https://en.wikipedia.org/wiki/MMT_Observatory">Multiple-Mirror Telescope</a>, that used the concept of an array. The diameter was around 72 inches.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="MMT Observatory, located on Fred Lawrence Whipple Observatory on Mount Hopkins, Arizona"><img src="https://cosmic-charade.netlify.app/posts/jerry-nelson/pic5.jpg" class="img-fluid figure-img" width="443"></a></p>
-<figcaption class="figure-caption">MMT Observatory, located on Fred Lawrence Whipple Observatory on Mount Hopkins, Arizona</figcaption>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="MMT Observatory, located on Fred Lawrence Whipple Observatory on Mount Hopkins, Arizona"><img src="https://cosmic-charade.netlify.app/posts/jerry-nelson/pic5.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="443" alt="MMT Observatory, located on Fred Lawrence Whipple Observatory on Mount Hopkins, Arizona"></a></p>
+</figure>
+</div>
+<figcaption>MMT Observatory, located on Fred Lawrence Whipple Observatory on Mount Hopkins, Arizona</figcaption>
 </figure>
 </div>
 <p>As <a href="https://www.keckobservatory.org/">W.M. Keck Observatory</a> used the segmented mirror approach, <a href="https://en.wikipedia.org/wiki/Hobby%E2%80%93Eberly_Telescope">Hobb-Eberly Telescope</a> also used this segmented mirror technology but only for spectroscopy. Named after Bill Hobby and Robert E. Eberly, this is one of the largest optical telescopes in the world.</p>
@@ -1308,8 +1342,12 @@ Note
 <p>Although segmentation solved the problem of structuring, it gave rise to another which is called alignment. With his Midas touch, Jerry designed and engineered 168 electronic sensors which were mounted on the segmental area, and a motor, which constantly kept the mirror in the correct alignment.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://grb.ucsc.edu/images/2010/oslo_with_jerry_nelson.jpg"><img src="https://cosmic-charade.netlify.app/posts/jerry-nelson/pic6.jpg" class="img-fluid figure-img" width="438"></a></p>
-<figcaption class="figure-caption">Jerry Nelson with his wife Jocelyn Nelson</figcaption>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://grb.ucsc.edu/images/2010/oslo_with_jerry_nelson.jpg"><img src="https://cosmic-charade.netlify.app/posts/jerry-nelson/pic6.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="438" alt="Jerry Nelson with his wife Jocelyn Nelson"></a></p>
+</figure>
+</div>
+<figcaption>Jerry Nelson with his wife Jocelyn Nelson</figcaption>
 </figure>
 </div>
 <p>Nelson’s major contribution lies in developing AO (Adaptive Optics) which makes the image brighter and clearer by correcting the blur effect which occurs due to Earth’s atmosphere.</p>
@@ -1319,7 +1357,7 @@ Note
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://cosmic-charade.netlify.app/posts/jerry-nelson/pic7.jpg" class="img-fluid figure-img" width="440"></p>
-<figcaption class="figure-caption">W.M. Keck Observatory is located at Mauna Kea in Hawaii</figcaption>
+<figcaption>W.M. Keck Observatory is located at Mauna Kea in Hawaii</figcaption>
 </figure>
 </div>
 <p>The distant unknown now seems to be at our doorstep. Dr.&nbsp;Nelson’s pioneering achievements have allowed astrophysicists to learn about black holes which lie at the center of our Milky Way and locate many other astronomical objects.</p>
@@ -1336,8 +1374,12 @@ Note
 <p>Yet, he was humble, generous, and respected each other.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://blogs.scientificamerican.com/observations/in-memoriam-jerry-nelson-legendary-telescope-designer/"><img src="https://cosmic-charade.netlify.app/posts/jerry-nelson/pic8.jpg" class="img-fluid figure-img" width="443"></a></p>
-<figcaption class="figure-caption">Nelson with a model of the Keck telescope. Credit: W. M. Keck Observatory</figcaption>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://blogs.scientificamerican.com/observations/in-memoriam-jerry-nelson-legendary-telescope-designer/"><img src="https://cosmic-charade.netlify.app/posts/jerry-nelson/pic8.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="443" alt="Nelson with a model of the Keck telescope. Credit: W. M. Keck Observatory"></a></p>
+</figure>
+</div>
+<figcaption>Nelson with a model of the Keck telescope. Credit: W. M. Keck Observatory</figcaption>
 </figure>
 </div>
 <p>‘Jerry and Terry’ were always together. They were forever good friends.</p>
@@ -1351,8 +1393,12 @@ Note
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.kavliprize.org/prizes/astrophysics/2010"><img src="https://cosmic-charade.netlify.app/posts/jerry-nelson/pic9.jpg" class="img-fluid figure-img" width="445"></a></p>
-<figcaption class="figure-caption">Kavli Prize in astrophysics awarded to Jerry Nelson (Jerry Nelson, left, James Roger Prior Angel, middle, Raymond N. Wilson, right)</figcaption>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www.kavliprize.org/prizes/astrophysics/2010"><img src="https://cosmic-charade.netlify.app/posts/jerry-nelson/pic9.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="445" alt="Kavli Prize in astrophysics awarded to Jerry Nelson (Jerry Nelson, left, James Roger Prior Angel, middle, Raymond N. Wilson, right)"></a></p>
+</figure>
+</div>
+<figcaption>Kavli Prize in astrophysics awarded to Jerry Nelson (Jerry Nelson, left, James Roger Prior Angel, middle, Raymond N. Wilson, right)</figcaption>
 </figure>
 </div>
 </section>
@@ -1362,16 +1408,24 @@ Note
 <p>Suffering from a stroke attack, Dr.&nbsp;Nelson with his indomitable spirit continued working on his vision to build <a href="https://www.tmt.org/">Thirty Meter Telescopes</a>. This is considered to be an extremely large telescope that is still under construction. Also known as TMT, this would allow us to observe objects in deeper space with unparalleled details. As claimed by the scientists, once TMT is built, it would provide four times sharper images than what JWST is rendering.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.ipac.caltech.edu/project/tmt"><img src="https://cosmic-charade.netlify.app/posts/jerry-nelson/pic10.jpg" class="img-fluid figure-img" width="454"></a></p>
-<figcaption class="figure-caption">An illustration of what the Thirty-Meter Telescope will look like once completed</figcaption>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www.ipac.caltech.edu/project/tmt"><img src="https://cosmic-charade.netlify.app/posts/jerry-nelson/pic10.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="454" alt="An illustration of what the Thirty-Meter Telescope will look like once completed"></a></p>
+</figure>
+</div>
+<figcaption>An illustration of what the Thirty-Meter Telescope will look like once completed</figcaption>
 </figure>
 </div>
 <p>On 10th June, 2017, Saturday morning he passed away. He is survived by his wife Jocelyn Nelson and his sister Jeanne Moat. He had; two children who were from his first marriage, Leif and Alexandra as well as three grandchildren. Victoria, his first wife, passed away on 1992.</p>
 <p>In his honor, a symposium was held on 2017, July 13, 14 at the Hotel Paradox in Santa Cruz, CA.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.flickr.com/photos/mjbolte/36014586392/in/album-72157683457676072/"><img src="https://cosmic-charade.netlify.app/posts/jerry-nelson/pic11.jpg" class="img-fluid figure-img" width="419"></a></p>
-<figcaption class="figure-caption">A symposium was held in memory of Jerry Nelson. (In the photograph Dr.&nbsp;Nelson’s wife, Jocelyn Nelson</figcaption>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www.flickr.com/photos/mjbolte/36014586392/in/album-72157683457676072/"><img src="https://cosmic-charade.netlify.app/posts/jerry-nelson/pic11.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="419" alt="A symposium was held in memory of Jerry Nelson. (In the photograph Dr.&nbsp;Nelson’s wife, Jocelyn Nelson"></a></p>
+</figure>
+</div>
+<figcaption>A symposium was held in memory of Jerry Nelson. (In the photograph Dr.&nbsp;Nelson’s wife, Jocelyn Nelson</figcaption>
 </figure>
 </div>
 <section id="reference" class="level2">
@@ -1403,15 +1457,16 @@ Note
  ]]></description>
   <category>Astronomy</category>
   <category>Astrophysics</category>
-  <guid>https://cosmic-charade.netlify.app/posts/jerry-nelson/index.html</guid>
+  <guid>https://cosmic-charade.netlify.app/posts/jerry-nelson/</guid>
   <pubDate>Mon, 30 Jan 2023 18:30:00 GMT</pubDate>
   <media:content url="https://cosmic-charade.netlify.app/posts/jerry-nelson/pic1.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Story of a Relic Radiation</title>
   <dc:creator>Rajat Kanti Chatterjee</dc:creator>
-  <link>https://cosmic-charade.netlify.app/posts/story-of-relic-radiation/index.html</link>
+  <link>https://cosmic-charade.netlify.app/posts/story-of-relic-radiation/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -1432,7 +1487,7 @@ Note
 </div><div class="column" style="width:47%;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/story-of-relic-radiation/Picture1.png" class="img-fluid figure-img" width="362"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/story-of-relic-radiation/Picture1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="362"></p>
 </figure>
 </div>
 </div>
@@ -1448,7 +1503,7 @@ Note
 </div><div class="column" style="width:47%;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/story-of-relic-radiation/Picture2.png" class="img-fluid figure-img" width="352"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/story-of-relic-radiation/Picture2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="352"></p>
 </figure>
 </div>
 </div>
@@ -1464,7 +1519,7 @@ Note
 </div><div class="column" style="width:47%;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/story-of-relic-radiation/Picture3.png" class="img-fluid figure-img" width="292"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/story-of-relic-radiation/Picture3.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="292"></p>
 </figure>
 </div>
 </div>
@@ -1480,7 +1535,7 @@ Note
 </div><div class="column" style="width:47%;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/story-of-relic-radiation/Picture4.jpg" class="img-fluid figure-img" width="291"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/story-of-relic-radiation/Picture4.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="291"></p>
 </figure>
 </div>
 </div>
@@ -1503,7 +1558,7 @@ Note
 </div><div class="column" style="width:47%;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/story-of-relic-radiation/Picture5.png" class="img-fluid figure-img" width="268"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/story-of-relic-radiation/Picture5.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="268"></p>
 </figure>
 </div>
 </div>
@@ -1517,7 +1572,7 @@ Note
 </div><div class="column" style="width:47%;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/story-of-relic-radiation/Picture6.png" class="img-fluid figure-img" width="356"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/story-of-relic-radiation/Picture6.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="356"></p>
 </figure>
 </div>
 </div>
@@ -1532,7 +1587,7 @@ Note
 </div><div class="column" style="width:47%;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/story-of-relic-radiation/Picture7.png" class="img-fluid figure-img" width="301"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/story-of-relic-radiation/Picture7.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="301"></p>
 </figure>
 </div>
 </div>
@@ -1548,12 +1603,12 @@ Note
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://cosmic-charade.netlify.app/posts/story-of-relic-radiation/Picture8.png" class="img-fluid figure-img" width="421"></p>
-<figcaption class="figure-caption">The Big Bang timeline of the Universe. Cosmic neutrinos affect the CMB at the time it was emitted, and physics takes care of the rest of their evolution until today.</figcaption>
+<figcaption>The Big Bang timeline of the Universe. Cosmic neutrinos affect the CMB at the time it was emitted, and physics takes care of the rest of their evolution until today.</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/story-of-relic-radiation/Picture9.png" class="img-fluid figure-img" width="426"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/story-of-relic-radiation/Picture9.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="426"></p>
 </figure>
 </div>
 </section>
@@ -1565,7 +1620,7 @@ Note
 </div><div class="column" style="width:47%;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/story-of-relic-radiation/Picture10.gif" class="img-fluid figure-img" width="312"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/story-of-relic-radiation/Picture10.gif" class="img-fluid quarto-figure quarto-figure-center figure-img" width="312"></p>
 </figure>
 </div>
 </div>
@@ -1587,15 +1642,16 @@ Note
  ]]></description>
   <category>Astrophysics</category>
   <category>Astronomy</category>
-  <guid>https://cosmic-charade.netlify.app/posts/story-of-relic-radiation/index.html</guid>
+  <guid>https://cosmic-charade.netlify.app/posts/story-of-relic-radiation/</guid>
   <pubDate>Thu, 12 Jan 2023 18:30:00 GMT</pubDate>
   <media:content url="https://cosmic-charade.netlify.app/posts/story-of-relic-radiation/wmap.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>The Valuable Moment</title>
   <dc:creator>Abhirup Moitra</dc:creator>
-  <link>https://cosmic-charade.netlify.app/posts/the-valuable-moment/index.html</link>
+  <link>https://cosmic-charade.netlify.app/posts/the-valuable-moment/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -1632,7 +1688,7 @@ Note
 <p>This follows directly from the definition but is worth recording since it is fundamental.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/the-valuable-moment/pic-1.png" class="img-fluid figure-img" width="399"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/the-valuable-moment/pic-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="399"></p>
 </figure>
 </div>
 <p>Center of mass of two pebbles, depicting that <img src="https://latex.codecogs.com/png.latex?E(X)=%20p%20%5C;%5C;%20%5Ctext%7Bfor%7D%20%5C;%5C;X%20%5Csim%20%5Ctext%7BBern%7D(p)">. Here <img src="https://latex.codecogs.com/png.latex?p"> and <img src="https://latex.codecogs.com/png.latex?q"> denote the masses of the two pebbles.</p>
@@ -1656,7 +1712,7 @@ Note
 <p>where <img src="https://latex.codecogs.com/png.latex?M%20=%20%5Csum%20m_i"> is the total mass of the system.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/the-valuable-moment/pic-2.jpg" class="img-fluid figure-img" width="521"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/the-valuable-moment/pic-2.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="521"></p>
 </figure>
 </div>
 <p>Now, locate the point with coordinates <img src="https://latex.codecogs.com/png.latex?(X,%20Y,%20Z)">. This point is called the <strong><em>center of mass</em></strong> of the given collection of the particles. If the position vector of the <img src="https://latex.codecogs.com/png.latex?i%5E%7B%5Ctext%7Bth%7D%7D"> particle is <img src="https://latex.codecogs.com/png.latex?%5Cvec%7Br_i%7D">, the center of mass is defined to have the position vector</p>
@@ -1668,7 +1724,7 @@ Note
 <p><span id="eq-8"><img src="https://latex.codecogs.com/png.latex?%0AV(X)%20=%20%5Csum_%7Bj=1%7D%5En%20m_j%20%5Cleft%5B%20x_j%20-%20E(X)%20%5Cright%5D%5E2%20%5C;%5C;%5C;%20%5Ctext%7B(Moment%20of%20Inertia%20about%20center%20of%20mass)%7D%0A%5Ctag%7B8%7D"></span></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/the-valuable-moment/pic-3.png" class="img-fluid figure-img"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/the-valuable-moment/pic-3.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
 <p>Physics interpretation of moments i.e., the mean (first moment) of an R.V. corresponds to the center of mass of a collection of pebbles, and the variance (second central moment) corresponds to the moment of inertia about the center of mass.</p>
@@ -1697,15 +1753,16 @@ Note
   <category>Physics</category>
   <category>Mathematics</category>
   <category>Statistics</category>
-  <guid>https://cosmic-charade.netlify.app/posts/the-valuable-moment/index.html</guid>
+  <guid>https://cosmic-charade.netlify.app/posts/the-valuable-moment/</guid>
   <pubDate>Sat, 31 Dec 2022 18:30:00 GMT</pubDate>
   <media:content url="https://cosmic-charade.netlify.app/posts/the-valuable-moment/moment.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>A Friend in Need is a Friend Indeed</title>
   <dc:creator>Abhirup Moitra</dc:creator>
-  <link>https://cosmic-charade.netlify.app/posts/friendship-paradox/index.html</link>
+  <link>https://cosmic-charade.netlify.app/posts/friendship-paradox/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -1767,7 +1824,7 @@ Note
 <p>Now, let’s take this one level deeper. <strong>A</strong> is a friend of 3 individuals, so we’ll put his friends list below each of those instances.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/friendship-paradox/friendship-tree.jpg" class="img-fluid figure-img" width="427"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/friendship-paradox/friendship-tree.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="427"></p>
 </figure>
 </div>
 <p><strong>B</strong> is friend of 2 individuals, so we put his friends list below each of those instances. <strong>C</strong> is also a friend of 2 individuals, so we put her friends list below of those instances. And <strong>D</strong> is a friend of 1 individual, so we put his friends list below that instance. So, the 4 individuals have a combined total of 8 friends, who have a combined total of 18 friends.</p>
@@ -1785,20 +1842,28 @@ Note
 <p><a href="https://en.wikipedia.org/wiki/Nicholas_Christakis">Nicholas Christakis</a>, professor of medicine, medical sociology and sociology at Harvard University, and <a href="https://en.wikipedia.org/wiki/James_H._Fowler">James Fowler</a>, professor of medical genetics and political science at the University of California, San Diego, used the paradox to study <a href="https://dash.harvard.edu/handle/1/8852307">the 2009 flu epidemic among 744 students</a>. The findings, the researchers say, point to a novel method for early detection of contagious outbreaks.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/friendship-paradox/network.jpg" class="img-fluid figure-img" width="432"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/friendship-paradox/network.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="432"></p>
 </figure>
 </div>
 <p>Red nodes correspond to infected individuals, yellow nodes correspond to friends of infected individuals, and node size is proportional to the number of friends infected. It’s subtle, but on average the red nodes are larger and in a greater concentration at the center of the network.</p>
 <p>Below graph is the dummy version of previous picture.</p>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="https://cosmic-charade.netlify.app/posts/friendship-paradox/index_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://cosmic-charade.netlify.app/posts/friendship-paradox/index_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <p>But when it comes to large networks, like a city or a country, it would be costly, time-consuming, and</p>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="https://cosmic-charade.netlify.app/posts/friendship-paradox/index_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://cosmic-charade.netlify.app/posts/friendship-paradox/index_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <div class="cell">
@@ -1815,7 +1880,11 @@ Note
 <p>Infectious diseases are responsible for 32% death of worldwide with the biggest challenges in the poorest parts of the world. Inventing cheaper ways to detect and combat diseases especially in the most vulnerable areas is key. Infectious diseases are spread through contact between individuals via air particles or through direct physical contact.</p>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="https://cosmic-charade.netlify.app/posts/friendship-paradox/index_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://cosmic-charade.netlify.app/posts/friendship-paradox/index_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <p>If we look at social networks like graphs we can see who’s in contact with whom. In practice we probably don’t know precisely who’s in touch with whom or where the edges are and joints of the graph lie but we may know about its probability distribution.</p>
@@ -1828,19 +1897,31 @@ Note
 <p>Network come in many different forms the simplest model is the <a href="https://www.geeksforgeeks.org/erdos-renyl-model-generating-random-graphs/">erdos-renyi</a> network where each possible edges is drawn with a fix probability.</p>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="https://cosmic-charade.netlify.app/posts/friendship-paradox/index_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://cosmic-charade.netlify.app/posts/friendship-paradox/index_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <p>Now we will vary the probability parameter and see how our graph changes</p>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="https://cosmic-charade.netlify.app/posts/friendship-paradox/index_files/figure-html/unnamed-chunk-11-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://cosmic-charade.netlify.app/posts/friendship-paradox/index_files/figure-html/unnamed-chunk-11-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <p>However when modeling the spread of infection on such a network epidemiologists and social scientists noticed that this model didn’t describe real social networks other models such as the <a href="https://en.wikipedia.org/wiki/Preferential_attachment">preferential attachment</a> better show how disease is spread through social network.</p>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="https://cosmic-charade.netlify.app/posts/friendship-paradox/index_files/figure-html/unnamed-chunk-12-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://cosmic-charade.netlify.app/posts/friendship-paradox/index_files/figure-html/unnamed-chunk-12-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <p>This model draws links depending on the existing number of links a point has just like how the rich become richer. We’re certain of vaccinations stop infectious diseases but if we can only afford to vaccinate a limited number of people or if a very infectious disease needs to be stopped quickly who should be targeted. Ideally we’d aim for the hub in the middle of the smaller networks as they have contact with the most people.</p>
@@ -1857,7 +1938,6 @@ Note
 <p>Because if we pick a random person and ask them to name a random person and ask them to name a friend they’re more likely to name someone who knows lots of people rather than someone who only knows 1 or 2 people.</p>
 <div class="cell">
 <div class="cell-output-display">
-
 <div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-3a9c613114e88bc20805" style="width:100%;height:auto;"></div>
 <script type="application/json" data-for="htmlwidget-3a9c613114e88bc20805">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4"],["Abhirup","Torshaa","Violetta","Danny"],[3,2,2,1],[1.68,2.5,2.5,3]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Person<\/th>\n      <th>Friends<\/th>\n      <th>Avg_friends_of_friends<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":[2,3]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
 </div>
@@ -1884,7 +1964,7 @@ Note
 <p>and they found that 98% of uers were less popular than their followers and their followees. In 2014, other researchers used a different 2009 twitter dataset to explore hashtags going viral, a form of digital contagion.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/friendship-paradox/connect.jpg" class="img-fluid figure-img" width="452"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/friendship-paradox/connect.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="452"></p>
 </figure>
 </div>
 <p>They compared randomly chosen individuals with a random selection of people they followed, to see whether trending twitter hashtags were used sooner by the followee groups. In this study they analyzed the performance of the 32 most widespread hashtags that appeared in their ample groups. And they found that, on average, members of the followee group, used the hashtags before the random group for all but 2 hashtags with average lead time of 7.1 days suggesting that by simply monitoring the activity of the followee group, you can detect viral outbreaks of the use of novel hashtags one week earlier than if you had monitored a random group. And even though this example is just of a digital outbreak on the internet, knowledge of the online activity of a group known to be central to a network, has the potential to provide early insights into real-world outbreaks.</p>
@@ -1920,15 +2000,16 @@ Note
   <category>Statistics</category>
   <category>Mathematics</category>
   <category>Networking</category>
-  <guid>https://cosmic-charade.netlify.app/posts/friendship-paradox/index.html</guid>
+  <guid>https://cosmic-charade.netlify.app/posts/friendship-paradox/</guid>
   <pubDate>Wed, 30 Nov 2022 18:30:00 GMT</pubDate>
   <media:content url="https://cosmic-charade.netlify.app/posts/friendship-paradox/social-network.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Music: A Mathematical Camouflage</title>
   <dc:creator>Abhirup Moitra</dc:creator>
-  <link>https://cosmic-charade.netlify.app/posts/music-a-mathematical-camouflage/index.html</link>
+  <link>https://cosmic-charade.netlify.app/posts/music-a-mathematical-camouflage/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -1943,19 +2024,19 @@ Note
 <p>An exponential function is of the form <img src="https://latex.codecogs.com/png.latex?y%20=%20b%5Ex"> . As you can see <img src="https://latex.codecogs.com/png.latex?y"> rises very rapidly for positive values of <img src="https://latex.codecogs.com/png.latex?x"> , and decays slowly for negative values of <img src="https://latex.codecogs.com/png.latex?x"> .</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/music-a-mathematical-camouflage/plot.jpg" class="img-fluid figure-img" width="439"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/music-a-mathematical-camouflage/plot.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="439"></p>
 </figure>
 </div>
 <p>Many things in nature exhibit either exponential growth or decay; so one often describes their dynamics with an exponential relationship such as <img src="https://latex.codecogs.com/png.latex?y(t)%20=%20b%5E%7Bct%7D"> where the value <img src="https://latex.codecogs.com/png.latex?c"> determines how fast things grow or decay depending on <img src="https://latex.codecogs.com/png.latex?c"> is positive or negative respectively.A logarithm is basically the inverse of the</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/music-a-mathematical-camouflage/graph.jpg" class="img-fluid figure-img" width="404"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/music-a-mathematical-camouflage/graph.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="404"></p>
 </figure>
 </div>
 <p>exponential function. Thus <img src="https://latex.codecogs.com/png.latex?%5Clog_bx"> means the exponential to which you should raise <img src="https://latex.codecogs.com/png.latex?b"> in order to obtain the number <img src="https://latex.codecogs.com/png.latex?x">. In other words, we are asking <img src="https://latex.codecogs.com/png.latex?b%5E%7B?%7D">. The number <img src="https://latex.codecogs.com/png.latex?b"> is known as base of the logarithm.You</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/music-a-mathematical-camouflage/log.jpg" class="img-fluid figure-img" width="421"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/music-a-mathematical-camouflage/log.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="421"></p>
 </figure>
 </div>
 <p>You should confirm by comparison, that it is just the inverse of the exponential function i.e., it’s the same function, just flipped on its side.</p>
@@ -1972,7 +2053,7 @@ Note
 <p>Perhaps one of the most interesting questions about music perception is why some intervals sound pleasing (consonant) and others sound harsh or difficult to bear (dissonant)?</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/music-a-mathematical-camouflage/interval-table.jpg" class="img-fluid figure-img" width="516"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/music-a-mathematical-camouflage/interval-table.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="516"></p>
 </figure>
 </div>
 <p>Interestingly, the consonant intervals all have integer-fraction frequency ratios. The consequence of this is that their harmonics will tend to either align or else produce other consonant frequency ratios. For example, the second harmonic <img src="https://latex.codecogs.com/png.latex?G"> will be <img src="https://latex.codecogs.com/png.latex?2%5Cbigg(%5Cdfrac%7B3%7D%7B2%7D%5Cbigg)=3"> times of the fundamental <img src="https://latex.codecogs.com/png.latex?C"> . Thus, the second harmonic of G exactly aligns with the third harmonic of C. But this still doesn’t answer all of our questions. What if we were to just play two pure tones that don’t have any harmonics. We still get dissonance when they are next to each other in frequency. Why? The answer seems to be that it has something to do with critical bandwidth–i.e., the region over which frequencies significantly interact within a nerve fiber, which is about <img src="https://latex.codecogs.com/png.latex?%5Cdfrac%7B1%7D%7B3%7D"> octave. The degree of perceived consonance between two tones depends on their relation to the critical bandwidth. If they are further apart than the critical bandwidth, then they are perceived to be consonant, but if within the critical bandwidth they are perceived dissonant. Of course, as the two tones become even closer to one another they again become consonant. Thus, there seems to be a relation between dissonance and the bandwidth of frequency-tuned mechanisms in the cochlea and auditory nerve, but what interactions occur exactly that give rise to the percept of dissonance, and how this is processed and represented by the nervous system, is currently unknown.</p>
@@ -1982,7 +2063,7 @@ Note
 <p>The modern piano has been designed to have an equally-tempered scale, meaning that the ratio between the frequencies of any two adjacent notes—for example, C to C# is (approximately) the same no matter where you go on the keyboard. Thus, musical instruments have been designed around the logarithmic representation of frequency in the nervous system. Thus, a logarithmic scale provides a natural, intuitive way to describe sound intensity, because equal ratios, or equally discriminable sound levels, are converted to equal differences or intervals on the log-scale. Logarithmic scales provide a useful way to describe many types of natural phenomena.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/music-a-mathematical-camouflage/1662211322416.jfif" class="img-fluid figure-img" width="407"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/music-a-mathematical-camouflage/1662211322416.jfif" class="img-fluid quarto-figure quarto-figure-center figure-img" width="407"></p>
 </figure>
 </div>
 <p>A lot of pianos look like an exponential because for waves on a string, doubling length means reducing a music pitch by an octave (2x the frequency). The “Stretched Harmonics” of a plain steel wire string produces an inharmonicity of pitch values produced by the High Tension (~200lbs.) on piano strings. This is why pianos have the “Chime like” sound of tone color rather than other stringed instruments which have lower string tension. (35-50lbs.). Eg. Nylon string classical guitar has a harmonic sonority close to a mathematical harmonic series.</p>
@@ -2003,15 +2084,16 @@ Note
   <category>Physics</category>
   <category>Mathematics</category>
   <category>Music</category>
-  <guid>https://cosmic-charade.netlify.app/posts/music-a-mathematical-camouflage/index.html</guid>
+  <guid>https://cosmic-charade.netlify.app/posts/music-a-mathematical-camouflage/</guid>
   <pubDate>Sat, 26 Nov 2022 18:30:00 GMT</pubDate>
   <media:content url="https://cosmic-charade.netlify.app/posts/music-a-mathematical-camouflage/harmonious-equations.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
   <title>An All-Consuming Monster</title>
   <dc:creator>Rajat Kanti Chatterjee</dc:creator>
-  <link>https://cosmic-charade.netlify.app/posts/all-consuming-monster/index.html</link>
+  <link>https://cosmic-charade.netlify.app/posts/all-consuming-monster/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -2033,7 +2115,7 @@ Note
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://cosmic-charade.netlify.app/posts/all-consuming-monster/bh_3.png" class="img-fluid figure-img" width="512"></p>
-<figcaption class="figure-caption">ESO’s black hole anatomy diagram shows what a black hole looks like and labels the different components. (Image credit: ESO)</figcaption>
+<figcaption>ESO’s black hole anatomy diagram shows what a black hole looks like and labels the different components. (Image credit: ESO)</figcaption>
 </figure>
 </div>
 </section>
@@ -2060,7 +2142,7 @@ Note
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://cosmic-charade.netlify.app/posts/all-consuming-monster/bh_2.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">The Event Horizon Telescope, a planet-scale array of eight ground-based radio telescopes forged through international collaboration, captured this image of the supermassive black hole in the center of the galaxy M87 and its shadow. (Image credit: EHT Collaboration)</figcaption>
+<figcaption>The Event Horizon Telescope, a planet-scale array of eight ground-based radio telescopes forged through international collaboration, captured this image of the supermassive black hole in the center of the galaxy M87 and its shadow. (Image credit: EHT Collaboration)</figcaption>
 </figure>
 </div>
 </section>
@@ -2078,15 +2160,16 @@ Note
  ]]></description>
   <category>Astrophysics</category>
   <category>Physics</category>
-  <guid>https://cosmic-charade.netlify.app/posts/all-consuming-monster/index.html</guid>
+  <guid>https://cosmic-charade.netlify.app/posts/all-consuming-monster/</guid>
   <pubDate>Tue, 22 Nov 2022 18:30:00 GMT</pubDate>
   <media:content url="https://cosmic-charade.netlify.app/posts/all-consuming-monster/bh_cover.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
   <title>Imaginary World: Next to Ours</title>
   <dc:creator>Abhirup Moitra</dc:creator>
-  <link>https://cosmic-charade.netlify.app/posts/imaginary-world-next-to-ours/index.html</link>
+  <link>https://cosmic-charade.netlify.app/posts/imaginary-world-next-to-ours/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -2100,7 +2183,7 @@ Note
 <p>According to the cyclic model of the universe, the big bang itself wasn’t the very beginning. There was a very different phase of the universe that occurred previously to set up and give rise to the Big Bang. This is called <a href="https://en.wikipedia.org/wiki/Inflation_(cosmology)">cosmological inflation</a>. When and where inflation ends, a Big Bang occurs.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/imaginary-world-next-to-ours/1667581350728.png" class="img-fluid figure-img" width="486"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/imaginary-world-next-to-ours/1667581350728.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="486"></p>
 </figure>
 </div>
 </section>
@@ -2120,7 +2203,7 @@ Note
 <p>The <a href="https://en.wikipedia.org/wiki/Antarctic_Impulsive_Transient_Antenna"><strong>Antarctic Impulsive Transient Antenna (ANITA)</strong></a> conducted a long-term helium balloon experiment. It is designed to detect radio signals generated by ultra-high energy neutrinos and cosmic rays. This helium balloon is flying over Antarctica, at a height of thirty-seven thousand meters.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/imaginary-world-next-to-ours/1668011884918.jfif" class="img-fluid figure-img" width="579"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/imaginary-world-next-to-ours/1668011884918.jfif" class="img-fluid quarto-figure quarto-figure-center figure-img" width="579"></p>
 </figure>
 </div>
 <p>Neutrinos, which are subatomic particles similar to electrons, have no electrical charge and are sometimes considered massless. These particles are abundant in the universe, and they are very hard to detect. Even now, scientists have estimated that millions of neutrinos are passing through every square centimetre of our skin, without leaving any clue. The main source of Neutrinos are stars and in our case, it is the Sun.</p>
@@ -2133,7 +2216,7 @@ Note
 <p>Even if we ignore this, then one of the possibilities is that there is some neutrino source on the other side of the earth, and it could be that these neutrinos came from that source. However, scientists believe that this hypothesis is incorrect. Because no known source can emit lots of high-energy neutrinos, which can pass through the earth and be detected through ANITA.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/imaginary-world-next-to-ours/1668013645074.png" class="img-fluid figure-img" width="322"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/imaginary-world-next-to-ours/1668013645074.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="322"></p>
 </figure>
 </div>
 </section>
@@ -2166,15 +2249,16 @@ Note
   <category>Astrophysics</category>
   <category>Physics</category>
   <category>Astronomy</category>
-  <guid>https://cosmic-charade.netlify.app/posts/imaginary-world-next-to-ours/index.html</guid>
+  <guid>https://cosmic-charade.netlify.app/posts/imaginary-world-next-to-ours/</guid>
   <pubDate>Mon, 14 Nov 2022 18:30:00 GMT</pubDate>
   <media:content url="https://cosmic-charade.netlify.app/posts/imaginary-world-next-to-ours/p-univ.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Universe: From the Infinitesimals to Infinite</title>
   <dc:creator>Abhirup Moitra</dc:creator>
-  <link>https://cosmic-charade.netlify.app/posts/universe-from-infinitesimals-to-infinite/index.html</link>
+  <link>https://cosmic-charade.netlify.app/posts/universe-from-infinitesimals-to-infinite/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -2184,7 +2268,7 @@ Note
 <p>The <strong>Big Bang</strong> happened 13.8 billion years ago, and the speed of light is constant, as far as we know it. Even though the universe might be infinite, the observable universe is finite. So perhaps, our universe may be just one minuscule region, in a larger multiverse.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/universe-from-infinitesimals-to-infinite/1667600771820.gif" class="img-fluid figure-img" width="297"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/universe-from-infinitesimals-to-infinite/1667600771820.gif" class="img-fluid quarto-figure quarto-figure-center figure-img" width="297"></p>
 </figure>
 </div>
 <p>The multiverse. One of the most baffling questions in astrophysics is <strong>“are we a part of infinite universes?”</strong> So let’s take a look at this amazing theory of the multiverse, and do we live in one?</p>
@@ -2207,7 +2291,7 @@ Note
 <p>Our universe has been expanding since the Big Bang. This means that everything is moving away from each other because the space between them is expanding. In 1979, <a href="https://en.wikipedia.org/wiki/Alan_Guth">Alan Guth</a> was studying the particles in the early universe. He observed that in the early universe, under violent and harsh environments, gravity can be repulsive. The <a href="https://academic.oup.com/mnras/article/461/3/2929/2608669">repulsive gravity</a> would drive apart everything around and repel it, causing a massive expansion. This force was so powerful that it could take a molecule, and blow it up to the size of a Galaxy, in less than a billionth of a blink of an eye. This idea gave birth to <a href="https://en.wikipedia.org/wiki/Expansion_of_the_universe">the theory of inflation</a>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/universe-from-infinitesimals-to-infinite/1667581350728.png" class="img-fluid figure-img" width="482"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/universe-from-infinitesimals-to-infinite/1667581350728.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="482"></p>
 </figure>
 </div>
 <p>Then, the theory of multiverse gained unexpected support from two major areas of modern science, and these may be the key to understanding the many important phenomenons, in our universe and beyond.</p>
@@ -2223,7 +2307,7 @@ Note
 <p>The multiverse gives us the answer. The amount of dark energy differs in every universe. In some,</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/universe-from-infinitesimals-to-infinite/1667584595271.jpg" class="img-fluid figure-img" width="495"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/universe-from-infinitesimals-to-infinite/1667584595271.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="495"></p>
 </figure>
 </div>
 <p>it might be so less that the matter would collapse in on itself, and hence nothing could exist. In others, dark energy is so large that matter could never get a chance to form and nothing wouldn’t even exist. And this was a baffling realization for scientists.</p>
@@ -2240,7 +2324,7 @@ Note
 <p>This is based on the fundamental notion that space is infinite, reaching out in all directions indefinitely toward the horizon. The assumption is that, since our universe is so vast and gigantic, it must inevitably replicate itself at some point, in another space or time. Life may start in a galaxy far, far away from where we are.&nbsp;And that life will develop into beings who will live in a world similar to Earth. If this is true, it would properly explain the presence of <a href="https://en.wikipedia.org/wiki/Doppelg%C3%A4nger">doppelgangers</a>, or beings who are slightly different from each other.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/universe-from-infinitesimals-to-infinite/1667589894014.jpg" class="img-fluid figure-img" width="456"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/universe-from-infinitesimals-to-infinite/1667589894014.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="456"></p>
 </figure>
 </div>
 <p>Dr.&nbsp;Tegmark concluded that if such a perfect pair of doppelgangers existed, they would be somewhere at a distance of&nbsp;10^118 meters away from one another. It’s three times larger than our current observable universe.</p>
@@ -2253,12 +2337,12 @@ Note
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/universe-from-infinitesimals-to-infinite/1667592593969.png" class="img-fluid figure-img" width="402"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/universe-from-infinitesimals-to-infinite/1667592593969.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="402"></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/universe-from-infinitesimals-to-infinite/1667592646097.png" class="img-fluid figure-img" width="430"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/universe-from-infinitesimals-to-infinite/1667592646097.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="430"></p>
 </figure>
 </div>
 <p>Scientists use the power of supercomputers, to churn through intertwined equations. Potentially looking at the other sets of universes, and unraveling the deep mysteries of what these alternate universes would look like. Here’s a bigger picture of how that methodology works.</p>
@@ -2276,7 +2360,7 @@ Note
 <p>String theory proposes that at subatomic levels, small particles (here we will call quarks) are made up of small vibrating loops of energy, or strings. They can create different particles based on how they vibrate. This theory is believed to lay the foundation for the one fundamental equation for our universe. String theory also proposes extra dimensions of space.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/universe-from-infinitesimals-to-infinite/1667600056497.jpg" class="img-fluid figure-img" width="573"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/universe-from-infinitesimals-to-infinite/1667600056497.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="573"></p>
 </figure>
 </div>
 <section id="thought-experiment" class="level3">
@@ -2310,15 +2394,16 @@ Note
   <category>Astrophysics</category>
   <category>Physics</category>
   <category>Astronomy</category>
-  <guid>https://cosmic-charade.netlify.app/posts/universe-from-infinitesimals-to-infinite/index.html</guid>
+  <guid>https://cosmic-charade.netlify.app/posts/universe-from-infinitesimals-to-infinite/</guid>
   <pubDate>Fri, 04 Nov 2022 18:30:00 GMT</pubDate>
   <media:content url="https://cosmic-charade.netlify.app/posts/universe-from-infinitesimals-to-infinite/cosmo.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>The Physics of Music</title>
   <dc:creator>Abhirup Moitra</dc:creator>
-  <link>https://cosmic-charade.netlify.app/posts/the-physics-of-music/index.html</link>
+  <link>https://cosmic-charade.netlify.app/posts/the-physics-of-music/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -2336,7 +2421,7 @@ Note
 <p>A guitarist may play an open string, say G, and then place a finger on a fret to create a sound with a higher pitch, say G#, A, or B. What is happening is that the player is shortening the vibrating part of the string to produce a higher pitch. This is based on the fundamental fact that shorter (skinner or tighter) strings produce higher pitches. Similar facts are true with woodwind, percussion, and other types of instruments in general: the smaller the vibrating portion gets, the higher the sound becomes. That is why, for instance, a tuba is bigger than a French horn, and a <a href="https://en.wikipedia.org/wiki/Contrabass_flute"><strong>Contrabass Flute</strong></a> is longer than a <a href="https://en.wikipedia.org/wiki/Soprano_flute"><strong>Soprano Flute</strong></a><strong>.</strong></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/the-physics-of-music/pA0iS.jpg" class="img-fluid figure-img"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/the-physics-of-music/pA0iS.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
 </section>
@@ -2381,15 +2466,16 @@ Note
  ]]></description>
   <category>Physics</category>
   <category>Music</category>
-  <guid>https://cosmic-charade.netlify.app/posts/the-physics-of-music/index.html</guid>
+  <guid>https://cosmic-charade.netlify.app/posts/the-physics-of-music/</guid>
   <pubDate>Wed, 02 Nov 2022 18:30:00 GMT</pubDate>
   <media:content url="https://cosmic-charade.netlify.app/posts/the-physics-of-music/melody_music.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Teleological Overview of the Cosmos</title>
   <dc:creator>Samrit Pramanik</dc:creator>
-  <link>https://cosmic-charade.netlify.app/posts/teleological-overview-of-the-cosmos/index.html</link>
+  <link>https://cosmic-charade.netlify.app/posts/teleological-overview-of-the-cosmos/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -2410,13 +2496,13 @@ Note
 <h2 class="anchored" data-anchor-id="the-connection-between-time-and-entropy">The Connection between Time and Entropy</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/teleological-overview-of-the-cosmos/entropy_time.png" class="img-fluid figure-img" width="442"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/teleological-overview-of-the-cosmos/entropy_time.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="442"></p>
 </figure>
 </div>
 <p>One of the few concepts that validate the existence of time is entropy. Entropy always decreases as we move forward in time. We experience a single direction, or “Arrow of Time”, from the past to the future. From this point, a question arises—can we change the course of events? Most scientists will tell you no. Causal determinism forbids it. Time loops have a significant impact on the principle of causality on the relationship between cause and effect. Therefore, everything is mutually dependent. The past does not just influence the future, the future also influences the past. It is just like the question of the chicken and the egg. We can no longer say which of the two came first. Everything is connected to everything else.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/teleological-overview-of-the-cosmos/infinity_loop.png" class="img-fluid figure-img" width="348"></p>
+<p><img src="https://cosmic-charade.netlify.app/posts/teleological-overview-of-the-cosmos/infinity_loop.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="348"></p>
 </figure>
 </div>
 <p>There is a switch point at the junction in the loop of time. The moment that allows things to run in one direction or the other. You do something, or you don’t. A line that meets itself again in the loop creates two possible paths: along the outer edge of the line or along the inner edge of the line. And yet it is the same line. Two overlapping realities. On one of these paths, you are a painter, on the other, you are a singer. Both possibilities recur in the loop, again and again, one triggering the other. Scientists call it Quantum Entanglement.</p>
@@ -2447,7 +2533,7 @@ Note
   <category>Astronomy</category>
   <category>Astrophysics</category>
   <category>Physics</category>
-  <guid>https://cosmic-charade.netlify.app/posts/teleological-overview-of-the-cosmos/index.html</guid>
+  <guid>https://cosmic-charade.netlify.app/posts/teleological-overview-of-the-cosmos/</guid>
   <pubDate>Fri, 28 Oct 2022 18:30:00 GMT</pubDate>
   <media:content url="https://cosmic-charade.netlify.app/posts/teleological-overview-of-the-cosmos/Multiverse_Lead.jpg" medium="image" type="image/jpeg"/>
 </item>

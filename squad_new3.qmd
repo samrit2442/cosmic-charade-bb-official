@@ -1,0 +1,186 @@
+---
+title: ""
+---
+
+# ***Know Your Cosmic Charade Team*** {style="text-align: center;"}
+
+------------------------------------------------------------------------
+
+::: {style="display: flex; flex-wrap: wrap; justify-content: space-around;"}
+::: {style="flex-basis: 30%; margin: 10px; text-align: center;"}
+<img src="member/samrit.jpg" alt="Member 1" style="width:100%; border-radius: 50%;"/>
+
+<h3 style="text-align: center">
+
+Samrit Pramanik
+
+</h3>
+
+<details>
+
+<summary>Co-founder & R Course Instructor, Editor, Content Writer</summary>
+
+Working in Analytics industry, post graduated in Statistics from University of Calcutta, having major interest in Astronomy, Cosmology and Astrostatistics. He loves to play around R Programming and explore the beauty of R coding.
+
+</details>
+
+<a href="mailto:samrit.2442@gmail.com"><img src="icons/gmail.png" style="width:28px;"/></a> <a href="https://samrit.quarto.pub"><img src="icons/world-wide-web2.png" alt="LinkedIn" style="width:28px;"/></a> <a href="https://www.linkedin.com/in/samritpramanik24/"><img src="icons/linkedin.png" style="width:28px;"/></a> <a href="https://github.com/samrit2442"><img src="icons/github.png" style="width:28px;"/></a>
+:::
+
+::: {style="flex-basis: 30%; margin: 10px; text-align: center;"}
+<img src="member/abhirup2.jpg" style="width:100%; border-radius: 50%;"/>
+
+<h3 style="text-align: center">
+
+Abhirup Moitra
+
+</h3>
+
+<details>
+
+<summary>Blogs, Articles Writer & Content Creator, R Course Instructor</summary>
+
+He is a passionate researcher specializing in Mathematical Analysis, Statistics, Complex Dynamics, and Fractals, aiming to inspire and contribute to science and technology. He is the co-instructors of R programming courses and designs educational programs for students, while also excelling in blog writing to effectively communicate complex ideas.
+
+</details>
+
+<a href="mailto:amityabhirup@gmail.com"><img src="icons/gmail.png" style="width:28px;"/></a> <a href="https://abhirup-moitra-mathstat.netlify.app/"><img src="icons/world-wide-web2.png" alt="LinkedIn" style="width:28px;"/></a> <a href="https://www.linkedin.com/in/abhirup-moitra-7a66731a6/"><img src="icons/linkedin.png" style="width:28px;"/></a> <a href="https://github.com/ABHI20-STAT"><img src="icons/github.png" style="width:28px;"/></a>
+:::
+
+::: {style="flex-basis: 30%; margin: 10px; text-align: center;"}
+<img src="member/kazi.jpg" style="width:100%; border-radius: 50%;"/>
+
+<h3 style="text-align: center">
+
+Kazi Abu Rousan
+
+</h3>
+
+<details>
+
+<summary>Research Scholar and Academic Instructor</summary>
+
+He is a research fellow at the Indian Association for the Cultivation of Science, pursuing an Integrated MS-PhD in Physics with a focus on Cosmology. He teaches Mathematics and Physics for olympiad preparation at Cheenta Ganit Kendra and serves as a Course Instructor at Cosmic Charade. He designed the course "Approaching Towards Computational Thinking" and mentors students and research fellows in developing scientific computing skills.
+
+</details>
+
+<a href="mailto:kaziaburousan@gmail.com"><img src="icons/gmail.png" style="width:28px;"/></a> <a href="https://aburousan.github.io/azazaya/"><img src="icons/world-wide-web2.png" alt="LinkedIn" style="width:28px;"/></a> <a href="https://www.linkedin.com/in/abhirup-moitra-7a66731a6/"><img src="icons/linkedin.png" style="width:28px;"/></a> <a href="https://github.com/aburousan"><img src="icons/github.png" style="width:28px;"/></a> <a href="https://www.researchgate.net/profile/Kazi-Abu-Rousan"><img src="icons/researchgate.png" style="width:28px;"/></a> <a href="https://scholar.google.co.in/citations?user=p-6AtmEAAAAJ&hl=en"><img src="icons/scholar.png" style="width:28px;"/></a>
+:::
+
+::: {style="flex-basis: 30%; margin: 10px; text-align: center;"}
+<img src="member/sandipan.jpg" alt="Member 4" style="width:100%; border-radius: 50%;"/>
+
+<h3 style="text-align: center">
+
+Sandipan Mandal
+
+</h3>
+
+<details>
+
+<summary>Content Creator of Instagram page, Head of Cosmic Art & Literature</summary>
+
+He is undergraduate in Physics from Calcutta University. He had developed his interest in Astrobiology, Paleontology, Astronomical art and Science Fiction since his childhood. Beside these topics, he also likes to explore the world of visual arts and photography.
+
+</details>
+
+<a href="mailto:sandipanmandal740@gmail.com"><img src="icons/gmail.png" style="width:28px;"/></a> <a href="https://www.facebook.com/sandipan.mandal.900"><img src="icons/facebook.png" style="width:28px;"/></a> <a href="https://www.instagram.com/sandipan10020/"><img src="icons/instagram.png" style="width:28px;"/></a>
+:::
+
+::: {style="flex-basis: 30%; margin: 10px; text-align: center;"}
+<img src="member/snigdha.jpg" alt="Member 4" style="width:100%; border-radius: 50%;"/>
+
+<h3 style="text-align: center">
+
+Snigdha Bose
+
+</h3>
+
+<details>
+
+<summary>Educational Instructor</summary>
+
+An astronomical meteorite who likes to think about stars, patterns, and anything non-linear. This curious mind is fond of playing with words, tune, chords, rhythm, curves, spices, and rooks within this curvature of spacetime. Amature python programmer and would be theoretical physicist.
+
+</details>
+
+<a href="mailto:phy.bosesnigdha16@gmail.com"><img src="icons/gmail.png" style="width:28px;"/></a> <a href="https://www.linkedin.com/in/snigdha-bose-b06a251b1/"><img src="icons/linkedin.png" style="width:28px;"/></a>
+:::
+
+::: {style="flex-basis: 30%; margin: 10px; text-align: center;"}
+<img src="member/rajat.jpg" alt="Member 4" style="width:100%; border-radius: 50%;"/>
+
+<h3 style="text-align: center">
+
+Rajat Kanti Chatterjee
+
+</h3>
+
+<details>
+
+<summary>Educational Instructor</summary>
+
+He is a graduate in Applied Physics and passionate about astronomy, cosmology and seeks to enhance his practical skills in a dynamic workplace. He is adaptable, a fast learner, and enjoys stepping out of his comfort zone, valuing both teamwork and independent work. Known for his trustworthiness, strong communication skills, and imagination, Rajat thrives on learning new things and adapting to new situations.
+
+</details>
+
+<a href="mailto:rajatkantichatterjee2019@gmail.com"><img src="icons/gmail.png" style="width:28px;"/></a> <a href="https://www.linkedin.com/in/rajat-kanti-chatterjee-1457001a7/"><img src="icons/linkedin.png" style="width:28px;"/></a>
+:::
+:::
+
+# ***Advisory Committee*** {style="text-align: center;"}
+
+------------------------------------------------------------------------
+
+::: {style="display: flex; justify-content: space-around; margin-top: 20px;"}
+::: {style="flex-basis: 30%; margin: 10px; padding: 20px; border: 1px solid #ccc; border-radius: 10px; box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1); text-align: center; background: linear-gradient(to bottom, #ffffff, #f0f0f0); transition: transform 0.3s;"}
+<h3 style="color: #333; text-align: center;">
+
+Shounak Bhattacharya
+
+</h3>
+
+<p style="color: #555; text-align: center;">
+
+Director, Placement & Training at Asian College of Teachers
+
+</p>
+:::
+
+::: {style="flex-basis: 30%; margin: 10px; padding: 20px; border: 1px solid #ccc; border-radius: 10px; box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1); text-align: center; background: linear-gradient(to bottom, #ffffff, #f0f0f0); transition: transform 0.3s;"}
+<h3 style="color: #333; text-align: center">
+
+Arghya Mukherjee
+
+</h3>
+
+<p style="color: #555; text-align: center">
+
+PhD Scholar in Statistics at IIT Kanpur
+
+</p>
+:::
+
+::: {style="flex-basis: 30%; margin: 10px; padding: 20px; border: 1px solid #ccc; border-radius: 10px; box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1); text-align: center; background: linear-gradient(to bottom, #ffffff, #f0f0f0); transition: transform 0.3s;"}
+<h3 style="color: #333; text-align: center;">
+
+Sourav Ghosh
+
+</h3>
+
+<p style="color: #555; text-align: center;">
+
+Data Engineer and Sci-Fi story writer
+
+</p>
+:::
+:::
+
+```{=html}
+<style>
+div[style*="transition: transform 0.3s;"]:hover {
+  transform: translateY(-10px);
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.2);
+}
+</style>
+```
