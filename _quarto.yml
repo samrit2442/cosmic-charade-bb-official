@@ -39,7 +39,9 @@ website:
         href: https://t.me/bismoykar_bramhanda_cc
       - icon: youtube
         href: https://youtube.com/@cosmiccharade33?si=m3B9lqSqcioNJVtb
-  page-footer: Proudly made with Quarto 💙 <br> Copyright © 2024 | Contact us <br> [Privacy Policy](privacy_policy.qmd)
+  page-footer: 
+    left: Proudly made with Quarto 💙 <br> Copyright © 2024 | Contact us <br> [Privacy Policy](privacy_policy.qmd)
+    right: "Registered under Govt. of India <br> UDYAM-WB-08-0072647"
   margin-footer: subscribe.html
   # margin-header: guidelines.qmd
   reader-mode: true
