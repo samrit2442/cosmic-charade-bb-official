@@ -25,6 +25,8 @@ website:
        - href: mag.qmd
        - text: Cosmic Squad
          href: squad_new3.qmd
+       - text: Donation Box
+         href: donate.qmd
     right:
       # - href: bb.qmd
       - icon: envelope

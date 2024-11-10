@@ -1,0 +1,13 @@
+---
+title: "Donation Box"
+title-block-banner: true
+page-layout: full
+---
+
+At **Cosmic Charade (বিস্ময়কর ব্রহ্মাণ্ড)**, we are driven by a deep passion for exploring the mysteries of the universe and inspiring a cosmic perspective on life. Whether it's through our publications, community events, or educational initiatives, we aim to spark curiosity, foster a love for space, and remind everyone of the vastness and beauty of the cosmos.
+
+If you resonate with our mission, appreciate our work, and believe in our vision of promoting cosmic consciousness, we invite you to support us. Your generous contribution, no matter how big or small, will help us continue to bring the wonders of the universe to people everywhere.
+
+![](images/QR_code.jpg){fig-align="center" width="315"}
+
+Simply scan the QR code above to donate any amount you wish. Every donation goes a long way in fueling our cosmic journey. Thank you for being a part of this extraordinary adventure! 🌌💫

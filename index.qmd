@@ -41,10 +41,9 @@ date_time <- paste0(d, " ", month.abb[M], " ", y, ",", " ", h, ":", m, ":", s, "
 
  
 
-```{=html}
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8479395590405219"
      crossorigin="anonymous"></script>
-```
+
 ::: {style="font-family: Bahnschrift; font-size: 15px; text-align: right"}
 ***Last updated on `r date_time`***
 :::
