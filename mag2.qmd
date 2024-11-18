@@ -1,0 +1,61 @@
+---
+title: "Magazine's Space"
+title-block-banner: true
+page-layout: full
+---
+
+![](mag2.jpg){fig-align="center" width="278"}
+
+::: {style="text-align: center; font-size: 26px"}
+We are unveiling the cosmic wonders within the pages of our 2nd issue on 24th Nov, 2024 with Science Engagement Extravaganza.
+
+***বিস্ময়কর ব্রহ্মাণ্ড — Cosmic Charade***🌠
+:::
+
+::: {style="font-size: 24px"}
+Event Date: **24th November, 2024**
+
+Event Time: **11 AM to 3 PM**
+
+Venue: **Anno Theatre, CK-43, Sector II, Saltlake, Kolkata 700091**
+:::
+
+We are thrilled to invite you to an exciting day filled with a variety of stimulating activities, thought-provoking discussions, and hands-on experiences designed to spark curiosity and creativity. Here's a sneak peek at what we have planned for you:
+
+# Magazine Launch
+
+Celebrate the unveiling of the Sharodiya Sonkhaa, a unique bilingual magazine exploring astronomy, astrophysics, and culture.
+
+# Olympiad Training & Problem-Solving Session
+
+Expert-led sessions to guide students on Math, Physics, and Informatics Olympiads, alongside ISI-CMI, TIFR, and NBHM preparation tips.
+
+# Special Lecture by Esteemed Professor Barun Dutta
+
+A captivating introduction to the General Theory of Relativity, starting from the basics and exploring the mathematical foundations.
+
+# Collaborations
+
+In partnership with Cheenta Academy, featuring leading educators and problem solvers.
+
+## Call to Action:
+
+-   Join us for a celebration of knowledge, creativity, and exploration!
+
+-   Register now: <https://forms.gle/Css6mQH2xm55XuDg7>
+
+-   For more information, contact:
+
+    -   [cosmiccharade0\@gmail.com](mailto:cosmiccharade0@gmail.com)
+
+    -   **+91 9038337857 (Samrit)**
+
+    -   **+91 8670384411 (Shreya)**
+
+::: {style="text-align: center; font-size: 22px"}
+*This approach will not only make the event educational but also entertaining and inspiring, staying true to Cosmic Charade’s vision.*
+:::
+
+### **Our Principle Sponsor**
+
+![](images/cheenta_logo_png.png){fig-align="center" width="413"}

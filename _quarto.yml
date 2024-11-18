@@ -22,7 +22,12 @@ website:
           #   href: r4e.pdf
           - text: Computational Thinking with R + Python 
             href: actrp.pdf
-       - href: mag.qmd
+       - text: Magazine's Space
+         menu: 
+          - text: Bookfair Edition 2024
+            href: mag.qmd
+          - text: Sharodiya Sankhya 2024
+            href: mag2.qmd
        - text: Cosmic Squad
          href: squad_new3.qmd
        - text: Donation Box
@@ -43,7 +48,7 @@ website:
         href: https://youtube.com/@cosmiccharade33?si=m3B9lqSqcioNJVtb
   page-footer: 
     left: Proudly made with Quarto 💙 <br> Copyright © 2024 | Contact us <br> [Privacy Policy](privacy_policy.qmd)
-    right: "Registered under Govt. of India <br> UDYAM-WB-08-0072647"
+    right: 'Registered under Govt. of India <br> UDYAM-WB-08-0072647 <br> Sponsored by <br> ![](images/cheenta_logo_png.png){fig-alt="Cheenta Academy" fig-align="center" height="120"}'
   margin-footer: subscribe.html
   # margin-header: guidelines.qmd
   reader-mode: true
