@@ -9,12 +9,12 @@
 <link>https://cosmic-charade.netlify.app/posts.html</link>
 <atom:link href="https://cosmic-charade.netlify.app/posts.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.5.57</generator>
-<lastBuildDate>Sat, 30 Nov 2024 18:30:00 GMT</lastBuildDate>
+<generator>quarto-1.4.554</generator>
+<lastBuildDate>Sun, 24 Nov 2024 18:30:00 GMT</lastBuildDate>
 <item>
   <title>A School Level Approch Towards Fractals</title>
   <dc:creator>Abhirup Moitra</dc:creator>
-  <link>https://cosmic-charade.netlify.app/posts/school-fractal/sfractal.html</link>
+  <link>https://cosmic-charade.netlify.app/posts/school-fractal/</link>
   <description><![CDATA[ 
 
 
@@ -218,8 +218,8 @@
 
  ]]></description>
   <category>Mathematics</category>
-  <guid>https://cosmic-charade.netlify.app/posts/school-fractal/sfractal.html</guid>
-  <pubDate>Sat, 30 Nov 2024 18:30:00 GMT</pubDate>
+  <guid>https://cosmic-charade.netlify.app/posts/school-fractal/</guid>
+  <pubDate>Sun, 24 Nov 2024 18:30:00 GMT</pubDate>
   <media:content url="https://cosmic-charade.netlify.app/posts/school-fractal/spokes.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>

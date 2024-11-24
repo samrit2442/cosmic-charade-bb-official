@@ -30,7 +30,7 @@ website:
             href: mag2.qmd
        - text: Cosmic Squad
          href: squad_new3.qmd
-       - text: Donation Box
+       - text: Donation
          href: donate.qmd
     right:
       # - href: bb.qmd
