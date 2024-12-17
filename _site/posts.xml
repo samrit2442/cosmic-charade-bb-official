@@ -9,8 +9,8 @@
 <link>https://cosmic-charade.netlify.app/posts.html</link>
 <atom:link href="https://cosmic-charade.netlify.app/posts.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.4.554</generator>
-<lastBuildDate>Sun, 24 Nov 2024 18:30:00 GMT</lastBuildDate>
+<generator>quarto-1.5.57</generator>
+<lastBuildDate>Tue, 24 Dec 2024 18:30:00 GMT</lastBuildDate>
 <item>
   <title>A School Level Approch Towards Fractals</title>
   <dc:creator>Abhirup Moitra</dc:creator>
@@ -219,8 +219,69 @@
  ]]></description>
   <category>Mathematics</category>
   <guid>https://cosmic-charade.netlify.app/posts/school-fractal/</guid>
-  <pubDate>Sun, 24 Nov 2024 18:30:00 GMT</pubDate>
+  <pubDate>Tue, 24 Dec 2024 18:30:00 GMT</pubDate>
   <media:content url="https://cosmic-charade.netlify.app/posts/school-fractal/spokes.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>Santa Claus on the Christmas Eve</title>
+  <dc:creator>Safal Das Biswas</dc:creator>
+  <link>https://cosmic-charade.netlify.app/posts/problem-xmass/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div style="color: navy; font-size: 18px; font-family: Garamond; text-align: center; border-radius: 3px; background-image: linear-gradient(#C3E5E5, #F6F7FC);">
+<p><strong>Mathematics, like Christmas, is full of surprises; it starts with small gifts of reasoning and ends with the joy of discovery.</strong></p>
+</div>
+<p>It’s Christmas Eve, and Santa Claus is busy spreading joy and happiness across the world. This year, Santa has decided to distribute parcels of chocolates to celebrate the season of giving. However, Santa has a special <strong>Happy Face</strong> device to determine which parcels can be gifted. This magical device follows a set of logical rules to ensure the chocolates are distributed fairly and magically. In this festive spirit, let’s explore the mathematical challenge Santa faces with his <strong>cool Happy Face</strong>.</p>
+<section id="problem-santa-claus-on-the-christmas-eve" class="level1">
+<h1>Problem (Santa Claus on the Christmas Eve)</h1>
+<p>On Christmas Eve, Santa Claus will distribute parcels that contain chocolates only. In total, there are <img src="https://latex.codecogs.com/png.latex?n"> distinct chocolates, and Santa marks the chocolates as <img src="https://latex.codecogs.com/png.latex?%5Cdisplaystyle%20C%20=%20%5C%7B%20c_1,%20c_2,%20%5Cdots,%20c_n%20%5C%7D%20%5C;%20%5Ctext%7Bwhere%7D%20%5C;%20c_i%20%5Cneq%20c_j,%20%20%5Ctext%7Bfor%7D%5C;%20i%20%5Cneq%20j."> Let <img src="https://latex.codecogs.com/png.latex?%5Cdisplaystyle%20%20G%20=%20%5C%7B%20K%20:%20K%20%5Csubseteq%20C%20%5C%7D,"> any member in <img src="https://latex.codecogs.com/png.latex?G"> is called <strong>parcels</strong>. Also, Santa has exactly <img src="https://latex.codecogs.com/png.latex?%7CG%7C"> parcels, and any two distinct parcels are distinct from each other. Santa Claus has a device named <strong>Happy Face</strong>. The <strong>Happy Face</strong> will determine if a parcel is <em>givable</em> as a gift or not. If <strong>Happy Face</strong> scans the parcel and detects ‘Yes’, then it is <em>givable</em>. Otherwise, it detects ‘No’. The <strong>Happy Face</strong> is said to be <strong>cool</strong> if the following conditions hold:</p>
+<ol type="1">
+<li>For the parcel containing all <img src="https://latex.codecogs.com/png.latex?n"> chocolates with each chocolate appearing exactly once, it detects <strong>‘Yes’</strong>.</li>
+<li>For the empty parcel with no chocolates, it detects <strong>‘No’</strong>.</li>
+<li>If for some parcel <img src="https://latex.codecogs.com/png.latex?M"> it detects <strong>‘Yes’</strong> and <img src="https://latex.codecogs.com/png.latex?M%20%5Csubseteq%20M_1"> , then for parcel <img src="https://latex.codecogs.com/png.latex?M_1">, it also detects <strong>‘Yes’</strong>.</li>
+<li>If for both parcels <img src="https://latex.codecogs.com/png.latex?M"> and <img src="https://latex.codecogs.com/png.latex?M_1"> , it detects <strong>‘Yes’</strong>, then <img src="https://latex.codecogs.com/png.latex?M"> and <img src="https://latex.codecogs.com/png.latex?M_1"> have at least one common chocolate.</li>
+</ol>
+<p>Find the maximum number of parcels Santa Claus can give as decided by the <strong>cool Happy Face</strong>, and also prove why it is maximum.(<img src="https://latex.codecogs.com/png.latex?%7CG%7C%20=%20%5Ctext%7Bnumber%20of%20Elements%20in%7D%5C;%20G"> )</p>
+<section id="the-challenge" class="level2">
+<h2 class="anchored" data-anchor-id="the-challenge"><strong>The Challenge</strong></h2>
+<p>Solve the problem titled <em>“Santa Claus on the Christmas Eve”</em> by determining the maximum number of parcels Santa can distribute as per the rules of the magical <strong>Happy Face</strong> device.</p>
+<ul>
+<li>You can either <strong>solve the complete problem</strong> or <strong>share a well-defined solving strategy</strong> with us.</li>
+</ul>
+</section>
+<section id="rewards-await-you" class="level2">
+<h2 class="anchored" data-anchor-id="rewards-await-you"><strong>Rewards Await You</strong></h2>
+<ol type="1">
+<li><p>A special <strong>Christmas Gift</strong> from Cosmic Charade.</p></li>
+<li><p>A <strong>Certificate of Participation</strong> to celebrate your effort and contribution.</p></li>
+</ol>
+</section>
+<section id="how-to-participate" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-participate"><strong>How to Participate?</strong></h2>
+<p>Submit your solutions or strategies to us by Email - cosmiccharade0@gmail.com within <strong>19/12/2024 to 3/1/2024</strong>. We will send you the confirmation after the deadline, and the answer key will be provided upon reviewing your submission. The updated solution will also be published on our YouTube channel.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://cosmic-charade.netlify.app/posts/problem-xmass/santa.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="299"></p>
+</figure>
+</div>
+<div style="color: navy; font-size: 18px; font-family: Garamond; text-align: center; border-radius: 3px; background-image: linear-gradient(#C3E5E5, #F6F7FC);">
+<p><strong>Wraps up the problem by tying it back to the Christmas spirit, highlighting fairness, logic, and the joy of problem-solving. Let this festive season ignite your passion for problem-solving and spread the joy of learning!</strong></p>
+<p><strong>🌟 Wishing you all a Merry Christmas and Happy Solving! 🎄</strong></p>
+</div>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>Mathematics</category>
+  <guid>https://cosmic-charade.netlify.app/posts/problem-xmass/</guid>
+  <pubDate>Tue, 17 Dec 2024 18:30:00 GMT</pubDate>
+  <media:content url="https://cosmic-charade.netlify.app/posts/problem-xmass/xmass.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Capturing the Symphony of Motion</title>
@@ -2608,78 +2669,6 @@ Note
   <guid>https://cosmic-charade.netlify.app/posts/universe-from-infinitesimals-to-infinite/</guid>
   <pubDate>Fri, 04 Nov 2022 18:30:00 GMT</pubDate>
   <media:content url="https://cosmic-charade.netlify.app/posts/universe-from-infinitesimals-to-infinite/cosmo.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>The Physics of Music</title>
-  <dc:creator>Abhirup Moitra</dc:creator>
-  <link>https://cosmic-charade.netlify.app/posts/the-physics-of-music/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<div style="color: navy; font-size: 19px; font-family: Garamond; text-align: center; border-radius: 4px; background-image: linear-gradient(#C3E5E5, #F6F7FC);">
-<p><strong>Technology has changed the way people make music. It started with a phonograph in 1877, invented by Thomas Edison that used complex moving parts, and now companies like Hexachords use AI in their software called Orb Producer Suite where all we have to do is click one button. Literally one button and you get everything ready for you, from melodies to chords to drum loops and so on.</strong></p>
-</div>
-<section id="introduction" class="level1">
-<h1>Introduction</h1>
-<p>One of the difficult aspects of the study of electronic music is the accurate description of the sounds used. With traditional music, there is a general understanding of what the instruments sound like, so a simple notation of “violin” or “steel guitar” will convey enough of an aural image for study or performance. In electronic music, the sounds are usually unfamiliar, and composition may involve some very delicate variations in those sounds. In order to discuss and study such sounds with the required accuracy, we must use the tools of mathematics. There will be no proofs or rigorous developments, but many concepts will be illustrated with graphs and a few simple functions.</p>
-<p>The first thing musicians must do before they can play together is “tune.” For musicians in the standard Western music tradition, this means agreeing on exactly what pitch (or what frequency) is an”A,” what is a “B flat,” and so on. Other cultures not only have different note names and different scales, but they may even have different notes—different pitches—based on a different tuning system. In fact, the modern Western tuning system, which is called equal temperament, has (relatively recently) replaced other tuning systems that were once popular in Europe. All tuning systems are based on the physics of sound. But they are all also affected by the history of their music traditions, as well as by the tuning peculiarities of the instruments used in those traditions.</p>
-<section id="the-science-of-tuning" class="level2">
-<h2 class="anchored" data-anchor-id="the-science-of-tuning">The Science of Tuning</h2>
-<p>Many musical instruments, including pianos, guitars, and violins, make a sound when strings are plucked, hit, or set in vibration in some other way. When you pluck a string, it vibrates at a certain frequency according to its length and tension, and these vibrations are sensed by the ear and relayed to the brain. If you pluck a bunch of strings together, it can either sound nice or downright awful, depending upon the frequency relationships among the strings.&nbsp;</p>
-<p>A guitarist may play an open string, say G, and then place a finger on a fret to create a sound with a higher pitch, say G#, A, or B. What is happening is that the player is shortening the vibrating part of the string to produce a higher pitch. This is based on the fundamental fact that shorter (skinner or tighter) strings produce higher pitches. Similar facts are true with woodwind, percussion, and other types of instruments in general: the smaller the vibrating portion gets, the higher the sound becomes. That is why, for instance, a tuba is bigger than a French horn, and a <a href="https://en.wikipedia.org/wiki/Contrabass_flute"><strong>Contrabass Flute</strong></a> is longer than a <a href="https://en.wikipedia.org/wiki/Soprano_flute"><strong>Soprano Flute</strong></a><strong>.</strong></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://cosmic-charade.netlify.app/posts/the-physics-of-music/pA0iS.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-</section>
-<section id="brief-explanation" class="level2">
-<h2 class="anchored" data-anchor-id="brief-explanation">Brief Explanation</h2>
-<p>Suppose we pluck a string of a certain length and create a wave, a vibration of the air. The string will move up and down in oscillation. Each wave, whether it is a simple water wave, sound, earthquake, radio wave, microwave, or light wave, has a frequency, which measures how many times the oscillation occurs in a given time period, such as one second. For sound, the frequency is measured in <strong>“<a href="https://en.wikipedia.org/wiki/Cycle_per_second">cycles per second</a>”</strong>&nbsp;(abbreviated “<em>cps</em>”), sometimes called “<em>hertz</em>” (denoted “<em>Hz</em>”). Frequency is what determines the pitch of the sound generated by the vibration.&nbsp;</p>
-<p>When a string is plucked and set in motion, the entire string vibrates, as shown in the picture above. The frequency created by the whole string is referred to as the “fundamental frequency” of the string. It generates the lowest sound the string can possibly make. This is equivalent to playing an open string on the guitar. If the guitar is tuned in the standard way, the sixth string (the thickest one, located on the top) is the E string, meaning that its fundamental frequency corresponds to the pitch we call an “E”. This is the lowest sound a guitar can play.</p>
-<p>Now, if we take that same string, press the midpoint of it, and pluck it, only half of the string would vibrate, shortening the wavelength to half and doubling the frequency. This, of course, results in a higher pitch. But how much higher? When the frequency is doubled, we call the interval between those two pitches an “octave” (meaning 8). For instance, if the open string has a frequency of 440 cps, then the half string would have a frequency of 880 cps, and that sound is called an octave higher than the first. One can, of course, keep making the vibrating portion shorter and shorter to create higher and higher sounds.</p>
-</section>
-<section id="pythagoras-numbers-music-and-harmony" class="level2">
-<h2 class="anchored" data-anchor-id="pythagoras-numbers-music-and-harmony">Pythagoras: Numbers, Music, and Harmony</h2>
-<p>Music has existed in different cultures for millennia, but it was Pythagoras, an ancient Greek mathematician, and philosopher, who explicitly linked sound (pitch) with frequency (number), laying a foundation of music theory based on mathematics. It was known to Pythagoras that two notes (sounds with different frequencies) sound nice together (harmonious, pleasant) when the ratio of the two frequencies is a simple fraction. For instance, two pitches that are an octave apart have a ratio of 2 to 1, as described above. 2/1 (or its reciprocal ½) is a simple fraction, and these two notes sound nice if played simultaneously. In fact, if two people sing a song one octave apart, it could sound almost like unison. These simple fractions give rise to well-known interval names in music theory:</p>
-<p><img src="https://latex.codecogs.com/png.latex?%5C%202.00%20:%20Octave%5C%5C%0A%20%20%5C%20%20%5Cdfrac%7B5%7D%7B3%7D%20=%201.666...%5C%20:%20Major%20%5C%20sixth%20%5C%5C%0A%20%20%20%5Cdfrac%7B3%7D%7B2%7D%20=%201.50%20%5C%20:%5C%20Perfect%20%5C%20fifth%20%5C%5C%0A%20%20%20%20%5Cdfrac%7B4%7D%7B3%7D%20=%201.333...%20%5C%20:%20%5C%20Perfect%20%5C%20fourth%5C%5C%0A%20%20%20%20%20%5Cdfrac%7B5%7D%7B4%7D%20=%201.25%20%5C%20:%20%5C%20Major%20%5C%20third%20%20"></p>
-<p>Pythagoras Once Said,</p>
-<div style="font-family: Georgia; text-align: center; font-size: 17px">
-<p><strong><em>“There is geometry in the humming of the strings, there is music in the spacing of the spheres.”</em></strong></p>
-</div>
-<div class="cell">
-<div class="cell-output-display">
-<div class="vembedr">
-<div>
-<iframe src="https://www.youtube.com/embed/ZWzwb4BumIk" width="533" height="300" frameborder="0" allowfullscreen="" data-external="1"></iframe>
-</div>
-</div>
-</div>
-</div>
-<p>These simple ratios became a foundation for various musical scales and musical chords. For this reason, sometimes Pythagoras is called the father of music theory. In fact, as a religious and philosophical leader, he taught that ratios create harmony, which forms beauty in nature; therefore, ratios are divine. His followers, called the Pythagoreans, thus did not believe in the existence of numbers that were not ratios of integers. It is then quite ironic that Pythagoras himself later proved that the square root of 2 (the length of the hypotenuse of a right isosceles triangle whose two sides are 1 unit long) is irrational, contradicting his own teaching that every number is rational. (By the way, this number, 2, came about by a theorem named after him—the Pythagorean Theorem!) Regardless of this devastating discovery, numerical ratios played a very significant role in the composition of musical scales.</p>
-<p>Throughout history, there have been many musical scales in various cultures, traditions, genres, and generations. Many authors have documented a wide variety of scales and methods of tuning instruments. Interested readers can look up topics such as <a href="https://en.wikipedia.org/wiki/Pythagorean_tuning">Pythagorean tuning</a>, and <a href="https://en.wikipedia.org/wiki/Meantone_temperament">Meantone temperament</a>.</p>
-</section>
-</section>
-<section id="reference" class="level1">
-<h1>Reference</h1>
-<ul>
-<li><p>The Physics of Music and Color: Sound and Light Book by Leon Gunther</p></li>
-<li><p>The Science of Musical Sound: Volume 1: Stringed Instruments, Pipe Organs, and the Human Voice Book by William R. Bennett Jr.</p></li>
-<li><p><a href="https://pages.mtu.edu/~suits/Physicsofmusic.html" class="uri">https://pages.mtu.edu/~suits/Physicsofmusic.html</a></p></li>
-</ul>
-
-
-</section>
-
- ]]></description>
-  <category>Physics</category>
-  <category>Music</category>
-  <guid>https://cosmic-charade.netlify.app/posts/the-physics-of-music/</guid>
-  <pubDate>Wed, 02 Nov 2022 18:30:00 GMT</pubDate>
-  <media:content url="https://cosmic-charade.netlify.app/posts/the-physics-of-music/melody_music.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

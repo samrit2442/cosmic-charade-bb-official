@@ -1,0 +1,50 @@
+---
+title: "Santa Claus on the Christmas Eve"
+format: html
+author: "Safal Das Biswas"
+toc: true
+date: 12-18-2024
+categories: [Mathematics]
+image: xmass.jpg
+---
+
+::: {style="color: navy; font-size: 18px; font-family: Garamond; text-align: center; border-radius: 3px; background-image: linear-gradient(#C3E5E5, #F6F7FC);"}
+**Mathematics, like Christmas, is full of surprises; it starts with small gifts of reasoning and ends with the joy of discovery.**
+:::
+
+It’s Christmas Eve, and Santa Claus is busy spreading joy and happiness across the world. This year, Santa has decided to distribute parcels of chocolates to celebrate the season of giving. However, Santa has a special **Happy Face** device to determine which parcels can be gifted. This magical device follows a set of logical rules to ensure the chocolates are distributed fairly and magically. In this festive spirit, let’s explore the mathematical challenge Santa faces with his **cool Happy Face**.
+
+# Problem (Santa Claus on the Christmas Eve)
+
+On Christmas Eve, Santa Claus will distribute parcels that contain chocolates only. In total, there are $n$ distinct chocolates, and Santa marks the chocolates as $\displaystyle C = \{ c_1, c_2, \dots, c_n \} \; \text{where} \; c_i \neq c_j,  \text{for}\; i \neq j.$ Let $\displaystyle  G = \{ K : K \subseteq C \},$ any member in $G$ is called **parcels**. Also, Santa has exactly $|G|$ parcels, and any two distinct parcels are distinct from each other. Santa Claus has a device named **Happy Face**. The **Happy Face** will determine if a parcel is *givable* as a gift or not. If **Happy Face** scans the parcel and detects 'Yes', then it is *givable*. Otherwise, it detects 'No'. The **Happy Face** is said to be **cool** if the following conditions hold:
+
+1.  For the parcel containing all $n$ chocolates with each chocolate appearing exactly once, it detects **'Yes'**.
+2.  For the empty parcel with no chocolates, it detects **'No'**.
+3.  If for some parcel $M$ it detects **'Yes'** and $M \subseteq M_1$ , then for parcel $M_1$, it also detects **'Yes'**.
+4.  If for both parcels $M$ and $M_1$ , it detects **'Yes'**, then $M$ and $M_1$ have at least one common chocolate.
+
+Find the maximum number of parcels Santa Claus can give as decided by the **cool Happy Face**, and also prove why it is maximum.($|G| = \text{number of Elements in}\; G$ )
+
+## **The Challenge**
+
+Solve the problem titled *"Santa Claus on the Christmas Eve"* by determining the maximum number of parcels Santa can distribute as per the rules of the magical **Happy Face** device.
+
+-   You can either **solve the complete problem** or **share a well-defined solving strategy** with us.
+
+## **Rewards Await You**
+
+1.  A special **Christmas Gift** from Cosmic Charade.
+
+2.  A **Certificate of Participation** to celebrate your effort and contribution.
+
+## **How to Participate?**
+
+Submit your solutions or strategies to us by Email - cosmiccharade0\@gmail.com within **19/12/2024 to 3/1/2024**. We will send you the confirmation after the deadline, and the answer key will be provided upon reviewing your submission. The updated solution will also be published on our YouTube channel.
+
+![](santa.jpg){fig-align="center" width="299"}
+
+::: {style="color: navy; font-size: 18px; font-family: Garamond; text-align: center; border-radius: 3px; background-image: linear-gradient(#C3E5E5, #F6F7FC);"}
+**Wraps up the problem by tying it back to the Christmas spirit, highlighting fairness, logic, and the joy of problem-solving. Let this festive season ignite your passion for problem-solving and spread the joy of learning!**
+
+**🌟 Wishing you all a Merry Christmas and Happy Solving! 🎄**
+:::
