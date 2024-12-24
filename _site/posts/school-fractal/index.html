@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.554">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Abhirup Moitra">
+<meta name="dcterms.date" content="2024-12-25">
+
+<title>Cosmic Charade🪐🌠 - A School Level Approch Towards Fractals</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../icons/asset 6.png" rel="icon" type="image/png">
+<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-JGPEZ5562L"></script>
+
+<script type="text/plain" cookie-consent="tracking">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-JGPEZ5562L', { 'anonymize_ip': true});
+</script>
+
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({
+  "notice_banner_type":"interstitial",
+  "consent_type":"express",
+  "palette":"light",
+  "language":"en",
+  "page_load_consent_levels":["strictly-necessary"],
+  "notice_banner_reject_button_hide":false,
+  "preferences_center_close_button_hide":false,
+  "website_name":""
+  ,
+"language":"en"
+  });
+});
+</script> 
+  
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Cosmic Charade🪐🌠 - A School Level Approch Towards Fractals">
+<meta property="og:description" content="">
+<meta property="og:image" content="https://cosmic-charade.netlify.app/posts/school-fractal/spokes.png">
+<meta property="og:site_name" content="Cosmic Charade🪐🌠">
+<meta property="og:image:height" content="598">
+<meta property="og:image:width" content="600">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Cosmic Charade🪐🌠</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About Us</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../posts.html"> 
+<span class="menu-text">Blogs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../liter.html"> 
+<span class="menu-text">Cosmic Literature</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-cosmic-courses" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Cosmic Courses</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-cosmic-courses">    
+        <li>
+    <a class="dropdown-item" href="../../actrp.pdf">
+ <span class="dropdown-text">Computational Thinking with R + Python</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-magazines-space" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Magazine’s Space</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-magazines-space">    
+        <li>
+    <a class="dropdown-item" href="../../mag.html">
+ <span class="dropdown-text">Bookfair Edition 2024</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../mag2.html">
+ <span class="dropdown-text">Sharodiya Sankhya 2024</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../squad_new3.html"> 
+<span class="menu-text">Cosmic Squad</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../donate.html"> 
+<span class="menu-text">Donation</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:cosmiccharade0@gmail.com"> <i class="bi bi-envelope" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.instagram.com/bismoykar_bramhanda/"> <i class="bi bi-instagram" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://linkedin.com/company/bismoykar-bramhanda"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://chat.whatsapp.com/BwGDsLPHX6i1ID4711I2DQ"> <i class="bi bi-whatsapp" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://t.me/bismoykar_bramhanda_cc"> <i class="bi bi-telegram" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://youtube.com/@cosmiccharade33?si=m3B9lqSqcioNJVtb"> <i class="bi bi-youtube" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">A School Level Approch Towards Fractals</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">Mathematics</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Abhirup Moitra </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">December 25, 2024</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#voyage-through-the-world-of-fractals" id="toc-voyage-through-the-world-of-fractals" class="nav-link" data-scroll-target="#voyage-through-the-world-of-fractals"><strong>Voyage Through The World of Fractals</strong></a>
+  <ul class="collapse">
+  <li><a href="#starting-from-the-root" id="toc-starting-from-the-root" class="nav-link" data-scroll-target="#starting-from-the-root"><strong>Starting From The Root</strong></a>
+  <ul class="collapse">
+  <li><a href="#elementary-complex-number" id="toc-elementary-complex-number" class="nav-link" data-scroll-target="#elementary-complex-number"><strong>Elementary Complex Number</strong></a></li>
+  </ul></li>
+  <li><a href="#extension-of-fz-z2-c-with-imaginary-number" id="toc-extension-of-fz-z2-c-with-imaginary-number" class="nav-link" data-scroll-target="#extension-of-fz-z2-c-with-imaginary-number">Extension of <span class="math inline">\(f(z) = z^2 +c\)</span> With Imaginary Number</a></li>
+  </ul></li>
+  <li><a href="#the-discovery-of-the-mandelbrot-set" id="toc-the-discovery-of-the-mandelbrot-set" class="nav-link" data-scroll-target="#the-discovery-of-the-mandelbrot-set"><strong>The Discovery of The Mandelbrot Set</strong></a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+</nav>
+    <div class="quarto-margin-footer"><div class="margin-footer-item">
+<!-- Begin Mailchimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-071822.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+    #mc_embed_signup{background:#FFFEF4; clear:left; font:14px Helvetica,Arial,sans-serif; }
+    /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+    <form action="https://app.us11.list-manage.com/subscribe/post?u=639b1c4146db040cf41e7ace8&amp;id=662d9b255c&amp;f_id=00eb98e0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+        <div id="mc_embed_signup_scroll">
+        <h2>Subscribe to Cosmic Newsletter</h2>
+        <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+<div class="mc-field-group">
+    <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+</label>
+    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required="">
+    <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+</div>
+    <div id="mce-responses" class="clear foot">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_639b1c4146db040cf41e7ace8_662d9b255c" tabindex="-1" value=""></div>
+        <div class="optionalParent">
+            <div class="clear foot">
+                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+            </div>
+        </div>
+    </div>
+</form>
+</div>
+<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
+</div></div></div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<p>Fractals are fascinating mathematical objects that captivate the imagination with their self-replicating patterns and infinite complexity. These shapes, while deeply rooted in advanced mathematics, can be introduced to school students using simple ideas, making them both an educational and exciting topic. In this article, we’ll explore fractals from a foundation perspective, focusing on intuitive examples and hands-on explorations that bridge the gap between simple geometric patterns and the infinite wonders of fractal geometry.</p>
+</section>
+<section id="voyage-through-the-world-of-fractals" class="level1">
+<h1><strong>Voyage Through The World of Fractals</strong></h1>
+<p>Behold, this infinite mathematical universe. A dizzying cascade of fractals. Arrays of complex patterns filled with both satisfying self-similarity and surprising, novel features. Each iteration delves deeper into a realm where order and chaos intertwine, revealing intricate structures that defy our intuition.</p>
+<div style="font-family: Georgia; text-align: center; font-size: 16.5px">
+<p><strong>All of the structure and the patterns that you see there really do exist for a reason. There is some sort of innate mathematical cause behind all of the phenomena that you see. ~ Alex Kapiamba (Mathematician, Brown University)</strong></p>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Mandelbrot_6.jpg" class="img-fluid figure-img" width="382"></p>
+<figcaption>Computer generated image by iterating <span class="math inline">\(z_{n+1} = z_n^2+c\)</span></figcaption>
+</figure>
+</div>
+<p>This is the Mandelbrot Set. These trippy images represent a form of modern algorithmic exploration, one made possible by computers. A handful of mathematicians have devoted their lives uncovering this set’s secrets.</p>
+<div style="font-family: Georgia; text-align: center; font-size: 16.5px">
+<p><strong>It plays a very central role in our understanding of much more complicated systems. It’s step number one</strong> ~ <strong>Laura Demarco (Mathematician, Havard)</strong></p>
+</div>
+<p>The Mandelbrot set is a perfect example of how a simple rule can produce incredible complexity. At it’s core the set is generated by iterating a quadratic equation, <span class="math inline">\(f(z) = z^2 +c\)</span>, a simple formula whose highest exponent is <span class="math inline">\(2\)</span>. To iterate a quadratic equation, choose a value for the variable, plug it into the function, then take the output and feed it back in again and again. The study of how recursive functions like these changes over time is central to a field of math called ‘<strong>Complex Dynamical Systems</strong>’.</p>
+<div style="font-family: Georgia; text-align: center; font-size: 17px">
+<p><strong><em>This subject emerged to comprehend the tangible world. What mathematical principles underlie the physical realities we observe? One of the earliest and most crucial examples is the solar system. We delve into dynamical systems, where a set of rules governs the evolution of a space over time, determining the movements and transformations within it.</em></strong></p>
+</div>
+<section id="starting-from-the-root" class="level2">
+<h2 class="anchored" data-anchor-id="starting-from-the-root"><strong>Starting From The Root</strong></h2>
+<p>Consider, for instance, the simple function <span class="math inline">\(f(z)=z+1.\)</span> In this context, we start with an initial value of <span class="math inline">\(z\)</span>and evaluate the function. The result is then used as the new input parameter, and the function is evaluated again. This iterative process can be formally described as follows:</p>
+<ol type="1">
+<li><p>Start with an initial value <span class="math inline">\(z_0\)</span>​.</p></li>
+<li><p>Compute <span class="math inline">\(z_1​=f(z_0​)=z_0​+1.\)</span></p></li>
+<li><p>Use <span class="math inline">\(z_1\)</span> as the new input to compute <span class="math inline">\(z_2​=f(z_1​)=z_1​+1\)</span>, and so forth.</p></li>
+</ol>
+<p>Mathematically, this generates a sequence <span class="math inline">\(\{z_n\}\)</span> where <span class="math inline">\(z_{n+1}​=f(z_n​)=z_{n​}+1.\)</span> This sequence clearly grows without bound, illustrating a simple yet profound example of iterative processes in dynamical systems. Such iterations lay the groundwork for understanding more complex functions and their behaviors, which ultimately lead to the rich, intricate patterns observed in fractals.</p>
+<p>Finally we’ll see that,</p>
+<p><span class="math display">\[
+f(0) = 0+1 =1
+\]</span></p>
+<p><span class="math display">\[
+f(1) = 1+1 = 2
+\]</span></p>
+<p><span class="math display">\[
+f(2) = 2+1 =3
+\]</span></p>
+<p><span class="math display">\[
+\text{and so on}\ldots
+\]</span></p>
+<p>The pattern here is straightforward: we evaluate the function, use the result as the new input, and re-evaluate the function. In this simple case, observing the pattern is easy, as the value increases by one with each iteration. While this example is quite basic, Mandelbrot extended this concept significantly further.</p>
+<p>Mandelbrot studied the function <span class="math inline">\(f(z)=z^2+c\)</span>. To illustrate this with a simple example, let’s choose <span class="math inline">\(c=1\)</span>. Therefore,</p>
+<p><span class="math display">\[
+f(0) =1
+\]</span></p>
+<p><span class="math display">\[
+f(1) =2
+\]</span></p>
+<p><span class="math display">\[
+f(2) = 5
+\]</span></p>
+<p><span class="math display">\[
+f(5) = 26
+\]</span></p>
+<p>It becomes apparent that the values will rapidly spiral out of control this time and diverge to infinity. Now let’s try plugging in <span class="math inline">\(-2\)</span>. Therefore,</p>
+<p><span class="math display">\[
+f(0) = -2
+\]</span></p>
+<p><span class="math display">\[
+f(-2) = 2
+\]</span></p>
+<p><span class="math display">\[
+f(2) =2
+\]</span></p>
+<p>This process will continually yield the value <span class="math inline">\(2\)</span>. By repeatedly evaluating <span class="math inline">\(f(2)\)</span> and obtaining <span class="math inline">\(2\)</span>, this iteration continues indefinitely. Consequently, this indicates that <span class="math inline">\(-2\)</span> lies on the boundary of the Mandelbrot set. To visualize this concept, let’s draw a number line.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="numberline.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="378"></p>
+</figure>
+</div>
+<p>Here, <span class="math inline">\(-2\)</span> represents the largest magnitude that remains bounded and does not diverge to infinity when iterated from <span class="math inline">\(0.\)</span></p>
+<p>Let’s try plugging, <span class="math inline">\(c= -2.1\)</span>. Therefore,</p>
+<p><span class="math display">\[
+f(0) = 0^2 - 2.1 = -2.1
+\]</span></p>
+<p><span class="math display">\[
+f(-2.1) = (-2.1)^2 -2.1 = 2.41
+\]</span></p>
+<p><span class="math display">\[
+f(2.41) = (2.41)^2- 2.1 = 3.81
+\]</span></p>
+<p><span class="math display">\[
+f(3.81) = (3.81)^2 -2.1 =12.5
+\]</span></p>
+<p>Consider the parameter <span class="math inline">\(c=−2.1.\)</span> Through successive iterations of the function <span class="math inline">\(f(z)=z^2+c\)</span>, we embark on a journey: <span class="math inline">\(-2.1, 2.41, 3.81, 12.5\)</span>, and so forth, each value exponentially greater than the last. This vividly illustrates that the Mandelbrot set’s boundary is encapsulated by <span class="math inline">\(-2\)</span>, beyond which values spiral into infinity.</p>
+<p>Now, let’s shift our focus to the positive boundary. Surprisingly, it resides at <span class="math inline">\(c=\frac{1}{4}\)</span>, a less intuitive revelation. When we substitute <span class="math inline">\(\frac{1}{4}\)</span> for <span class="math inline">\(c\)</span>, the sequence inches closer and closer to <span class="math inline">\(\frac{1}{2}​\)</span>, but never quite reaches it. Any departure beyond <span class="math inline">\(\frac{1}{4}\)</span> propels the sequence into an unbounded trajectory towards infinity.</p>
+<p>We may visually represent this by shading the region between these two values on a number line, symbolizing the real numbers encompassed by the Mandelbrot set. The interval stretches from <span class="math inline">\(-2\)</span> to <span class="math inline">\(\frac{1}{4}\)</span>​, delineating the scope of this fractal phenomenon. At this juncture, some individuals might conclude their exploration. However, what follows promises a journey into deeper complexity.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="numberline-shadedregion.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="416"></p>
+</figure>
+</div>
+<section id="elementary-complex-number" class="level3">
+<h3 class="anchored" data-anchor-id="elementary-complex-number"><strong>Elementary Complex Number</strong></h3>
+<p>A complex number is defined as the sum of two components, a real part and an imaginary part. Each complex number can be visualized as a point of a 2D plane. The real part is a number found on the number line. The imaginary part is a multiple of the <span class="math inline">\(\sqrt{-1}\)</span>, which the mathematicians write as <span class="math inline">\(i\)</span>. Despite the name, imaginary numbers play a vital role in solving real-world problems. Let, start with a simple quadratic equation <span class="math inline">\(f(z) = z^2 +c.\)</span></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="plot-imaginary-numberline.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="591"></p>
+</figure>
+</div>
+<div style="font-family: Georgia; text-align: center; font-size: 17px">
+<p><strong>Choose a value for</strong> <span class="math inline">\(c=-1\)</span> <strong>for example. Then consider what happens when you iterate this equation for every possible starting value.</strong></p>
+</div>
+<div style="color: navy; font-size: 18px; font-family: Garamond; text-align: center; border-radius: 3px; background-image: linear-gradient(#C3E5E5, #F6F7FC);">
+<p><strong>You repeatedly apply the function to the sequence of numbers that you’re generating, and you ask whether or not that sequence is going off to infinity or whether it stay bounded.</strong>~ <strong>Laura Demarco (Mathematician, Havard)</strong></p>
+</div>
+<p>For some initial values, your equation speeds off to infinity while iterating like these.These values are not in the Julia set. When you start iterating from other initial values, you might instead get a sequence of outputs that stay bounded.</p>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="boundar-diverge.png" class="img-fluid"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="pointout-diverging.png" class="img-fluid"></p>
+</div>
+</div>
+</div>
+<div style="color: navy; font-size: 18px; font-family: Garamond; text-align: center; border-radius: 3px; background-image: linear-gradient(#C3E5E5, #F6F7FC);">
+<p><strong>When something comes back to itself, we often call that recurrent behaviour, &amp; that’s where the complexity arises.</strong></p>
+</div>
+<p>Let’s quickly explore the realm of complex numbers. The square root function identifies a number which, when multiplied by itself, yields the number under the radical. For instance, <span class="math inline">\(\sqrt{4}\)</span>​ implies that since <span class="math inline">\(2\)</span> times itself is <span class="math inline">\(4\)</span>, <span class="math inline">\(\sqrt{4}\)</span> is <span class="math inline">\(2\)</span>.</p>
+<div style="font-family: Georgia; text-align: center; font-size: 16px">
+<p><strong><em>Now, let’s consider the square root of a negative number. For example, what if we have</em></strong> <span class="math inline">\(\sqrt{-4}\)</span><strong><em>? Can you identify a number which, when multiplied by itself, equals</em></strong> <span class="math inline">\(-4\)</span><strong><em>?</em></strong></p>
+</div>
+<p>The answer is you can’t, because there are no real numbers that satisfy this condition. This is because the square of any real number is always non-negative.</p>
+<div style="font-family: Georgia; text-align: center; font-size: 16px">
+<p><strong><em>Similar questions arise with</em></strong> <span class="math inline">\(\sqrt{−1}\)</span>​<strong><em>. What is the square root of</em></strong> <span class="math inline">\(-1\)</span><strong><em>?</em></strong></p>
+</div>
+<p>The answer is that there are no real numbers that satisfy this condition. To address this, mathematicians introduced the concept of imaginary numbers. The square root of -1 is defined as <span class="math inline">\(i\)</span>, where <span class="math inline">\(i\)</span> is the imaginary unit. Also, now we can answer about <span class="math inline">\(\sqrt{-4}\)</span> i.e., <span class="math inline">\(\sqrt{-4} = 2i \times2i = (2.2) \times (i.i) = -4\)</span>.</p>
+</section>
+</section>
+<section id="extension-of-fz-z2-c-with-imaginary-number" class="level2">
+<h2 class="anchored" data-anchor-id="extension-of-fz-z2-c-with-imaginary-number">Extension of <span class="math inline">\(f(z) = z^2 +c\)</span> With Imaginary Number</h2>
+<p>So, Mandelbrot wanted to inlcude imaginary numbers as well in his analysis of his function.</p>
+<p><span class="math display">\[
+f(z) = z^2 +c
+\]</span></p>
+<p>Let’s try plug in <span class="math inline">\(i\)</span> for <span class="math inline">\(c\)</span> i.e., <span class="math inline">\(c =i\)</span>.</p>
+<p><span class="math display">\[
+f(0) = i
+\]</span></p>
+<p><span class="math display">\[
+f(i) = (i)^2 +1  = -1+i
+\]</span></p>
+<p><span class="math display">\[
+f(-1+i) = (-1+i)^2 + i  = -i
+\]</span></p>
+<p>Continuing the iterations by hand becomes increasingly complex, so we will pause here. It’s important to note that <span class="math inline">\(i\)</span> is not included in the Mandelbrot set, as this function diverges to infinity. To visualize this, we can set up an imaginary number line. The bounds for this function are approximately <span class="math inline">\(-0.6i\)</span> &amp; <span class="math inline">\(0.6i\)</span>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="imaginarynumberline.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="431"></p>
+</figure>
+</div>
+<p>Many mathematicians might have stopped at this point, having defined the set for all real numbers and all imaginary numbers. However, there remains one more set of numbers to explore: complex numbers. Complex numbers consist of both a real and an imaginary component. This extension allows us to include complex numbers in our number system. A complex number can be expressed in the form <span class="math inline">\(a+bi\)</span>, where <span class="math inline">\(a\)</span> and <span class="math inline">\(b\)</span> are real numbers. This could be something as simple as <span class="math inline">\(1+i\)</span> or as complex as <span class="math inline">\(6+9i\)</span>. If we let 𝑐c be any complex number, it can represent any combination of real and imaginary components.</p>
+<div style="font-family: Georgia; text-align: center; font-size: 16px">
+<p><strong><em>Roughly</em></strong> <span class="math inline">\(-0.2 +1.12i\)</span> <strong><em>is included in the Mandelbrot set</em></strong></p>
+</div>
+<p>But where do we place this on the number line? We can’t simply put it above <span class="math inline">\(−0.2\)</span> because we have <span class="math inline">\(0.2+1.12i\)</span>, where the real part is <span class="math inline">\(−0.2.\)</span> If only there were some way to simultaneously represent both real and imaginary components. We need something like this:</p>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="real-imaginary.png" class="img-fluid"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="numberline-realimaginary.png" class="img-fluid"></p>
+</div>
+</div>
+</div>
+<p>In this complex plane, we can plot complex numbers in the form <span class="math inline">\(a+bi\)</span>. The horizontal axis (real axis) represents the real part <span class="math inline">\(a\)</span>, and the vertical axis (imaginary axis) represents the imaginary part <span class="math inline">\(bi\)</span>. In this complex plane, each point <span class="math inline">\((a,b)\)</span> corresponds to the complex number <span class="math inline">\(a+bi\)</span>. This way, both the real and imaginary parts of the number can be viewed together.</p>
+<p>Given this framework, we are equipped to graph the Mandelbrot set. The Mandelbrot set consists of all complex numbers <span class="math inline">\(c\)</span> for which the iterative sequence defined by the recurrence relation <span class="math inline">\(z_{n+1} = z_n^2+c\)</span> (with <span class="math inline">\(z_0=0\)</span> ) does not diverge to infinity. Mathematically, the Mandelbrot set is the set of all <span class="math inline">\(c\)</span> in the complex plane such that the magnitude of <span class="math inline">\(z_n\)</span>​ remains bounded as <span class="math inline">\(n\)</span> approaches infinity. This intricate and beautiful set reveals the boundary between stability and chaos in complex dynamics, showcasing both self-similarity and fractal structure.</p>
+</section>
+</section>
+<section id="the-discovery-of-the-mandelbrot-set" class="level1">
+<h1><strong>The Discovery of The Mandelbrot Set</strong></h1>
+<p>The first rough plot of the Mandelbrot set appeared in a 1978 paper by the mathematicians Robert Brooks and J. Peter Matelski. Soon after Benoit Mandelbrot, a researcher at IBM, who had access to more computing power, also discovered the set. This led to further explorations.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="set.png" class="img-fluid figure-img" width="304"></p>
+<figcaption>Computer Simulated Image of Mandelbrot Set</figcaption>
+</figure>
+</div>
+<p>These early computer graphics were crude, but the patterns revealed the presence of something far more complex.</p>
+<div style="font-family: Georgia; text-align: center; font-size: 17px">
+<p><strong>Even with fuzzy, poorly made pictures in the eighties, they were able to glean a lot of interesting insight into what was going on.</strong></p>
+</div>
+<p>Mandelbrot went on to popularize his now-eponymous set to the world and became known as the father of fractals. Today mathematicians can use computers to explore the Mandelbrot set in far greater detail.The Mandelbrot set is drawn in the complex plane.Instead of iterating all values of <span class="math inline">\(z\)</span> for a fixed value of <span class="math inline">\(c\)</span>, we fix the starting value of the iteration at <span class="math inline">\(0\)</span> and vary <span class="math inline">\(c\)</span>. Value of <span class="math inline">\(c\)</span> where iteration of <span class="math inline">\(z^2+c\)</span> stays bounded inside the Mandelbrot set. while those that go to infinity are not. Mathematicians analyzed this shape and found some very intriguing things about it. What’s amazing about the Mandelbrot set is that you can zoom in infinitely, and you’ll keep finding new shapes. You can keep finding more and more copies of the Mandelbrot set no matter how far you zoom in. You could even zoom in close to something like this</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="baby-Mset.jpg" class="img-fluid figure-img"></p>
+<figcaption>A baby Mandelbrot set in the family of degree 6 maps <span class="math inline">\(z^3 + C / z^3\)</span>.</figcaption>
+</figure>
+</div>
+<p>and it takes a while, but look there’s another baby Mandelbrot set. Alternatively, you could go into this region and find completely different things. The Mandelbrot set has many intriguing features, but the biggest mysteries lie in its complex fractal boundary. Zooming into different boundary regions reveals some astounding features. A valley of <em>seahorses, parades of elephants and a miniature version of the set itself.</em> On the figure below, you’ll find these weird elephant-shaped things (Elephant Valley) that have spirals that go on forever and you could even zoom into the side of one of the spirals and find new spirals that repeat infinitely and keep generating new infinite patterns like this.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="clipboard-4089919845.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="562"></p>
+</figure>
+</div>
+<p>Or you could go to the other side of the elephants &amp; find these weird seahorse-shaped (Seahorse-Valley) things that have different kinds of spirals that are connected to each other. Once again they keep going on forever, you can zoom in infinitely &amp; you’ll keep finding new patterns.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Mabdelbrot_Elephants-scaled.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="547"></p>
+</figure>
+</div>
+<div style="font-family: Georgia; text-align: center; font-size: 17px">
+<p><strong><em>So, we can sort of keep finding nests, a sequence of smaller and smaller Mandelbrot sets. all one inside of the next.</em></strong></p>
+</div>
+<p>Every time you explore the Mandelbrot set, you can find brand new things, possibly things that no human has ever seen before. As we’ve just discussed, there is infinite complexity and infinite information in this one shape. That’s why this little shape is so remarkable. We didn’t invent this cause we discovered it by accident, but we did not discover it in our universe. It has infinite complexity, so it can’t possibly be in our universe because the universe doesn’t have infinities. We discovered this by calculating.</p>
+</section>
+<section id="references" class="level1">
+<h1>References</h1>
+<ol type="1">
+<li><p>Devaney, R. L. <em>Baby Mandelbrot Sets Adorned with Halos in Families of Rational Maps</em>. In <em>Complex Dynamics; Twenty-Five Years After the Appearance of the Mandelbrot Set</em>. Amer. Math. Soc. Contemporary Math <strong>396</strong> (2006), 37–50.</p></li>
+<li><p><a href="https://theanchoress.com/science-and-the-sacred-heart-hello-mandelbrot-set/"><strong>Science and the Sacred Heart: Hello, Mandelbrot Set!</strong></a> Published by <a href="https://theanchoress.com/author/anchoress/"><strong>Elizabeth Scalia</strong></a></p></li>
+<li><p><a href="https://medium.com/msackiit/is-god-a-mathematician-fractal-geometry-of-nature-b6db2d976373"><strong>Is God a Mathematician? Fractal Geometry of Nature.</strong></a>Published by <a href="https://medium.com/@sakshepathak?source=post_page-----b6db2d976373--------------------------------">Sakshi pathak</a></p></li>
+<li><p>Generalized Mandelbrot Sets of a Family of Polynomials <span class="math inline">\(P_n(z) = z^n + z + c; (n \ge 2)\)</span> (<a href="https://doi.org/10.1155/2022/4510088"><strong>https://doi.org/10.1155/2022/4510088</strong></a><strong>)</strong></p></li>
+</ol>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/cosmic-charade\.netlify\.app");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Proudly made with Quarto 💙 <br> Copyright © 2024 | Contact us <br> <a href="privacy_policy.qmd">Privacy Policy</a></p>
+</div>   
+    <div class="nav-footer-center">
+
+<div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="nav-footer-right">
+<p>Registered under Govt. of India <br> UDYAM-WB-08-0072647</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
